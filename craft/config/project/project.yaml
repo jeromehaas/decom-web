@@ -1,0 +1,23 @@
+dateModified: 1631626780
+email:
+  fromEmail: hello@jeromehaas.dev
+  fromName: 'Decom Web'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3e857d4d-6f04-4ebe-8515-2954fe9e4102: 'Decom Web' # Decom Web
+    56c6bc86-4c8d-45cd-94e4-02ee8e546449: 'Decom Web' # Decom Web
+    a25d8340-f2b9-4cc4-bcb4-bc01b26649e0: Common # Common
+system:
+  edition: pro
+  live: true
+  name: 'Decom Web'
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: Africa/Tunis
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
