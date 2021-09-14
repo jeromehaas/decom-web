@@ -1,0 +1,25 @@
+<section id='imprint' class='imprint section'> 
+	<div class='imprint__inner section__inner'>
+	
+		{% render "@heading" with { text: title, class: "imprint__title", type: "h2"} %}
+
+		<div class='imprint__card-wrapper'>
+
+			{% for card in cards %}
+				<div class='card imprint__card'>
+					<div class='imprint__item'>
+						{% render "@heading" with { text: card.title, type: 'h3' } %}
+						{% render "@text" with { text: card.company } %}
+						{% render "@text" with { text: card.teaser } %}
+						{% render "@text" with { text: card.city } %}
+						{% render "@text" with { text: card.street } %}
+						{% render "@link" with { text: card.email, link: "#" } %}
+						{% render "@link" with { text: card.webiste, link: "#" } %}
+						{% render "@link" with { text: card.phone, link: "#" } %}
+					</div>
+				</div>	
+			{% endfor %}
+
+			</div>
+		</div>
+	</section>

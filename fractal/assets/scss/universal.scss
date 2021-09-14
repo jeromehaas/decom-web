@@ -1,0 +1,37 @@
+* {
+	font-family: 'Heebo-Medium', Arial, sans-serif;
+	box-sizing: border-box;
+	outline: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+	-webkit-appearance: none;
+}
+
+body {
+	font-size: 10px;
+}
+
+.section {
+	width: 100%;
+	height: auto;
+}
+
+.section__inner {
+	width: 100%;
+	max-width: 1440px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+@media (max-width: 500px) {
+	
+	.section__inner {
+		padding: 0 20px;
+	}
+
+}

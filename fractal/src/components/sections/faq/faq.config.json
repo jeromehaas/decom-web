@@ -1,0 +1,36 @@
+{
+	"name": "FAQ",
+	"context": {
+		"title":"FAQ",
+    "cards":[
+      {
+        "title":"Was ist ein unabhängiger Krypto-Vermögensverwalter?",
+        "content":"Unabhängige Krypto-Vermögensverwalter recherchieren, entwickeln und verwalten Kundeninvestitionsportfolios im Bereich von Blockchain und Krypto-Assets. Ein Vermögensverwalter arbeitet nicht für eine bestimmte Bank. Stattdessen arbeiten sie mit mehreren verschiedenen Banken zusammen und wählen erstklassige Vermögenswerte aus einer Vielzahl aus, um die Kundenbedürfnisse und -präferenzen zu erfüllen."
+      },
+      {
+        "title":"Welche Strategien bietet DECOM an?",
+        "content":"Kundengelder werden in einer von 4 festgelegten Anlagestrategie und dem Grundsatz des Risikoprofils in verschiedenen digitalen Vermögenswerten angelegt."
+      },
+      {
+        "title":"Wie funktioniert der Anlageprozess?",
+        "content":"Wie funktioniert der Anlageprozess?"
+      },
+      {
+        "title":"Mit welcher Währung kann man einzahlen?",
+        "content":"Sie können einzahlen in CHF, EUR und USD. Zahlungen in Kryptowährungen sind natürlich auch möglich. Wir unterstützen Zahlungen in Bitcoin, Ethereum sowie in 150 weiteren Kryptowährungen."
+      },
+      {
+        "title":"Wo zahle ich ein?",
+        "content":"Die Einzahlung wird über eine unserer Schweizer Partnerbanken abgewickelt."
+      },
+      {
+        "title":"Wie überwachen unsere Kunden ihre Investitionen?",
+        "content":"Kunden erhalten Anmeldedaten für ein only-view Dashboard, nachdem das Kryptokonto eröffnet wurde. Als Vermögensverwalter möchten wir unseren Kunden die Möglichkeit geben, sich jederzeit und von jedem Standort aus über ihren Status informieren zu können."
+      },
+      {
+        "title":"Warum DECOM?",
+        "content":"Bereits vor dem historischen Bitcoin-Preisanstieg im Jahr 2017 konnte das DECOM-Team die zukünftige Nachfrage nach Krypto-Assets und deren Verwaltung frühzeitig erkennen. Am Tag der Gründung der DECOM Switzerland AG am 27. Juli 2017 betrug der Bitcoin-Kurs USD 2570.20 und der Ethereum-Kurs USD 201.96. Als Anbieter eines der ersten Krypto-Vermögensverwaltung in der Schweiz hat die DECOM Switzerland AG Pionierarbeit geleistet und seither stetig an der Weiterentwicklung der Dienstleistung gearbeitet. Wir helfen Ihnen dabei, Ihre Krypto-Investitionen zu vereinfachen. Während Sie investiert sind und Ihre Beziehung zu uns wächst, bieten wir Ihnen Zugang zu umfassendem Fachwissen und Know-how im Bereich der Krypto Vermögenswerte. Wir übernehmen für Sie den gesamten Anlageprozess. Lehnen Sie sich zurück und geniessen Sie die schönen Dinge im Leben, während unsere Experten sich um Ihr Vermögen kümmern."
+      }
+    ]
+  }
+}

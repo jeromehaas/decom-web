@@ -1,0 +1,9 @@
+.card {
+	@include hoverable;
+	padding: 30px;
+	display: inline-block;
+	background-color: $white;
+	border: 1px solid $lightblue;
+	border-radius: $border-radius;
+	background-color: $white;
+}

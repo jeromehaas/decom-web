@@ -1,0 +1,84 @@
+{
+	"name": "Persona",
+	"context": {
+		"name":"Henok Tewelde",
+		"imgUrl":"/images/personas/henok-twelde.jpeg",
+		"role":"Managing Partner",
+		"description":"Henok Tewelde ist Managing Parter und Verwaltungsratspräsident der DECOM Switzerland AG. Henok ist 2018 ins Unternehmen eingetreten, nachdem er einige Jahre davor ein wachsendes Interesse an der faszinierenden und vielversprechenden Blockchain-Technologie erkannt hat. Zuvor war er mehrere Jahre in der Private-Equity-Branche tätig. Henok Tewelde absolvierte den Bachelor in Business Administration mit Vertiefung Banking und Finance."
+	},
+	"variants": [
+		{
+			"name":"Henok Tewelde",
+			"context": {
+				"name":"Henok Tewelde",
+				"imgUrl":"/images/personas/henok-twelde.jpeg",
+				"role":"Managing Partner",
+				"description":"Henok Tewelde ist Managing Parter und Verwaltungsratspräsident der DECOM Switzerland AG. Henok ist 2018 ins Unternehmen eingetreten, nachdem er einige Jahre davor ein wachsendes Interesse an der faszinierenden und vielversprechenden Blockchain-Technologie erkannt hat. Zuvor war er mehrere Jahre in der Private-Equity-Branche tätig. Henok Tewelde absolvierte den Bachelor in Business Administration mit Vertiefung Banking und Finance."
+			}
+		},
+		{
+			"name":"Ibrahim Sherifoski",
+			"context": {
+				"name":"Ibrahim Sherifoski",
+				"imgUrl":"/images/personas/ibrahim-sherifoski.jpeg",
+				"role":"Managing Partner",
+				"description":"Ibrahim Sherifoski ist Managing Partner und Mitglied des Verwaltungsrats der DECOM Switzerland AG. Ibrahim trat in die Welt der Kryptowährung ein, als er vor 6 Jahren seinen ersten Bitcoin-Transfer durchführte. Seitdem erforscht er die innovative Blockchain-Technologie. Vor DECOM war er Investor Relations Manager für alternative Direktinvestitionen. Ibrahim Sherifoski ist ein Certified Bitcoin Professional, qualifiziert durch das Cryptocurrency Certification Consortium."
+			}
+		},
+		{
+			"name":"Cédric Schmid",
+			"context": {
+				"name":"Cédric Schmid",
+				"imgUrl":"/images/personas/cedric-schmid.png",
+				"role":"Head of Compliance",
+				"description":"Cédric Schmid ist verantwortlich für die Einhaltung der Compliance bei der DECOM Switzerland AG. Cédric bringt langjährige Erfahrungen in der Beratung von Unternehmen aus verschiedenen Branchen mit zahlreichen internationalen Verbindungen. Cédric Schmid, Treuhänder mit eidg. FA, ist Präsident der Zuger Stadtpartei und Vorstandsmitglied der kantonalen FDP."
+			}
+		},
+		{
+			"name":"Manuel Heimberg",
+			"context": {
+
+			"name":"Manuel Heimberg",
+				"imgUrl":"/images/personas/manuel-heimberg.jpeg",
+				"role":"Head of Finance and Administration",
+				"description":"Manuel Heimberg ist verantwortlich für Administration und Finanzen bei DECOM Switzerland AG. Zuvor war er mehrere Jahre als Finanzbuchhalter für ein führendes Unternehmen im Bereich raumbezogene Messung und Geodigitalisierung tätig. Manuel ist seit 2016 selbständiger Buchhalter und Steuerberater für Privatpersonen und KMUs unterschiedlichster Branchen."
+			}
+		},
+		{
+			"name":"Maximilian Wende",
+			"context": {
+				"name":"Maximilian Wende",
+				"imgUrl":"/images/personas/maximilian-wende.jpeg",
+				"role":"Head of Marketing",
+				"description":"Maximilian Wende ist digitaler Marketing-Stratege und Online-Marketing Consultant mit mehr als 15 Jahren Erfahrung in den Bereichen digitale Medien, Marketing und Online-Strategien. Seit Februar 2021 setzt Maximilian sein Gespür für Trends, umfassenden Fachwissen und einem reichen Repertoire an erprobten Marketing-Tools bei DECOM Switzerland ein."
+			}
+		},
+		{
+			"name":"Beya Jemaa",
+			"context": {
+				"name":"Beya Jemaa",
+				"imgUrl":"/images/personas/beya-jemaa.jpeg",
+				"role":"Marketing & Communications Manager",
+				"description":"Beya Jemaa hat einen Bachelor-Abschluss in IT & Development mit Schwerpunkt auf digitalem Marketing und unterstützt das Team im Bereich PR und digitale Kommunikation. Beya arbeitet seit mehr als 5 Jahren in digitalen Agenturen und NGOs als Social Media Manager, Traffic Manager, Digital Trainer während sie auch als unabhängige Beraterin tätig ist."
+			}
+		},
+		{
+			"name":"Christian Ulrich",
+			"context": {
+				"name":"Christian Ulrich",
+				"imgUrl":"/images/personas/christian-ulrich.jpeg",
+				"role":"Web & Application developing Partner",
+				"description":"Christian Ulrich ist für den Onlineauftritt, Sicherheitslösungen und Applikationsentwicklung für die DECOM Switzerland AG zuständig. Er verfügt über langjährige Front- und Führungserfahrung im Detailhandelsbereich sowie als verantwortlicher Projektleiter und Unternehmer im Innovationsmanagement, nationalen und internationalen Produkte-Einführungen und Business-Development. Zurzeit absolviert Christian Ulrich den Bachelor in Wirtschaftsinformatik an der Hochschule Luzern."
+			}
+		},
+		{
+			"name":"Dilan Sivalingam",
+			"context": {
+				"name":"Dilan Sivalingam",
+				"imgUrl":"/images/personas/dilan-sivalingam.png",
+				"role":"Content Manage",
+				"description":"Dilan Sivalingam arbeitet als Content Manager und ist verantwortlich für die Erstellung strategisch innovativer Kampagnen und die Verwaltung von Projekten. Vor dem Einstieg in die Welt der Kryptowährungen arbeitete Dilan mit unterschiedlichen Unternehmen aus den Bereichen Tourismus, E-Commerce und Lebensmittel zusammen. Dilan Sivalingam besitzt einen BSc (Hons) in Informationstechnologie."
+			}
+		}
+	]
+}

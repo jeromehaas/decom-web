@@ -1,0 +1,48 @@
+.imprint {
+
+	padding-top: 60px;
+	background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+
+	&__title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		text-align: center;
+		margin-bottom: 45px;
+	}
+
+	&__card-wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+	}
+
+	&__card {
+
+		margin-bottom: 90px;
+
+		&__title {
+			margin-bottom: 15px;
+		}
+
+		&__text {
+			margin-bottom: 15px;
+			word-break: break-word;
+		}
+
+	}
+
+	&__address-item {
+		display: block;
+	}
+	
+	&__item {
+		margin-bottom: 45px;
+	}
+
+}

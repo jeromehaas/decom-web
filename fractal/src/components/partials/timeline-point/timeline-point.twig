@@ -1,0 +1,6 @@
+<div class="timeline-point {{ class }}"}>
+	<div class='timeline-point__card'>
+	{% render "@text" with { text: date } %}
+	{% render "@heading" with { text: description, class: "timeline-point__description", type: "h3" } %}
+	</div>	
+</div>

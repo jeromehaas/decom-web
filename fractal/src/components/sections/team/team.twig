@@ -1,0 +1,14 @@
+<section id='team' class='team section'>
+			<div class='team__inner section__inner'>
+	
+				{% render "@heading" with { text: title, class: "team__title", type: "h2" } %}
+				{% render "@text" with { text: text, class: "team__text" } %}
+	
+					<div class='team__persona-wrapper'>
+					{% for person in team %}
+						{% render "@persona" with { name: person.name, imgUrl: person.imgUrl, role: person.role, description: person.description  } %}
+					{% endfor %}
+					</div>
+	
+			</div>
+		</section>

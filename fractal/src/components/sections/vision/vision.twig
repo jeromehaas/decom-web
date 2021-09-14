@@ -1,0 +1,17 @@
+<section id='vision' class='vision section'>
+			<div class='vision__inner section__inner'>
+	
+			{% render "@heading" with { text: title, class: "vision__title", type: "h2" } %}
+
+				<div class='vision__card-wrapper'>
+
+						<div class='card vision__card'>
+							{% for item in items %}
+								{% render "@heading" with { text: item.title, class: "vision__card__title", type: "h3" } %}
+								{% render "@text" with { text: item.text, class: "terms-of-use__card__text" } %}
+						{% endfor %}
+						</div>
+									
+				</div>
+			</div>
+		</section>

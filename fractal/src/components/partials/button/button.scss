@@ -1,0 +1,29 @@
+.button {
+	@include hoverable;
+	padding: 7.5px 20px;
+	border-radius: 7.5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: $blue;
+	color: $blue;
+	background-color: $white;
+	display: inline-block;
+	cursor: pointer;	
+	text-decoration: none;
+
+	&--blue {
+		background-color: $blue;
+		color: $white;
+	}
+	
+	&--darkblue {
+		background-color: $darkblue;
+		color: $white;
+		border-color: white;
+	}
+
+	&--white {
+		background-color: $white;
+		color: $blue;
+	}
+}

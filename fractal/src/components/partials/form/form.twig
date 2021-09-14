@@ -1,0 +1,12 @@
+<div class='card form' id="form">
+
+	{% for item in radio %}
+		{% render "@input-radio" with { label: item.label, name: item.name } %}
+	{% endfor %}
+
+	{% for item in text %}
+		{% render "@input-text" with { label: item.label, name: item.name } %} 	
+	{% endfor %}
+
+	{% render "@button" with { text: "Infos beantragen", class: "form__button"} %}
+</div>

@@ -1,0 +1,41 @@
+{
+	"name": "Portfolio",
+	"context": {
+    "title":"Starte mit einem Portfolio",
+    "text":"Je nach Ihren individuellen Bedürfnissen, Zielen und Möglichkeiten wird für Ihr Geld eine «defensive», «ausgewogene», «dynamische» oder «dynamisch plus» Anlagestrategie ausgewählt. Auch andere Faktoren wie Ihr Anlagehorizont, Ihre Risikotoleranz und Ihre Vermögensstruktur spielen eine entscheidende Rolle.",
+    "cards":[
+      {
+        "title":"DAM S1 (defensiv)",
+        "itemList":[
+          "BTC: 85%",
+          "ETH: 15%"
+        ]
+      },
+      {
+        "title":"DAM S2 (ausgeglichen)",
+        "itemList":[
+          "BTC: 65%",
+          "ETH: 12%",
+          "Various altcoins: 23%"
+        ]
+      },
+      {
+        "title":"DAM S3 (dynamisch)",
+        "itemList":[
+          "BTC: 55%",
+          "ETH: 12%",
+          "Various altcoins: 33%"
+        ]
+      },
+      {
+        "title":"DAM S4 (dynamisch plus)",
+        "itemList":[
+          "BTC: 45%",
+          "ETH: 8%",
+          "Various altcoins: 47%"
+        ]
+      }
+    ],
+    "button":"Jetzt investieren"
+  }
+}

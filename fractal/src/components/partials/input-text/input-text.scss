@@ -1,0 +1,30 @@
+.input-text {
+
+	&__label {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	&__input {
+		background-color: $white;
+		border-radius: $border-radius;
+		border-width: 1px;
+		border-style: solid;
+		border-color: $lightblue;
+		padding: 7.5px 15px;
+		outline: none;
+		margin-bottom: 15px;
+		width: 100%;
+
+		&--error {
+			border-color: red !important;
+		}
+
+		&:focus, 
+		&:active {
+			border-color: $blue;
+		}
+		
+	}
+
+}

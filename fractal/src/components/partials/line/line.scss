@@ -1,0 +1,13 @@
+.line {
+	width: 50px;
+	height: 3px;
+	border-radius: 7.5%;
+	background-color: $darkblue;
+	margin: 30px 0;
+
+	&--lightblue { background-color: $lightblue; }
+	&--blue { background-color: $blue; }
+	&--darkblue { background-color: $darkblue; }
+	&--white { background-color: $white; }
+	&--darkgrey { background-color: $darkgrey; }
+}

@@ -1,0 +1,77 @@
+.portfolio {
+
+	position: relative;
+	background-position: 100% 100%;
+	background-size: 300vh;
+	background-image:  url('/graphics/graphic-wave-inverted.svg');
+	background-repeat: no-repeat;
+
+&__inner {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+&__title {
+	margin-bottom: 45px;
+}
+
+&__text {
+	margin-bottom: 30px;
+
+}
+
+&__card-wrapper {
+	display: grid;
+	grid-template: auto auto / repeat(2, 1fr);
+	grid-gap: 30px;
+	margin-bottom: 45px,
+}
+
+&__card {
+
+	&__title {}
+	&__line {}
+	&__list-element{}
+
+}
+
+&__button {
+	margin: 0 auto;
+	display: block;
+	max-width: 220px;
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	
+	&__card-wrapper {
+		grid-template: auto auto / repeat(1, 1fr);
+	}
+
+	&__card {
+
+		&__title {
+			text-align: center;
+		}
+
+		&__line {
+			margin: 30px auto;
+		}
+
+		&__list-element {
+			text-align: center;
+		}
+
+	}
+
+	&__button {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+		max-width: unset;
+	}
+
+}
+
+}

@@ -1,0 +1,46 @@
+.accordion-group {
+
+	&__card {
+		@include hoverable;
+		width: 100%;
+		display: grid !important;
+		grid-template: auto auto / auto 30px;
+		grid-template-areas: 
+			'title carret'
+			'content content';
+		margin-bottom: 30px;
+		cursor: pointer;
+	}
+
+	&__title {
+		grid-area: title;
+	}
+
+	&__carret {
+		grid-area: carret;
+		width: 100%;
+		transition: transform 0.3s ease;
+		width: 30px;
+
+		&--inverted {
+			transform: rotate(180deg);
+		}
+		
+	}
+	
+	&__content {
+		grid-area: content;
+		overflow: hidden;
+		max-height: 0;
+		opacity: 0;
+		transition: all 0.3s cubic-bezier(0, 1, 0, 1);
+		
+		&--open {
+			max-height: 1000px;
+			margin-top: 10px;
+			opacity: 1;
+			transition: all 0.3s ease;
+		}
+	}
+
+}

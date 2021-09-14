@@ -1,0 +1,19 @@
+<section id='terms-of-use' class='terms-of-use section'>
+			<div class='terms-of-use__inner section__inner'>
+
+			{% render "@heading" with { text: title, class: "terms-of-use__title", type: "h2" } %}
+			{% render "@text" with { text: text, class: "terms-of-use__text" } %}
+
+				<div class='card terms-of-use__card'>
+
+				{% for item in items %}
+						<div class='terms-of-use__item' key={ index }>
+						{% render "@heading" with { text: item.title, class: "terms-of-use__card__title", type: "h2" } %}
+						{% render "@text" with { text: item.text, class: "terms-of-use__card__text" } %}
+					</div>
+				{% endfor %}
+
+				</div>	
+
+			</div>
+		</section>

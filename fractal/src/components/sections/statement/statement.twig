@@ -1,0 +1,14 @@
+<section id='statement' class='statement section'>
+			<div class='statement__inner section__inner'>
+
+			{% render "@heading" with { text: title, class: "statement__title", type: "h2" } %}
+			
+			<div class='card statement__card'>
+				{% render "@heading" with { text: card.title, class: "statement__card__title", type: "h3" } %}
+				{% render "@text" with { text: card.text, class: "statement__card__text" } %}
+				{% render "@button" with { text: card.button.text, class: "statement__button", color: "white" } %}
+			</div>
+
+				
+			</div>
+		</section>

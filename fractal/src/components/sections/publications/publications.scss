@@ -1,0 +1,31 @@
+.publications {
+	height: auto;
+	border-top: 1px solid $lightblue;
+	border-bottom: 1px solid $lightblue;
+	background-color: $white;
+
+	&__inner {
+		display: grid;
+		grid-template: auto / repeat(5, 20%);
+		justify-content: center;
+		grid-gap: 15px;
+	}
+
+	&__logo-link {
+		max-width: 100%;
+		display: block;
+	}
+
+	&__logo-image {
+		height: 125px;
+		padding: 30px 15px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	
+	@media (max-width: 600px) {
+		display: none;
+	} 
+
+}

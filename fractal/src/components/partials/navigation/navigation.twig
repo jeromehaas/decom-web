@@ -1,0 +1,61 @@
+<div class='navigation'>
+
+		<nav class='navigation-desktop'>
+			<div class='navigation-desktop__inner'>
+				<a href="#">
+					<img class='navigation-desktop__logo' src='/logos/decom/logo-decom-full.png' alt='Decom' class='navigation-desktop__logo' />
+				</a>
+				<div class='navigation-desktop__links'>
+					<div class='navigation-desktop__link-container'>														
+						{% for link in links %}
+							{% if link.sublinks.length %}
+								{% render "@link" with { text: link.name, class: "navigation-desktop__link navigation-desktop__link--has-childs"} %}
+							{% else %}
+								{% render "@link" with { text: link.name, class: "navigation-desktop__link"} %}
+							{% endif %}
+							{% if link.sublinks.length %}
+								<div class='navigation-desktop__link-dropdown-box'>
+								{% for sublink in link.sublinks %}
+									{% render "@link" with { text: sublink.name, class: "navigation-desktop__link-dropdown-item" } %}
+								{% endfor %}
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+				{% render "@button" with { text: "Jetzt investieren", class: "navigation-desktop__button"} %}
+			</div>
+		</nav>
+
+		<nav class='navigation-mobile'>
+			<div class='navigation-mobile__inner'>
+				<div class='navigation-mobile__bar'>
+				<a href="#">
+					<img class='navigation-mobile__logo' src='/logos/decom/logo-decom-full.png' alt='Decom' class='navigation-desktop__logo' />
+				</a>					
+				{% render "@hamburger"  %}
+				</div>
+				<div class="navigation-mobile__backgroundlayer navigation-mobile__backgroundlayer--closed" id="backgroundlayer" type='button'>
+						<div class='navigation-mobile__link-container' key={index}>												
+						{% render "@link" with { text: "Sublink", class: "navigation-mobile__link" } %}							
+							{% for link in links %}
+								{% if link.sublinks.length %}
+									{% render "@link" with { text: link.name, class: "navigation-mobile__link navigation-mobile__link--has-childs"} %}
+								{% else %}
+									{% render "@link" with { text: link.name, class: "navigation-mobile__link"} %}
+								{% endif %}
+								{% if link.sublinks.length %}
+									<div class='navigation-mobile__sublink-box navigation-mobile__sublink-box--closed'>
+									{% for sublink in link.sublinks %}
+										{% render "@link" with { text: sublink.name, class: "navigation-mobile__sublink-item" } %}
+									{% endfor %}
+									</div>
+								{% endif %}
+							{% endfor %}
+						</div>
+      	</div>
+			</div>
+		</nav>
+
+		<div class='navigation-placeholder'></div>
+	</div>

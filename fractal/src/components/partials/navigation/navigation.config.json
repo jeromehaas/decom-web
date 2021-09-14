@@ -1,0 +1,41 @@
+{
+	"name": "Navigation",
+	"context": {
+		"links": [
+			{
+				"name": "Home", 
+				"link": "#",
+				"sublinks": []
+			},
+			{
+				"name": "Über uns", 
+				"sublinks": [
+					{
+						"name": "Unternehmen",
+						"link": "#"
+					},
+					{
+						"name": "Team",
+						"link": "#"
+					},
+					{
+						"name": "FAQ",
+						"link": "#"
+					},
+					{
+						"name": "Roadmap",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"name": "Insights & Blog", 
+				"sublinks": []
+			},
+			{
+				"name": "Login", 
+				"sublinks": []
+			}
+		]	
+	}
+}

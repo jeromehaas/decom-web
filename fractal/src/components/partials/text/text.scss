@@ -1,0 +1,9 @@
+.text {
+
+	color: $darkblue;
+
+	&--blue { color: $blue; }
+	&--white { color: $white; }
+	&--darkgrey { color: $darkgrey; }
+
+}

@@ -1,0 +1,19 @@
+<section id='privacy-policy' class='privacy-policy section'>
+			<div class='privacy-policy__inner section__inner'>
+
+				{% render "@heading" with { text: title, class: 'privacy-policy__title', type: 'h2' } %}
+				{% render "@text" with { text: text, class: "privacy-policy__text" } %}	
+
+				<Card class='privacy-policy__card'>
+
+						{% for item in items %}
+							<div class='privacy-policy__item'>
+								{% render "@heading" with { text: item.title, class: 'privacy-policy__card__title', type: 'h3' } %}
+								{% render "@text" with { text: item.text, class: "privacy-policy__card__text" } %}
+							</div>	
+						{% endfor %}
+
+				</Card>	
+
+			</div>
+		</section>

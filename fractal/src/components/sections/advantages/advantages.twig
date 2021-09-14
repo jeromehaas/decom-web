@@ -1,0 +1,19 @@
+<section id='advantages' class='advantages section'>
+			<div class='advantages__inner section__inner'>
+
+				{% render "@heading" with { text: "Krypto-Assets gehören ins Portfolio", class: 'advantages__title' } %}	
+				
+					<div class='advantages__card-wrapper'>
+
+					{% for advantage in advantages %}
+						<div class='card advantages__card'>
+							<img class='advantages__card__icon' src={{ advantage.iconUrl }} alt='Icon' />
+							{% render "@heading" with { text: advantage.title, class: "advantages__card__title", type: "h2" } %}
+							{% render "@text" with { text: advantage.text, class: "advantages__card__text" } %}
+						</div>	
+					{% endfor %}
+				
+				</div>
+
+			</div>
+		</section>

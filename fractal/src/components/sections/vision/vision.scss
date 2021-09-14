@@ -1,0 +1,33 @@
+.vision {
+	background-color: $lightblue;
+	padding-top: 90px;
+
+	&__title {
+		text-align: center;
+		margin-bottom: 45px
+	}
+
+	&__card-wrapper {
+		display: grid;
+		grid-template: auto auto / repeat(3, 1fr);
+		grid-gap: 30px;
+		margin-bottom: 45px,
+	}
+	
+	&__card {
+		
+		&__title {
+			margin-bottom: 15px;
+		}
+		
+	}
+
+		@media (max-width: 1000px) {
+			
+			&__card-wrapper {
+				grid-template: auto auto / repeat(1, 1fr);
+			}
+			
+		}
+
+}

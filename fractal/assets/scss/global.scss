@@ -1,0 +1,10 @@
+// import configs
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./typography.scss";
+@import "./universal.scss";
+
+// import stylesheets
+@import "../../src/components/**/*.scss";

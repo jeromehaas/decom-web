@@ -1,0 +1,47 @@
+{
+	"name": "Form", 
+	"context": {
+		"radio": [
+			{
+				"label": "Herr",
+				"name": "gender",
+				"value": "m"
+			},
+			{
+				"label": "Frau",
+				"name": "gender",
+				"value": "f"	
+			}
+		],
+		"text": [
+			{
+				"label": "Vorname",
+				"name": "firstname",
+				"placeholder": ""
+			},
+			{
+				"label": "Nachname",
+				"name": "lastname",
+				"placeholder": ""
+			},
+			{
+				"label": "Firma",
+				"name": "company",
+				"placeholder": ""
+			},
+			{
+				"label": "E-Mail",
+				"name": "email",
+				"placeholder": ""
+			},
+			{
+				"label": "Phone",
+				"name": "phone",
+				"placeholder": ""
+			}
+		],
+		"button": {
+			"text": "Abschicken"
+		}
+	}
+}

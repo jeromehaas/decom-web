@@ -1,0 +1,12 @@
+
+.link {
+	
+	text-decoration:  none;
+
+	&--lightblue { color: $lightblue; }
+	&--blue { color: $blue; }
+	&--darkblue { color: $darkblue; }
+	&--white { color: $white; }
+	&--darkgrey { color: $darkgrey; }
+	
+}

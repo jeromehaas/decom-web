@@ -1,0 +1,18 @@
+<section id='faq' class='faq section'>
+			<div class='faq__inner section__inner'>
+	
+
+					{% render "@heading" with { text: title, class: 'faq__title' } %}
+
+					<div class='faq__accordion-wrapper'>
+
+					{% for card in cards %}
+
+						{% render "@accordion" with { title: card.title, content: card.content } %}
+
+							{% endfor %}
+								
+				</div>
+
+			</div>
+		</section>

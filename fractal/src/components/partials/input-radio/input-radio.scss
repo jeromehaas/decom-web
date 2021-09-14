@@ -1,0 +1,46 @@
+.input-radio {
+	
+	&:last-child {
+		margin-bottom: 30px;
+	}
+	&__option {
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		margin-right: 30px;
+		margin-bottom: 15px;
+
+	}
+
+	&__option-wrapper:last-child {
+		margin-right: 0px;
+	}
+
+	&__input {
+		width: 30px;
+		min-width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    appearance: none;
+    vertical-align: bottom;
+    margin-right: 15px;
+    background-image: url('/icons/input-field-icons/input-radio-circle.svg');
+    background-size: 0px;
+    background-position: center;
+    transition: background-size 50ms ease;
+    background-repeat: no-repeat;
+		border: 1px solid $lightblue;
+
+		&:checked {
+			background-size: 15px;
+		}
+	}
+
+	&__label {
+		margin-top: 5px;
+		color: $darkblue;
+		font-size: 1.8em;
+	}
+}

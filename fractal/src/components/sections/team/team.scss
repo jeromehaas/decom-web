@@ -1,0 +1,41 @@
+.team {
+
+	padding-top: 60px;
+	background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+
+	&__title {
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	&__text {
+		margin-bottom: 30px;
+	}
+
+	&__persona-wrapper {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 30px;
+		margin-bottom: 90px;
+	}
+	
+	@media (max-width: 1500px) {
+		&__persona-wrapper {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: 725px) {
+		&__persona-wrapper {
+			grid-template-columns: repeat(1, 1fr);
+		}
+		& .persona {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+.social-media-icons {
+
+	&__link {
+		text-decoration: none;
+	}
+
+	&__icon {
+		width: 30px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	
+	&--blue { 
+		& .social-media-icons__icon { fill: $blue; }
+	}
+	&--white { 
+		& .social-media-icons__icon { fill: $white; }
+	}
+	&--darkgrey { 
+		& .social-media-icons__icon { fill: $darkgrey; }
+	}
+	&--darkblue { 
+		& .social-media-icons__icon { fill: $darkblue; }
+	}
+
+}

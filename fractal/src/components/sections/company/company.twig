@@ -1,0 +1,20 @@
+<section id='company' class='company section'>
+			<div class='company__inner section__inner'>
+	
+					{% render "@heading" with { text: title, class: "company__title", type: "h2" } %}
+					{% render "@text" with { text: text, class: "company__text" } %}
+	
+					<div class='company__card-wrapper'>
+
+						{% for card in cards %}
+							<div class='card company__card'>
+								{% render "@heading" with { text: card.title, class: "company__card__title", type: "h2" } %}
+								{% render "@line" %}
+								{% render "@text" with { text: card.text, class: "company__card__text" } %}
+							</div>
+						{% endfor %}
+	
+					</div>
+	
+			</div>
+		</section>

@@ -1,0 +1,18 @@
+.faq {
+
+	padding-top: 60px;
+	background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+
+	&__title {
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	&__accordion-wrapper {
+		margin-bottom: 90px;
+	}
+
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Imprint",
+	"context": {
+		"title": "Impressum",
+		"cards":[
+			{
+				"title":"Seitenbetreiber",
+				"company":"DECOM Switzerland AG",
+				"teaser":"Crypto Asset Management",
+				"street":"Bahnhofstrasse 11",
+				"city":"6210 Sursee",
+				"website":"decom.ch",
+				"email":"info@decom.ch",
+				"phone":"041 559 21 15"
+			},
+			{
+				"title":"Web-Entwicklung",
+				"company":"J. J. Haas Websolutions",
+				"teaser":"",
+				"street":"Bodenmatte 16a",
+				"city":"5647 Oberrüti",
+				"website":"jeromehaas.dev",
+				"email":"hello@jeromehaas.dev",
+				"phone":"079 512 90 16"
+			}
+		]
+	}
+}

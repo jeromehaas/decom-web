@@ -1,0 +1,14 @@
+
+.list-element {
+
+	&::before {
+		content: '';
+		width: 5px;
+		height: 5px;
+		background-color: $blue;
+		display: inline-block;
+		transform: translateY(-3px);
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+}

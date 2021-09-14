@@ -1,0 +1,11 @@
+<section id='publications' class='publications section'> 
+	<div class='publications__inner section__inner'>
+	
+		{% for publication in publications %} 
+			<a class='publications__logo-link' href="{{ publication.link }}">
+				<img class='publications__logo-image' src="{{ publication.logoUrl }}" alt="{{ publication.altTag }}" />
+			</a>
+		{% endfor %}	
+
+	</div>
+</section>

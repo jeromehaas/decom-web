@@ -1,0 +1,8 @@
+{
+	"name": "Link",
+	"context": {
+		"text": "Link",
+		"color": "blue",
+		"link": "#"
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"name": "Roadmap",
+	"context": {
+		"title":"Roadmap",
+    "items":[
+      {
+        "date":"März 2021",
+        "description":"Relaunch des neuen Kunden-Dashboards in Zusammenarbeit mit Binance"
+      },
+      {
+        "date":"Februar 2021",
+        "description":"Umwandlung GmbH in AG"
+      },
+      {
+        "date":"Juli 2020",
+        "description":"Fintech Awards Gewinner im Bereich «Best Crypto Asset Management Firm – Switzerland»"
+      },
+      {
+        "date":"Juni 2020",
+        "description":"Erweiterte Partnerschaft Binance (Offizieller Binance Brokerage Partner)"
+      },
+      {
+        "date":"Juni 2019",
+        "description":"DECOM Motorsport Sponsoring"
+      },
+      {
+        "date":"April 2019",
+        "description":"Standortwechsel von Ballwil nach Sursee"
+      },
+      {
+        "date":"Januar 2019",
+        "description":"Ermöglichung einer erstmaligen Firmengründung durch eine Krypto-Sacheinlage"
+      },
+      {
+        "date":"Dezember 2018",
+        "description":"Partnerschaft Blockchain Research Lab (Universität Zürich)"
+      },
+      {
+        "date":"September 2018",
+        "description":"Beginn des Kunden-Onboarding"
+      },
+      {
+        "date":"August 2018",
+        "description":"Erhalt der VQF-Lizenz (SRO)"
+      },
+      {
+        "date":"August 2017",
+        "description":"Erste Beratungsdienste und Portfolio-Handel auf eigene Rechnung"
+      },
+      {
+        "date":"Juli 2017",
+        "description":"Gründung DECOM Switzerland GmbH"
+      }
+    ]
+	}
+}

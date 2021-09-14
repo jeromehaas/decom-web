@@ -1,0 +1,9 @@
+.highlight {
+
+	&--blue { color: $blue }
+	&--darkblue { color: $darkblue }
+	&--white { color: $white }
+
+	&--light { font-weight: 300; }
+	&--bold { font-weight: 700; }
+}

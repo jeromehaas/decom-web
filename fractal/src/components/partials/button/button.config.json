@@ -1,0 +1,22 @@
+{
+	"name": "Button",
+	"context": {
+		"color": "blue",
+		"text": "Button",
+		"class": ""
+	},
+	"variants": [
+		{
+			"name": "blue",
+			"context": {
+				"color": "blue"
+			}
+		},
+		{
+			"name": "white",
+			"context": {
+				"color": "white"
+			}
+		}
+	]
+}

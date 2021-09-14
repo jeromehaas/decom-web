@@ -1,0 +1,26 @@
+<section id='portfolio' class='portfolio section'>
+			
+	<div class='portfolio__inner section__inner'>
+
+		{% render "@heading" with { text: title, class: "portfolio__title", type: 'h2' } %}
+		{% render "@text" with { text: text, class: 'portfolio__text' } %}
+
+				<div class='portfolio__card-wrapper'>
+
+					{% for card in cards %}					
+						<div class='card portfolio__card'>
+							{% render "@heading" with { text: card.title, class: "portfolio__card__title", type: 'h3' } %}
+							{% render "@line" with { class: 'portfolio__card__line line--darkblue'} %}
+
+							{% for item in card.itemList %}			
+								{% render "@list-element" with { text: item, class: "portfolio__card__list-element" } %}
+							{% endfor %}
+						</div>			
+					{% endfor %}
+
+				</div>
+
+				{% render "@button" with { text: button, class: 'portfolio__button button--blue' } %}
+
+			</div>
+		</section>

@@ -1,0 +1,11 @@
+  
+.heading {
+
+	color: $darkblue;
+
+	&--blue { color: $blue; } 
+	&--darkgrey { color: $darkgrey; } 
+	&--darkblue { color: $darkblue; } 
+	&--white { color: $white; }
+
+}

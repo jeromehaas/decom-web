@@ -1,0 +1,17 @@
+{
+	"name": "Company",
+	"context": {
+		"title":"Über uns",
+    "text":"Die DECOM Switzerland AG wurde 2017 gegründet und verwaltet im Rahmen Ihres Mandats Kundenvermögen im Bereich Blockchain-Technologie, Kryptowährungen und digitalen Vermögenswerte. Die DECOM Switzerland AG ist SRO-Mitglied VQF – eine offiziell anerkannte Selbstregulierungsorganisation (SRO) gemäss Geldwäschereigesetz.",
+    "cards":[
+      {
+        "title":"Vision",
+        "text":"Wir sind überzeugt, dass Blockchain Technologie und Krypto Assets unsere Zukunft positiv verändern werden. Unsere Vision ist es, ein führender Vermögensverwalter mit ausgeprägten Kompetenzen im Crypto Asset Management zu sein."
+      },
+      {
+        "title":"Mission",
+        "text":"Die DECOM Switzerland AG verwaltet das Vermögen von Privatpersonen und Institutionen und verfolgt einen langfristigen Anlageansatz. Wir beraten in allen Fragen rund um Kryptowährungen."
+      }
+    ]
+  }
+}

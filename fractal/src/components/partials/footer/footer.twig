@@ -1,0 +1,36 @@
+<footer class='footer'>
+	<div class='footer__inner'>
+		<div class='footer__info-block-wrapper'>
+			
+			<div class="footer__info-block footer__info-block--block-1">
+				{% render "@heading" with { text: "Kontakt", class: "h3", type: "h3", color: "white"} %}		
+				{% render "@line" with { color: "white"} %}
+				{% render "@text" with { text: "Bahnhofstrasse 11", color: "white"} %} 
+				{% render "@text" with { text: "6210 Sursee", color: "white"} %}
+				{% render "@link" with { text: "info@decom.ch", class: "footer__link" ,color: "white", link: "mailto:info@decom.ch"} %}
+				{% render "@link" with { text: "041 559 21 15", class: "footer__link" ,color: "white", link: "tel:0415592115"} %}					
+			</div>
+			
+			<div class='footer__info-block footer__info-block--block-2'>
+				{% render "@heading" with { text: "Links", class: "h3", type: "h3", color: "white" } %}		
+				{% render "@line" with { color: "white"} %}
+				{% render "@link" with { text: "Datenschutz", class: "footer__link" ,color: "white", link: "#" } %}
+				{% render "@link" with { text: "Nutzungsbedingungen", class: "footer__link" ,color: "white", link: "#" } %}
+				{% render "@link" with { text: "Impressum", class: "footer__link" ,color: "white", link: "#" } %}					
+			</div>
+
+			<div class="footer__info-block footer__info-block--block-3">
+				{% render "@heading" with { text: "Newsletter abonnieren", class: "h3", type: "h3", color: "white" } %}			
+				{% render "@line" with { color: "white"} %}
+				{% render "@input-newsletter-subscription" with { class: 'footer__newsletter-subscription' } %}
+				{% render "@social-media-icons" with { class: "footer__social-media-icons social-media-icons--white" } %}
+				{% render "@language-switcher" with { class: "footer__language-switcher" } %}
+			</div>
+
+		</div>
+
+		<img class='footer__image' src='/logos/other/logo-vqf.png' alt='VQF Verein zur Qualitätssicherung von Finanzdienstleistungen' />
+		{% render "@text" with { text: "Copyright © 2021 DECOM Switzerland AG", class: "footer__copyright text--white" } %}
+
+	</div>
+</footer>

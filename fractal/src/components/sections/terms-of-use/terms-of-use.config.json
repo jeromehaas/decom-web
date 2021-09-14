@@ -1,0 +1,69 @@
+{
+	"name": "Terms of Use",
+	"context": {
+			"title":"Nutzungsbedingungen",
+			"text":"Bitte lesen Sie diese Bedingungen aufmerksam durch.",
+			"items":[
+				{
+					"title":"Zustimmung",
+					"text":"Mit dem Zugriff auf die Website (htpps://www.decom.ch), der DECOM Switzerland AG (Decom) / erklären Sie, dass Sie mit den nachfolgenden rechtlichen Hinweisen und Nutzungsbestimmungen vollständig einverstanden sind. Wenn Sie den Bedingungen nicht zustimmen, verlassen Sie die Website sofort."
+				},
+				{
+					"title":"Herausgeber der Internetseite",
+					"text":"Diese Internetseite wird von Decom Switzerland AG herausgegeben und betrieben. Decom Switzerland AG ist in der Schweiz unter der folgenden UID registriert: CHE-442.749.270"
+				},
+				{
+					"title":"Kein Angebot / Keine Beratung",
+					"text":"Alle auf der Website der Decom erwähnten Informationen, Dienstleistungen, Werkzeuge und Dokumente sind unverbindlich und begründen keine Offerte oder Aufforderung zum Kauf oder Verkauf dar. Die auf dieser Website enthaltenen oder beschriebenen Informationen, Dienstleistungen, Daten, Produkte, Werkzeuge und Dokumente (der Inhalt) dienen ausschliesslich zu Informationszwecken des Nutzers. Diese Internetseite stellt somit keine Anlageberatung dar und darf auch nicht als Empfehlung für ein Investment oder als Rat, eine Transaktion aus steuerlichen Gründen zu tätigen bzw. aufzulösen oder eine bestimmte Handelsstrategie umzusetzen,aufgefasst werden. Bei dieser Internetseite handelt es sich auch nicht um ein Angebot zum Kauf eines Wertpapiers. Auf der Website genannte und / oder diskutierte Finanzprodukte und / oder Anlagemöglichkeiten sind nicht für alle Anleger geeignet. Aus diesem Grund sollte jede Anlageentscheidung ausschliesslich auf Basis einer persönlichen Beratung durch einen Fachberater getroffen werden."
+				},
+				{
+					"title":"Keine Gewähr",
+					"text":"Die Decom übernimmt weder eine ausdrückliche noch stillschweigende Gewähr dafür, dass die auf ihrer Website publizierten Informationen richtig, vollständig, genau und aktuell sind. Wir weisen darauf hin, dass die Decom in keiner Art und Weise verpflichtet ist, veraltete Informationen von der Website zu entfernen oder zu kennzeichnen. Die Decom behält sich vor, sämtliche Informationen auf unserer Website jederzeit ändern zu können."
+				},
+				{
+					"title":"Risikohinweis/Performance",
+					"text":"Der Wert von Anlagen der hierin erwähnten Kryptowährungen können kurz- und langfristig schwanken, so dass die Möglichkeit besteht, dass Sie den ursprünglichen investierten Betrag nicht in voller Höhe zurückerhalten. Informationen über die Entwicklung von Kryptowährungen in der Vergangenheit lassen grundsätzlich keine Schlüsse auf deren Wertentwicklung in der Zukunft zu. Die auf der Website der Decom publizierten Zukunftsentwicklungen verschiedener Anlageinstrumente haben lediglich informativen Charakter und sind kein verlässlicher Richtwert für zukünftige Erträge. Die Decom übernimmt keine Gewähr für die Realisation der erwarteten Wertsteigerungen oder Wertsenkungen. Zudem unterliegen Anlagen in Kryptowährungen erheblichen Schwankungen, die von der Decom weder vorausseh- und beeinflussbar sind."
+				},
+				{
+					"title":"Lokale Restriktionen",
+					"text":"Der Inhalt ist nicht zur Verwendung durch oder zur Verteilung an eine natürliche oder juristische Person in einer Rechtsordnung oder einem Land bestimmt, in dem eine solche Verbreitung, Veröffentlichung oder Nutzung den örtlichen Gesetzen oder Vorschriften widersprechen würde. Nutzer, für die solche Verbote gelten, unabhängig davon, ob sie aufgrund ihrer Staatsangehörigkeit, ihres Wohnsitzes oder ihres Ortes der Gründung oder aus einem anderen Grund ansässig sind, dürfen nicht auf die Website zugreifen oder diese nutzen."
+				},
+				{
+					"title":"Haftung",
+					"text":"Obwohl Decom jeden zumutbaren Aufwand betreibt, um sicherzustellen, dass die auf dieser Internetseite enthaltenen Informationen zutreffend sind, übernimmt Decom keine Haftung und Gewähr über das fehlerlose Funktionieren der Webseite und auch nicht dafür, dass die Website ununterbrochen zur Verfügung steht und frei von schädlichen Elementen (insb. Viren) ist. Die Decom entbindet sich unter Vorbehalt von vorsätzlichem oder grob fahrlässigem Verhalten jeglicher Haftung für Schäden aller Art (inkl. Folgeschäden), die mit dem direkten oder indirekten Zugriff auf die Website der Decom zusammenhängen."
+				},
+				{
+					"title":"Links auf andere Websites",
+					"text":"Die Internetseite von Decom kann Links zu externen Internetseiten enthalten, auf die Sie von dieser Internetseite aus gelangen können. Links auf andere Websites, die auf der Website der Decom enthalten sind, werden von der Decom weder kontrolliert noch angeboten. Jegliche Verbindung zu anderen Links dient ausschliesslich zur Benutzerfreundlichkeit und zu Informationszwecken. Decom haftet nicht für Schäden oder Irrtume, die durch diese Webseiten verursacht werden. Deren Aktivierung erfolgt auf eigenes Risiko."
+				},
+				{
+					"title":"Geldwäsche und Terrorismusfinanzierung",
+					"text":"Decom ist verpflichtet, Geldwäsche und Terrorismusfinanzierung zu verhindern. Aus diesem Grund benötigen wir möglicherweise zusätzliche Informationen, um Ihre Identität zu überprüfen und entsprechende Sicherheitsprüfungen durchzuführen."
+				},
+				{
+					"title":"Vertriebspartner",
+					"text":"Die Vertriebspartner und deren Mitarbeiter sind unabhängig von der Decom. Die Decom übernimmt keinerlei Haftung."
+				},
+				{
+					"title":"Immaterialgüterrecht",
+					"text":"Der gesamte Inhalt dieser Webseite ist immaterialgüterrechtlich geschützt. Die Decom Switzerland AG behält sich alle Rechte vor. Sofern nicht anders gekennzeichnet, sind sämtliche Texte, Bilder und das Layout auf dieser Webseite exklusives geistiges Eigentum der Decom. Es dürfen keine Elemente der Inhalte, weder ganz noch teilweise, insbesondere nicht Name, Logo, Bilder oder Layout ohne das schriftliche Einverständnis von der Decom heruntergeladen, abgespeichert, bearbeitet, verwendet, kopiert oder verbreitet werden. Das Herunterladen und Drucken von Seiten aus dieser Webseite und die Darstellung und Nutzung dieser Webseite mit einem Computer ist nur für den persönlichen Gebrauch gestattet. Urheberrechtshinweise, Markenbezeichnungen und andere gesetzlich geschützte Bezeichnungen dürfen nicht verändert oder beseitigt werden."
+				},
+				{
+					"title":"E-Mail",
+					"text":"Der Nutzer dieser Internetseite wird darauf aufmerksam gemacht, dass die Vertraulichkeit von E-Mails, die über das öffentliche Netz verschickt werden, von Dritten abgefangen, gelesen und abgeändert werden. Selbst wenn sich Absender und Empfänger in der Schweiz befinden, erfolgt die Übermittlung von E-Mails regelmässig und unkontrolliert grenzüberschreitend. Deshalb empfehlen wir dem Nutzer, personenbezogene Daten oder andere vertrauliche Informationen möglichst nicht per E-Mail an Decom zu übermitteln. Die Zustellung von E-Mails kann aus technischen Gründen durch die Decom nicht garantiert werden. Decom kann für Verluste oder Schäden, die aus einer nicht erfolgten oder fehlerhaften Übermittlung einer solchen Nachricht entstehen, nicht verantwortlich oder haftbar gemacht werden."
+				},
+				{
+					"title":"Mögliche Interessenkonflikte",
+					"text":"Es ist möglich, dass die Decom und ihre Gesellschafter, die auf der Webseite der Decom besprochenen Kryptowährungen, besitzen oder besassen. Ausserdem ist es auch möglich, dass die Decom und ihre Gesellschafter Geschäfts- oder andere Beziehungen zu den Gesellschaften, deren Titel in der Website behandelt werden, unterhalten oder unterhielten."
+				},
+				{
+					"title":"Änderung der Nutzungsbestimmungen",
+					"text":"Die Informationen auf dieser Webseite können jederzeit von der Decom ohne Vorankündigung geändert werden. Die Decom behält sich vor, die rechtlichen Hinweise von Zeit zu Zeit zu ändern. Wir bitten Sie deshalb, diese Bedingungen bei jedem Zugriff auf die Webseite von der Decom Switzerland AG zu lesen und zu überprüfen, ob Sie mit den aktuellen Hinweisen einverstanden sind."
+				},
+				{
+					"title":"Anwendbares Recht und Gerichtstand",
+					"text":"Nutzungsbestimmungen unterstehen ausschliesslich schweizerischem Recht. Gerichtsstand für Streitigkeiten im Zusammenhang mit der Benutzung der Website der Decom ist Luzern."
+				}
+			]
+		}
+	}

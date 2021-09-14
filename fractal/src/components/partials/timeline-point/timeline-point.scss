@@ -1,0 +1,36 @@
+.timeline-point {
+	padding-bottom: 60px;
+	max-width: $max-width;
+	padding-left: 50px;
+	margin-left: 40px;
+	position: relative;
+	border-left: 1px solid $darkblue;
+	
+	&:last-child {
+		border-left: 0;
+	}
+	
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: 1px solid $darkblue;
+		left: -10px;
+		top: 0px;
+		background-color: $darkblue;
+	}
+
+	&__card {
+		margin-top: -15px;
+	}
+
+
+
+	&__date {
+		color: $blue;
+		margin-top: -5px;
+	}
+
+}

@@ -1,0 +1,14 @@
+{ 
+	"name": "Statement", 
+	"context": {
+		"title":"Warum mit uns?",
+    "card": {
+      "title":"Wir bieten eine komplette Anlagelösung!",
+      "text":"Grundsätzlich kann jeder Kryptowährungen kaufen und verkaufen. Warum sollten Sie die Verwaltung Ihrer Krypto Assets einem regulierten und professionellen Vermögensverwalter überlassen? Grundsätzlich kann jeder Kryptowährungen kaufen und verkaufen. Warum sollten Sie die Verwaltung Ihrer Krypto Assets einem regulierten und professionellen Vermögensverwalter überlassen?",
+      "button":{
+				"text": "Infos beantragen",
+				"link": "#"
+			}
+    }
+	}
+}

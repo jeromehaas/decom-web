@@ -1,0 +1,12 @@
+.language-switcher {
+
+	&__button {
+		border: 1px solid $white;
+		border-radius: $border-radius;
+		padding: 5px 10px;
+		text-decoration: none;
+		margin-right: 15px;
+		color: $white
+	}
+
+}
