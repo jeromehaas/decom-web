@@ -1,0 +1,15 @@
+<div class="blog-overview">
+
+	{% render "@top-blog-card" %}
+
+	<div class="blog-overview__card-wrapper">	
+
+		{% for entry in entries %}
+			{% render "@blog-card" with { heading: entry.heading, categories: ["Crypto", "ICO"] } %}
+		{% endfor %}
+
+
+	</div>
+
+</div>
+

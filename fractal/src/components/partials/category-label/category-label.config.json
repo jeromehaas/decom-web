@@ -1,0 +1,37 @@
+{
+	"name": "Category Label",
+	"context": {
+		"color": "blue",
+		"category": "Crypto"	
+	},
+	"variants": [
+		{
+			"name": "Blue",
+			"context": {
+				"color": "blue",
+				"category": "NFT"	
+			}
+		},
+		{
+			"name": "Red",
+			"context": {
+				"color": "red",
+				"category": "ICO"	
+			}
+		},
+		{
+			"name": "Green",
+			"context": {
+				"color": "green",
+				"category": "ETH"	
+			}
+		},
+		{
+			"name": "Orange",
+			"context": {
+				"color": "orange",
+				"category": "Platform"	
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+<div class="blog-card">
+
+	<a href="#" class="blog-card__link">
+		<img class="blog-card__image" src="/assets/images/blog/blog-image.jpg" />
+	</a>
+
+	<div class="blog-card__content-wrapper">
+		{% for category in categories %}
+			{% render "@category-label" with { color: "orange", class: "blog-card__category-label" } %}		
+		{% endfor %}
+		<a href="#" class="blog-card__link">
+			{% render "@heading" with { text: heading, class: "blog-card__heading", type: "h3" } %}
+		</a>
+		{% render "@date" with { date: date, class: "blog-card__date" } %}
+		{% render "@text" with { text: text, class: "blog-card__text" } %}
+	</div>
+
+</div>

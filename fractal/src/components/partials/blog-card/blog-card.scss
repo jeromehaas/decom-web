@@ -1,0 +1,37 @@
+.blog-card {
+	@include hoverable;
+	font-size: inherit;
+	width: 100%;
+	display: inline-block;
+	background-color: $white;
+	border: 1px solid $lightblue;
+	border-radius: $border-radius;
+	background-color: $white;
+	overflow: hidden;
+
+	&__link {
+		text-decoration: none;
+	}
+
+	&__image {
+		display: block;
+		width: 100%;		
+	}
+
+	&__content-wrapper {
+		padding: 30px;
+	}
+
+	&__category-label {
+		margin-bottom: 15px;
+	}
+
+	&__heading {
+		margin-bottom: 15px;
+	}
+	
+	&__date {
+		margin-bottom: 15px;
+	}
+
+}

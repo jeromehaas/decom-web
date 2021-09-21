@@ -1,0 +1,26 @@
+.blog-entry {
+
+	padding-top: 30px;
+	background-color: $lightblue;
+	&__card {
+		margin: 0 auto;
+		display: block;
+		max-width: $max-width;
+	}
+
+	&__card > * {
+		margin-bottom: 15px;
+	}
+
+	&__heading {
+	}
+
+	&__date {
+		margin-bottom: 15px;
+	}
+
+	&__category-label {
+		margin-bottom: 15px;
+	}
+
+}
