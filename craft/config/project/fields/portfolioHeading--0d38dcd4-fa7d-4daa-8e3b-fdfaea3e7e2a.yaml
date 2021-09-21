@@ -1,0 +1,19 @@
+columnSuffix: efxpihha
+contentColumnType: text
+fieldGroup: 835e70d2-1b6f-493d-aa02-a4a58214ccb5 # Portfolio
+handle: portfolioHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

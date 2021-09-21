@@ -1,0 +1,30 @@
+{% set form = craft.entries.section('form').one() %}
+
+<div class='card form' id="form">
+
+	<div class="input-radio__wrapper">
+		{% for row in form.formGender %}
+			{% include ("partials/input-radio") with { label: row.label, name: row.name, value: row.value } %}
+		{% endfor %}
+	</div>
+
+	<div class="input-text__wrapper">
+		{% for row in form.formFirstname %}
+			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
+		{% endfor %}
+		{% for row in form.formLastname %}
+			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
+		{% endfor %}
+		{% for row in form.formCompany %}
+			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
+		{% endfor %}
+		{% for row in form.formEmailAddress %}
+			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
+		{% endfor %}
+		{% for row in form.formPhone %}
+			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
+		{% endfor %}
+	</div>
+
+	{% include ("partials/button") with { text: form.formButton, class: "form__button"} %}
+</div>

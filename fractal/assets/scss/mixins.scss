@@ -1,10 +1,12 @@
 @mixin hoverable {
 	
-	transition: all 0.15s ease;
+	transition: all 0.3s ease;
+	position: relative;
+	top: 0px;
 
 	&:hover {
 		box-shadow: $box-shadow;
-		transform: translateY(-2.5px);
+		top: -5px;
 	}
 
 }

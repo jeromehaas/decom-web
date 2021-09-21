@@ -1,0 +1,17 @@
+{% set team = craft.entries.section('team').one() %}
+{% set teamCards = craft.entries.section('teamCards') %}
+
+<section id='team' class='team section'>
+			<div class='team__inner section__inner'>
+	
+				{% include ("partials/heading") with { text: team.teamHeading, class: "team__title", type: "h2" } %}
+				{% include ("partials/text") with { text: team.teamText, class: "team__text" } %}
+	
+					<div class='team__persona-wrapper'>
+					{% for person in teamCards %}
+						{% include "partials/persona" with { name: person.teamCardName, imgUrl: person.teamCardImage.one.url, role: person.teamCardRole, description: person.teamCardDescription  } %}
+					{% endfor %}
+					</div>
+	
+			</div>
+		</section>

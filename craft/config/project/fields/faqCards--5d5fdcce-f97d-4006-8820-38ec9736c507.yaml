@@ -1,0 +1,58 @@
+columnSuffix: hokwgxbw
+contentColumnType: text
+fieldGroup: 2658489d-0e2b-4f9b-882e-35e553f765d3 # FAQ
+handle: faqCards
+instructions: ''
+name: Cards
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Question
+            -
+              - handle
+              - question
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Answer
+            -
+              - handle
+              - answer
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

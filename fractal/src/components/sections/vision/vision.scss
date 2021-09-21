@@ -9,7 +9,7 @@
 
 	&__card-wrapper {
 		display: grid;
-		grid-template: auto auto / repeat(3, 1fr);
+		grid-template: auto / 1fr;
 		grid-gap: 30px;
 		margin-bottom: 45px,
 	}
@@ -18,6 +18,14 @@
 		
 		&__title {
 			margin-bottom: 15px;
+		}
+
+		&__text {
+			margin-bottom: 30px;
+
+			&:last-child {
+				margin-bottom: 0px;
+			}
 		}
 		
 	}

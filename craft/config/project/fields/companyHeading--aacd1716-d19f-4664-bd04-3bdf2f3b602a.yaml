@@ -1,0 +1,19 @@
+columnSuffix: ajbyvifk
+contentColumnType: text
+fieldGroup: 97a8fda9-1f55-4deb-8738-c11cdb99d841 # Company
+handle: companyHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

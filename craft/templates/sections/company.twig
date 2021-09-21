@@ -1,0 +1,22 @@
+{% set company = craft.entries.section('company').one() %}
+
+<section id='company' class='company section'>
+			<div class='company__inner section__inner'>
+	
+					{% include ("partials/heading") with { text: company.companyHeading, class: "company__title", type: "h2" } %}
+					{% include ("partials/text") with { text: company.companyText, class: "company__text" } %}
+					
+					<div class='company__card-wrapper'>
+
+						{% for row in company.companyCards %}
+							<div class='card company__card'>
+								{% include ("partials/heading") with { text: row.title, class: "company__card__title", type: "h3" } %}
+								{% include ("partials/line") with { color: 'darkblue'} %}
+								{% include ("partials/text") with { text: row.text, class: "company__card__text" } %}
+							</div>
+						{% endfor %}
+	
+					</div>
+	
+			</div>
+		</section>

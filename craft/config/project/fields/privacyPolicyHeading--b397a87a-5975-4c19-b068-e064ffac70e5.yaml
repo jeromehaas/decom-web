@@ -1,0 +1,19 @@
+columnSuffix: vimxpazw
+contentColumnType: text
+fieldGroup: 9adbcd4e-fd0e-4b16-a889-045ae4002e62 # Privacy Policy
+handle: privacyPolicyHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

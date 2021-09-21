@@ -1,6 +1,7 @@
 <div class="card persona {{ class }}"}>
-	<img class='persona__image' src={{ imgUrl }} alt={{ name }} />	
-	<Heading class='persona__name' type='h3'>{{ name }}</Heading>	
-	<Text class='persona__role'>{{ role }}</Text>
-	<Text class='persona__description'>{{ description }}</Text>
+	<img class='persona__image' src={{ imgUrl }} alt={{ name }} />
+	{% render "@heading" with { text: name , class: "persona__name", type: "h3", color: "darkblue"} %}		
+	{% render "@text" with { text: role, class: "persona__role", color: "darkblue"} %} 
+	{% render "@text" with { text: description , class: "persona__description", color: "darkblue"} %} 
 </div>
+

@@ -1,0 +1,22 @@
+{% set vision = craft.entries.section('vision').one() %}
+
+<section id='vision' class='vision section'>
+			<div class='vision__inner section__inner'>
+	
+			{% include ("partials/heading") with { text: vision.visionHeading, class: "vision__title", type: "h2", color: "darkblue" } %}
+			{# {% render "@heading" with { text: "title", class: "vision__title", type: "h2" } %} #}
+
+				<div class='vision__card-wrapper'>
+
+						<div class='card vision__card'>
+							{% for row in vision.visionCardText %}
+								{% include ("partials/heading") with { text: row.title, class: "vision__card__title", type: "h3", color: "darkblue" } %}
+								{% include ("partials/text") with { text: row.description, class: "vision__card__text", color: "darkblue" } %}
+								{# {% render "@heading" with { text: item.title, class: "vision__card__title", type: "h3" } %} #}
+								{# {% render "@text" with { text: item.text, class: "terms-of-use__card__text" } %} #}
+						{% endfor %}
+						</div>
+									
+				</div>
+			</div>
+		</section>

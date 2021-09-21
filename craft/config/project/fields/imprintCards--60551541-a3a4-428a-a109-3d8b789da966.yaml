@@ -1,0 +1,153 @@
+columnSuffix: iwtcwsjd
+contentColumnType: text
+fieldGroup: d97e170d-8ab2-4b84-ae3d-c1a8f358cef1 # Imprint
+handle: imprintCards
+instructions: ''
+name: Cards
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col7
+        -
+          __assoc__:
+            -
+              - heading
+              - Title
+            -
+              - handle
+              - title
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Company
+            -
+              - handle
+              - company
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Company Addition'
+            -
+              - handle
+              - companyAddition
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Street
+            -
+              - handle
+              - street
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Town
+            -
+              - handle
+              - town
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Email
+            -
+              - handle
+              - email
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col6
+        -
+          __assoc__:
+            -
+              - heading
+              - Phone
+            -
+              - handle
+              - phone
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col7
+          - ''
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+        -
+          - col3
+          - ''
+        -
+          - col4
+          - ''
+        -
+          - col5
+          - ''
+        -
+          - col6
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

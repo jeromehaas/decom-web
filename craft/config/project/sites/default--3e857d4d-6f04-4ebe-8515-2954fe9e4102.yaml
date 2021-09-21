@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: de
+name: 'Decom Web'
+primary: true
+siteGroup: 56c6bc86-4c8d-45cd-94e4-02ee8e546449 # Decom Web
+sortOrder: 1

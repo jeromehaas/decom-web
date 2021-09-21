@@ -15,6 +15,7 @@ gulp.task('sass', gulp.series( function() {
     .pipe(sassGlob())
     .pipe(sass())
     .pipe(gulp.dest('public/css'))
+    .pipe(gulp.dest('../craft/web/assets/css'))
 }));
 
 gulp.task('watch', gulp.series('sass', function() {

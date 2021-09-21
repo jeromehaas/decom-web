@@ -1,0 +1,19 @@
+columnSuffix: frejkplp
+contentColumnType: text
+fieldGroup: b4a4dd8c-1033-45c0-8c69-c6985f5e45f2 # Statement
+handle: statementCardHeading
+instructions: ''
+name: 'Card Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
