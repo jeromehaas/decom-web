@@ -1,0 +1,19 @@
+columnSuffix: peyqwoql
+contentColumnType: text
+fieldGroup: ce04bdd2-4719-44f3-b898-c671f9bb5e13 # Team
+handle: teamHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

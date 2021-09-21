@@ -1,0 +1,18 @@
+
+{% set hero = craft.entries.section('hero').one() %}
+
+
+<section id='hero' class='hero section'>
+	<div class='hero__inner section__inner'>
+
+		{% include ("partials/heading") with { text: hero.heroHeading, class: 'hero__heading' , type: "h1", color: "darkblue"} %}
+
+		<div class='hero__button-container'>
+			{% include ("partials/button") with { color: "blue", text: hero.heroButtonTextLeft, class: "hero__button", link: hero.heroButtonUrlLeft } %}
+			{% include ("partials/button") with { color: "white", text: hero.heroButtonTextRight, class: "hero__button", link: hero.heroButtonUrlRight } %}
+		</div>
+
+		<img class='hero__globus' src='assets/logos/decom/logo-decom-globus.svg' alt='Decom'  />
+
+	</div>	
+</section>

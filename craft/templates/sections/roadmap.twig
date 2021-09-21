@@ -1,0 +1,14 @@
+{% set roadmap = craft.entries.section('roadmap').one() %}
+
+<section id='roadmap' class='roadmap section'>
+			<div class='roadmap__inner section__inner'>
+	
+					{% include "partials/heading" with { text: roadmap.roadmapHeading, class: "roadmap__title", type: 'h2' } %}
+
+					{% for row in roadmap.roadmapCards %}
+						{% include "partials/timeline-point" with { date: row.date, description: row.event } %}
+					{% endfor %}
+
+	
+			</div>
+		</section>

@@ -14,7 +14,7 @@ gulp.task('sass', gulp.series( function() {
     .pipe(customPlumber('Error running Sass'))
     .pipe(sassGlob())
     .pipe(sass())
-    // .pipe(gulp.dest('public/css'))
+    .pipe(gulp.dest('public/css'))
     .pipe(gulp.dest('../craft/web/assets/css'))
 }));
 

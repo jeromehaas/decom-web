@@ -3,22 +3,22 @@
 	"context": {
 		"advantages": [
       {
-        "iconUrl":"/icons/advantages-icons/icon-chart.png",
+        "iconUrl":"/assets/icons/advantages-icons/icon-chart.png",
         "title":"Branchen unübliche Renditen",
         "text":"Wer überdurchschnittliche Renditen sucht, findet diese in Kryptowährungen."
       },
       {
-        "iconUrl":"/icons/advantages-icons/icon-trend.png",
+        "iconUrl":"/assets/icons/advantages-icons/icon-trend.png",
         "title":"Von Anfang an dabei",
         "text":"Je früher der Investitionszeitpunkt ist, desto mehr können Sie aus Anlagen herausholen. Viele machen den Fehler, zu spät zu investieren."
       },
       {
-        "iconUrl":"/icons/advantages-icons/icon-pie.png",
+        "iconUrl":"/assets/icons/advantages-icons/icon-pie.png",
         "title":"Sinnvolle Diversifizierung",
         "text":"Eine zusätzliche Diversifikation ist unbestritten. Kryptowährungen weisen eine geringe Korrelation zu traditionellen Anlageklassen auf."
       },
       {
-        "iconUrl":"/icons/advantages-icons/icon-shield.png",
+        "iconUrl":"/assets/icons/advantages-icons/icon-shield.png",
         "title":"Ihre eigene Bank",
         "text":"Kryptowährungen bieten Ihnen ein Mass an Unabhängigkeit, das mit anderen Mitteln nicht möglich ist."
       }

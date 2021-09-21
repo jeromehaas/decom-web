@@ -20,7 +20,9 @@ class Form {
 			email: "",
 			phone: ""
 		}
-		this.init();
+		if (this.form && this.inputs) {
+			this.init();
+		}
 	}
 
 	init = () => {

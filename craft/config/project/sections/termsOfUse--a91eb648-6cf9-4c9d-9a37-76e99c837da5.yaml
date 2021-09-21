@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+handle: termsOfUse
+name: 'Terms Of Use'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3e857d4d-6f04-4ebe-8515-2954fe9e4102: # Decom Web
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/terms-of-use
+    uriFormat: terms-of-use
+  659e43ae-5d94-496b-96d2-0092b7fb5ea7: # Decom Web (EN)
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/terms-of-use
+    uriFormat: terms-of-use
+type: single

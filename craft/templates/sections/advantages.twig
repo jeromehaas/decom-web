@@ -1,0 +1,22 @@
+{% set advantages = craft.entries.section('advantages').one() %}
+{% set advantagesCards = craft.entries.section('advantagesCards').all() %}
+
+<section id='advantages' class='advantages section'>
+	<div class='advantages__inner section__inner'>
+
+		{% include ('partials/heading') with { type: 'h2', text: advantages.advantagesHeading, class: "advantages__title", color: 'darkblue' } %}
+			
+			<div class='advantages__card-wrapper'>
+
+				{% for entry in advantagesCards %}
+					<div class='card advantages__card'>
+						<img class='advantages__card__icon' src={{ entry.advantagesCardIcon.one().url }} alt='Icon' />	
+						{% include ('partials/heading') with { type: 'h3', text: entry.advantagesCardHeading, class: "advantages__card__title", color: 'darkblue' } %}
+						{% include ('partials/text') with { text: entry.advantagesCardDescription , class: "advantages__card__text", color: "darkblue" } %}
+					</div>	
+				{% endfor %}
+
+			</div>
+
+	</div>
+</section>

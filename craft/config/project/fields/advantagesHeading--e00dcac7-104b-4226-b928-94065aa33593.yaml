@@ -1,0 +1,19 @@
+columnSuffix: mgicgzoj
+contentColumnType: text
+fieldGroup: 7847516e-ca6f-4b1e-986a-88ab874cce06 # Advantages
+handle: advantagesHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

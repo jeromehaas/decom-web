@@ -1,0 +1,19 @@
+columnSuffix: uqsyzlrj
+contentColumnType: text
+fieldGroup: 066aac79-3187-4ad0-8f9a-b20746246592 # Advantages Card
+handle: advantagesCardDescription
+instructions: ''
+name: 'Card Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: vryqtkam
+contentColumnType: text
+fieldGroup: 68d60c1c-a6bb-4a06-a9f4-aacd491c4cbf # Terms of Use
+handle: termsOfUseHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

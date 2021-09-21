@@ -1,0 +1,11 @@
+{% set publications = craft.entries.section('publications').one() %}
+
+<section id='publications' class='publications section'> 
+	<div class='publications__inner section__inner'>
+	
+	{% for logo in publications.publicationsLogos %} 
+		<img class='publications__logo-image' src="{{ logo.url }}" alt="Publication" />
+	{% endfor %}	
+
+	</div>
+</section>

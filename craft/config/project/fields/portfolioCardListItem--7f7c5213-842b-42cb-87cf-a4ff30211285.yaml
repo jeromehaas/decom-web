@@ -1,0 +1,39 @@
+columnSuffix: tufrnebz
+contentColumnType: text
+fieldGroup: 8176e94a-c2d0-467a-8f2e-feeb2d8e925b # Portfolio Cards
+handle: portfolioCardListItem
+instructions: ''
+name: 'Card List Item'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Name
+            -
+              - handle
+              - name
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

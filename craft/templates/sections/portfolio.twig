@@ -1,0 +1,30 @@
+{% set portfolio = craft.entries.section('portfolio').one() %}
+{% set portfolioCards = craft.entries.section('portfolioCards') %}
+
+<section id='portfolio' class='portfolio section'>
+			
+	<div class='portfolio__inner section__inner'>
+
+		{% include ("partials/heading") with { text: portfolio.portfolioHeading, class: "portfolio__title", type: 'h2', color: "darkblue" } %}
+		{% include ("partials/text") with { text: portfolio.portfolioText, class: 'portfolio__text', color: "darkblue" } %}
+
+				<div class='portfolio__card-wrapper'>
+
+					{% for card in portfolioCards %}					
+						<div class='card portfolio__card'>
+							{% include ("partials/heading") with { text: card.portfolioCardHeading, class: "portfolio__card__title", type: 'h3', color: "darkblue" } %}
+							{% include ("partials/line") with { class: 'portfolio__card__line line--darkblue' ,color: "darkblue"} %}
+
+							{% for row in card.portfolioCardListItem %}			
+								{% include ("partials/list-element") with { text: row.name, class: "portfolio__card__list-element", color: "darkblue" } %}
+							{% endfor %}
+
+						</div>			
+					{% endfor %}
+
+				</div>
+
+				{% include ("partials/button") with { text: portfolio.portfolioButtonText, class: 'portfolio__button button--blue', color: "darkblue", link: portfolio.portfolioButtonUrl } %}
+
+			</div>
+		</section>

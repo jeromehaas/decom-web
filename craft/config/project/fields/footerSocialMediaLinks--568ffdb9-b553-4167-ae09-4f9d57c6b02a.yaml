@@ -1,0 +1,39 @@
+columnSuffix: cdfpdaxo
+contentColumnType: text
+fieldGroup: 7d9a46af-f0d7-4984-92e2-4096ebec2e38 # Footer
+handle: footerSocialMediaLinks
+instructions: ''
+name: 'Social Media Links'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Link
+            -
+              - handle
+              - link
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

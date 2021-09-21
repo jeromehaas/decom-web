@@ -1,0 +1,19 @@
+columnSuffix: hpouonrj
+contentColumnType: text
+fieldGroup: 2658489d-0e2b-4f9b-882e-35e553f765d3 # FAQ
+handle: faqHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

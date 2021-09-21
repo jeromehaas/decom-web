@@ -1,0 +1,19 @@
+columnSuffix: jethyrxh
+contentColumnType: text
+fieldGroup: e82f5ca0-65ca-4215-b8a5-d11d5d66a191 # Vision
+handle: visionHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

@@ -1,0 +1,58 @@
+columnSuffix: ltvrvpbd
+contentColumnType: text
+fieldGroup: e82f5ca0-65ca-4215-b8a5-d11d5d66a191 # Vision
+handle: visionCardText
+instructions: ''
+name: 'Card Text'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Title
+            -
+              - handle
+              - title
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Description
+            -
+              - handle
+              - description
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

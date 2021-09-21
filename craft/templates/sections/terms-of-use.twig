@@ -1,0 +1,22 @@
+{% set termsOfUse = craft.entries.section('termsOfUse').one() %}
+
+<section id='terms-of-use' class='terms-of-use section'>
+			<div class='terms-of-use__inner section__inner'>
+
+			{% include ("partials/heading") with { text: termsOfUse.termsOfUseHeading, class: "terms-of-use__title", type: "h2" } %}
+			{% include ("partials/text") with { text: termsOfUse.termsOfUseText, class: "terms-of-use__text" } %}
+
+				<div class='card terms-of-use__card'>
+
+				{# {% for item in items %} #}
+						<div class='terms-of-use__item' key={ index }>
+						{# {% include ("partials/heading") with { text: item.title, class: "terms-of-use__card__title", type: "h2" } %} #}
+						{# {% include ("partials/text") with { text: item.text, class: "terms-of-use__card__text" } %} #}
+						{% include ("partials/text") with { text: termsOfUse.termsOfUseContent, class: "terms-of-use__card__text" } %}
+					</div>
+				{# {% endfor %} #}
+
+				</div>	
+
+			</div>
+		</section>

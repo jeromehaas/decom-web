@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7847516e-ca6f-4b1e-986a-88ab874cce06 # Advantages
+handle: advantagesCards
+instructions: ''
+name: 'Advantages Cards'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:003ca87e-0573-4b1c-805d-95d38d0186a1' # Advantages Cards
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

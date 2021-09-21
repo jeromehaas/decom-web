@@ -31,21 +31,21 @@ table {
 
 @font-face {
   font-family: 'Heebo-Light';
-  src: local("fonts/heebo"), url("/fonts/heebo/heebo-light.woff2") format("woff2"), local("fonts/heebo"), url("/fonts/heebo/heebo-light.woff") format("tff");
+  src: local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-light.woff2") format("woff2"), local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-light.woff") format("tff");
   font-weight: 300;
   font-style: normal;
   font-display: block; }
 
 @font-face {
   font-family: 'Heebo-Medium';
-  src: local("fonts/heebo"), url("/fonts/heebo/heebo-medium.woff2") format("woff2"), local("fonts/heebo"), url("/fonts/heebo/heebo-medium.woff") format("tff");
+  src: local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-medium.woff2") format("woff2"), local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-medium.woff") format("tff");
   font-weight: 500;
   font-style: normal;
   font-display: block; }
 
 @font-face {
   font-family: 'Heebo-Bold';
-  src: local("fonts/heebo"), url("/fonts/heebo/heebo-bold.woff2") format("woff2"), local("fonts/heebo"), url("/fonts/heebo/heebo-bold.woff") format("tff");
+  src: local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-bold.woff2") format("woff2"), local("assets/fonts/heebo"), url("/assets/fonts/heebo/heebo-bold.woff") format("tff");
   font-weight: 700;
   font-style: normal;
   font-display: block; }
@@ -115,7 +115,7 @@ body {
 
 .section__inner {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1090px;
   overflow: hidden;
   margin: 0 auto;
   padding: 0 30px; }
@@ -125,7 +125,9 @@ body {
     padding: 0 20px; } }
 
 .card {
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0px;
   padding: 30px;
   display: inline-block;
   background-color: #fff;
@@ -134,14 +136,17 @@ body {
   background-color: #fff; }
   .card:hover {
     box-shadow: 0px 2.5px 5px 2.5px rgba(214, 214, 214, 0.5);
-    transform: translateY(-2.5px); }
+    top: -5px; }
 
 .page {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  min-height: 100vh; }
 
 .accordion-group__card {
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0px;
   width: 100%;
   display: grid !important;
   grid-template: auto auto / auto 30px;
@@ -150,7 +155,7 @@ body {
   cursor: pointer; }
   .accordion-group__card:hover {
     box-shadow: 0px 2.5px 5px 2.5px rgba(214, 214, 214, 0.5);
-    transform: translateY(-2.5px); }
+    top: -5px; }
 
 .accordion-group__title {
   grid-area: title; }
@@ -176,7 +181,9 @@ body {
     transition: all 0.3s ease; }
 
 .button {
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0px;
   padding: 7.5px 20px;
   border-radius: 7.5px;
   border-width: 1px;
@@ -189,7 +196,7 @@ body {
   text-decoration: none; }
   .button:hover {
     box-shadow: 0px 2.5px 5px 2.5px rgba(214, 214, 214, 0.5);
-    transform: translateY(-2.5px); }
+    top: -5px; }
   .button--blue {
     background-color: #2d7eff;
     color: #fff; }
@@ -253,6 +260,8 @@ body {
   display: block;
   max-width: 400px;
   display: grid; }
+  .form .input-radio:nth-child(2) {
+    margin-bottom: 15px; }
   .form__button {
     width: 100%;
     text-align: center;
@@ -390,7 +399,7 @@ body {
   appearance: none;
   vertical-align: bottom;
   margin-right: 15px;
-  background-image: url("/icons/input-field-icons/input-radio-circle.svg");
+  background-image: url("/assets/icons/input-field-icons/input-radio-circle.svg");
   background-size: 0px;
   background-position: center;
   transition: background-size 50ms ease;
@@ -509,7 +518,7 @@ body {
       .navigation .navigation-desktop__link--has-childs + .navigation-desktop__link-dropdown-box:hover {
         display: flex; }
       .navigation .navigation-desktop__link--has-childs:after {
-        content: url("/icons/input-field-icons/dropdown-caret.svg");
+        content: url("/assets/icons/input-field-icons/dropdown-caret.svg");
         width: 7.5px;
         height: 7.5px;
         display: inline-block;
@@ -703,7 +712,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .company__title {
     margin-bottom: 45px;
@@ -715,6 +724,8 @@ body {
     grid-template: auto/repeat(2, 1fr);
     grid-gap: 30px;
     margin-bottom: 45px; }
+  .company p {
+    margin-bottom: 30px; }
   @media (max-width: 730px) {
     .company__card-wrapper {
       grid-template: auto auto/repeat(1, 1fr); } }
@@ -723,7 +734,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .faq__title {
     margin-bottom: 45px;
@@ -791,7 +802,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .imprint__title {
     text-align: center;
@@ -812,15 +823,13 @@ body {
       word-break: break-word; }
   .imprint__address-item {
     display: block; }
-  .imprint__item {
-    margin-bottom: 45px; }
 
 .invest-now {
   padding-top: 60px;
   padding-bottom: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .invest-now__title {
     margin-bottom: 45px;
@@ -864,7 +873,7 @@ body {
   position: relative;
   background-position: 100% 100%;
   background-size: 300vh;
-  background-image: url("/graphics/graphic-wave-inverted.svg");
+  background-image: url("/assets/graphics/graphic-wave-inverted.svg");
   background-repeat: no-repeat; }
   .portfolio__inner {
     padding-top: 90px;
@@ -877,6 +886,7 @@ body {
     display: grid;
     grid-template: auto auto/repeat(2, 1fr);
     grid-gap: 30px;
+    margin-top: 30px;
     margin-bottom: 45px; }
   .portfolio__button {
     margin: 0 auto;
@@ -903,7 +913,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .privacy-policy__title {
     text-align: center;
@@ -913,11 +923,15 @@ body {
     margin-bottom: 45px; }
   .privacy-policy__card {
     margin-bottom: 90px; }
-    .privacy-policy__card__title {
-      margin-bottom: 15px; }
-    .privacy-policy__card__text {
+    .privacy-policy__card__title, .privacy-policy__card h3 {
       margin-bottom: 15px;
-      word-break: break-word; }
+      color: #041834; }
+    .privacy-policy__card__text, .privacy-policy__card p {
+      margin-bottom: 30px;
+      word-break: break-word;
+      color: #041834; }
+    .privacy-policy__card__link, .privacy-policy__card a {
+      font-size: inherit; }
     .privacy-policy__card__list-item {
       margin-bottom: 15px; }
   .privacy-policy__item {
@@ -950,7 +964,7 @@ body {
   padding-bottom: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .request-informations__title {
     margin-bottom: 45px;
@@ -963,7 +977,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .roadmap__title {
     margin-bottom: 45px;
@@ -975,7 +989,7 @@ body {
   position: relative;
   background-position: 30% 0%;
   background-size: 300vh;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .statement__inner {
     padding-top: 90px;
@@ -991,6 +1005,7 @@ body {
       margin-bottom: 30px; }
   .statement__button {
     margin: 0 auto;
+    margin-top: 30px;
     display: inline-block; }
   @media (max-width: 480px) {
     .statement__button {
@@ -1001,7 +1016,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .team__title {
     margin-bottom: 45px;
@@ -1013,6 +1028,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-bottom: 90px; }
+  .team p {
+    margin-bottom: 30px; }
   @media (max-width: 1500px) {
     .team__persona-wrapper {
       grid-template-columns: repeat(2, 1fr); } }
@@ -1027,7 +1044,7 @@ body {
   padding-top: 60px;
   background-size: 300%;
   background-position: 0% 0%;
-  background-image: url("/graphics/graphic-wave.svg");
+  background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }
   .terms-of-use__title {
     text-align: center;
@@ -1037,11 +1054,13 @@ body {
     margin-bottom: 45px; }
   .terms-of-use__card {
     margin-bottom: 90px; }
-    .terms-of-use__card__title {
+    .terms-of-use__card__title, .terms-of-use__card h3 {
       margin-bottom: 15px; }
-    .terms-of-use__card__text {
-      margin-bottom: 15px;
+    .terms-of-use__card__text, .terms-of-use__card p {
+      margin-bottom: 30px;
       word-break: break-word; }
+    .terms-of-use__card__link, .terms-of-use__card a {
+      font-size: inherit; }
     .terms-of-use__card__list-item {
       margin-bottom: 15px; }
   .terms-of-use__item {
@@ -1055,11 +1074,15 @@ body {
     margin-bottom: 45px; }
   .vision__card-wrapper {
     display: grid;
-    grid-template: auto auto/repeat(3, 1fr);
+    grid-template: auto / 1fr;
     grid-gap: 30px;
     margin-bottom: 45px; }
   .vision__card__title {
     margin-bottom: 15px; }
+  .vision__card__text {
+    margin-bottom: 30px; }
+    .vision__card__text:last-child {
+      margin-bottom: 0px; }
   @media (max-width: 1000px) {
     .vision__card-wrapper {
       grid-template: auto auto/repeat(1, 1fr); } }

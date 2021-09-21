@@ -1,0 +1,15 @@
+columnSuffix: elugbymw
+contentColumnType: string(255)
+fieldGroup: 835e70d2-1b6f-493d-aa02-a4a58214ccb5 # Portfolio
+handle: portfolioButtonUrl
+instructions: ''
+name: 'Button URL'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

@@ -1,0 +1,19 @@
+columnSuffix: zjfyivvg
+contentColumnType: text
+fieldGroup: 88dc9c41-f4d5-4d80-bb10-1824ef40e5a9 # Navigation
+handle: navigationButtonText
+instructions: ''
+name: 'Button Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

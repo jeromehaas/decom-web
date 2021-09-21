@@ -1,0 +1,9 @@
+baseUrl: '@web/en/'
+enabled: true
+handle: decomWebEn
+hasUrls: true
+language: en
+name: 'Decom Web (EN)'
+primary: false
+siteGroup: 56c6bc86-4c8d-45cd-94e4-02ee8e546449 # Decom Web
+sortOrder: 2
