@@ -1,0 +1,19 @@
+columnSuffix: cvwbsdbs
+contentColumnType: text
+fieldGroup: 2f4e054b-a655-44f4-8f45-656936edd3f9 # Blog Posts
+handle: blogPostHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

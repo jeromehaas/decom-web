@@ -1,0 +1,7 @@
+{
+	"name": "Image",
+	"context": {
+		"url": "/assets/images/blog/blog-image.jpg",
+		"alt": "example-image"
+	}
+}

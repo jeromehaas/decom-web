@@ -1,0 +1,16 @@
+<div class="top-blog-card">
+
+	<a href="#" class="top-blog-card__link">
+		<img class="top-blog-card__image" src="/assets/images/blog/blog-image.jpg" />
+	</a>
+
+	<div class="top-blog-card__content-wrapper">
+		{% render "@category-label" with { text: "ICO's", color: "orange", class: "top-blog-card__category-label" } %}		
+		<a href="#" class="top-blog-card__link">
+			{% render "@heading" with { text: heading, class: "top-blog-card__heading", type: "h3" } %}
+		</a>
+		{% render "@date" with { date: "21.12.2024", class: "top-blog-card__date" } %}
+		{% render "@text" with { text: "Discover NFTs, track the latest drops, and follow the collections you love with the OpenSea app. Visit the App Store and the", class: "top-blog-card__text" } %}
+	</div>
+
+</div>
