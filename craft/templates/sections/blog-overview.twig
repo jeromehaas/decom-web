@@ -1,0 +1,34 @@
+{% set blogPosts = craft.entries.section('blogPosts') %}
+{% set firstBlogPost = blogPosts.first() %}
+{% set allBlogPosts = blogPosts.id('not ' ~ firstBlogPost.id) %}
+
+<div class="blog-overview">
+	<div class="blog-overview__content-wrapper">
+
+	{% include ("partials/top-blog-card") with { 
+		heading: firstBlogPost.blogPostHeading, 
+		previewText: firstBlogPost.blogPostPreviewText,
+		previewImage: firstBlogPost.blogPostPreviewImage,
+		slug: firstBlogPost.slug } 
+		%}
+
+	<div class="blog-overview__card-wrapper">	
+
+	{% for blogPost in allBlogPosts %}
+
+		{% include ("partials/blog-card") with { 
+			slug: blogPost.slug,
+			heading: blogPost.blogPostHeading, 
+			date: blogPost.blogPostDate|date,
+			categories: blogPost.blogPostCategories,
+			previewImage: blogPost.blogPostPreviewImage,
+			previewText: blogPost.blogPostPreviewText
+			} %}
+		{% endfor %}
+
+
+		</div>
+
+	</div>
+</div>
+

@@ -1,0 +1,32 @@
+<div class="blog-post">
+
+	<div class="blog-post__card card">
+
+		{% if entry.blogPostPreviewImage.one() %}
+			{% include ("partials/image") with { url: entry.blogPostPreviewImage.one().url() } %}
+		{% endif %}
+		{% for category in entry.blogPostCategories %}
+			{% include ("partials/category-label") with { text: "ICO's" ,color: "blue", class: "blog-post__category-label"} %}
+		{% endfor %}
+		{% include ("partials/heading") with { text: entry.blogPostHeading, class:"blog-post__heading", type: "h1"} %}
+		{% include ("partials/date") with { date: entry.blogPostDate|date, class: "blog-post__date" } %}
+		{% include ("partials/text") with { text: entry.blogPostPreviewText, class:"blog-post__heading" } %}
+
+		{% for block in entry.blogPostContent %}
+
+			{% switch block.type %}
+				{% case "richText" %}
+					{{ block.richText }}
+				{% case "image" %}
+					{% include ("partials/image") with { url: block.image.one().url() } %}
+				{% case "heading" %}
+					{% include ("partials/heading") with { text: block.heading, class:"blog-post__heading", type: "h2"} %}
+				{% default %}
+			{% endswitch %}
+			
+		{% endfor %}
+
+
+	</div>
+
+</div>

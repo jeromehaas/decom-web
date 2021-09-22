@@ -1,0 +1,38 @@
+fieldLayouts:
+  09c7ea05-b3f1-4993-b450-12780c2e0a2d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: blogOverview
+hasTitleField: true
+name: 'Blog Overview'
+section: 751813ae-6c0f-4d14-86cf-5714a12ec0cd # Blog Overview
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -5,10 +5,13 @@
 	
 					{% include "partials/heading" with { text: roadmap.roadmapHeading, class: "roadmap__title", type: 'h2' } %}
 
+					<div class="roadmap__card card">				
+
 					{% for row in roadmap.roadmapCards %}
 						{% include "partials/timeline-point" with { date: row.date, description: row.event } %}
 					{% endfor %}
 
+				</div>
 	
 			</div>
 		</section>
