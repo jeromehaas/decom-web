@@ -7,7 +7,10 @@
 	{% endif %}
 
 	<div class="top-blog-card__content-wrapper">
-		{% include ("partials/category-label") with { text: "hello her", color: "orange", class: "top-blog-card__category-label" } %}		
+		{# {% include ("partials/category-label") with { text: "hello her", color: "orange", class: "top-blog-card__category-label" } %}		 #}
+		{% for category in categories %}
+			{% include ("partials/category-label") with {text: category.label, color: category.value, class: "blog-card__category-label" } %}		
+		{% endfor %}
 		<a href="blog-post/{{slug}}" class="top-blog-card__link">
 			{% include ("partials/heading") with { text: heading, class: "top-blog-card__heading", type: "h2" } %}
 		</a>
