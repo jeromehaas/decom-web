@@ -9,14 +9,14 @@
 					<div class='navigation-desktop__link-container'>														
 						{% for link in links %}
 							{% if link.sublinks.length %}
-								{% render "@link" with { text: link.name, class: "navigation-desktop__link navigation-desktop__link--has-childs"} %}
+								{% render "@link" with { text: link.name, class: "navigation-desktop__link navigation-desktop__link--has-childs", link: link.link} %}
 							{% else %}
-								{% render "@link" with { text: link.name, class: "navigation-desktop__link"} %}
+								{% render "@link" with { text: link.name, class: "navigation-desktop__link", link: link.link} %}
 							{% endif %}
 							{% if link.sublinks.length %}
 								<div class='navigation-desktop__link-dropdown-box'>
 								{% for sublink in link.sublinks %}
-									{% render "@link" with { text: sublink.name, class: "navigation-desktop__link-dropdown-item" } %}
+									{% render "@link" with { text: sublink.name, class: "navigation-desktop__link-dropdown-item", link: sublink.link } %}
 								{% endfor %}
 								</div>
 							{% endif %}
@@ -37,17 +37,16 @@
 				</div>
 				<div class="navigation-mobile__backgroundlayer navigation-mobile__backgroundlayer--closed" id="backgroundlayer" type='button'>
 						<div class='navigation-mobile__link-container' key={index}>												
-						{% render "@link" with { text: "Sublink", class: "navigation-mobile__link" } %}							
 							{% for link in links %}
 								{% if link.sublinks.length %}
-									{% render "@link" with { text: link.name, class: "navigation-mobile__link navigation-mobile__link--has-childs"} %}
+									{% render "@link" with { text: link.name, link: link.link, class: "navigation-mobile__link navigation-mobile__link--has-childs"} %}
 								{% else %}
-									{% render "@link" with { text: link.name, class: "navigation-mobile__link"} %}
+									{% render "@link" with { text: link.name, link: link.link, class: "navigation-mobile__link"} %}
 								{% endif %}
 								{% if link.sublinks.length %}
-									<div class='navigation-mobile__sublink-box navigation-mobile__sublink-box--closed'>
+									<div class='navigation-mobile__sublink-box navigation-mobile__sublink-box'>
 									{% for sublink in link.sublinks %}
-										{% render "@link" with { text: sublink.name, class: "navigation-mobile__sublink-item" } %}
+										{% render "@link" with { text: sublink.name, link: sublink.link, class: "navigation-mobile__sublink-item" } %}
 									{% endfor %}
 									</div>
 								{% endif %}

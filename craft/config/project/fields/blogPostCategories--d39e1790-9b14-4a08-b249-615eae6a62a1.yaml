@@ -6,19 +6,31 @@ instructions: ''
 name: Categories
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
-  allowSelfRelations: false
-  branchLimit: ''
-  limit: null
-  localizeRelations: false
-  selectionLabel: ''
-  showSiteMenu: false
-  source: 'group:358dc55b-3499-4f44-adee-d2a10449091d' # Blog Post Categories
-  sources: '*'
-  targetSiteId: null
-  validateRelatedElements: false
-  viewMode: null
+  multi: true
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Crypro Global'
+        -
+          - value
+          - orange
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Crypto Research'
+        -
+          - value
+          - blue
+        -
+          - default
+          - ''
 translationKeyFormat: null
-translationMethod: site
-type: craft\fields\Categories
+translationMethod: none
+type: craft\fields\MultiSelect

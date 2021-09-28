@@ -26,7 +26,10 @@
 			
 		{% endfor %}
 
-
+		
 	</div>
 
+	{% set buttonText = currentSite.language == 'de' ? 'zurück' : 'back' %}
+	{% set buttonUrl = currentSite.language == 'de' ? '/blog-overview' : '/en/blog-overview' %}
+	{% include ("partials/button") with { text: buttonText, class: "blog-post__button", link: buttonUrl } %}
 </div>

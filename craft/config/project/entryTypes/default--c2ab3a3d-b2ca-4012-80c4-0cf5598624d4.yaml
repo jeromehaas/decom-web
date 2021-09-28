@@ -1,0 +1,83 @@
+fieldLayouts:
+  78de9479-72ac-40bf-9072-da7c574df74f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4de76389-7f5c-4f1a-9c0c-144e8c7b5571 # Firstname
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bfe4cd46-ac16-4b6f-87eb-d4211ad138fb # Lastname
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 652f6622-f578-49ca-b252-2e8c44b6473c # Company
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 08fa66f6-f9db-49ca-9484-5ff81a390874 # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7d78b88e-36c1-4a79-b5f0-982112a3a93d # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: default
+hasTitleField: false
+name: Default
+section: 9e6b4086-f0a8-4351-8ede-01b8e840a50f # Form Submissions
+sortOrder: 1
+titleFormat: '{firstname} {lastname}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

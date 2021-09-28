@@ -1,0 +1,20 @@
+columnSuffix: zwipkved
+contentColumnType: integer(10)
+fieldGroup: fde6d049-18ea-4505-ad38-0a99678e8b56 # Team Cards
+handle: teamCardOrder
+instructions: ''
+name: Order
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: '100'
+  max: null
+  min: '0'
+  prefix: null
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

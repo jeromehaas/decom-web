@@ -1,4 +1,4 @@
-dateModified: 1632254411
+dateModified: 1632863547
 email:
   fromEmail: hello@jeromehaas.dev
   fromName: 'Decom Web'
@@ -14,10 +14,12 @@ meta:
     0d493a6c-80bd-49c2-89d1-fe5f6774c315: Vision # Vision
     1cea6cef-083e-4130-b97d-ec3d5ca58bc1: FAQ # FAQ
     01d3b8a6-5b6e-4968-8a2f-cd09d7a152f0: Portfolio # Portfolio
+    2b7b49b8-bf1d-467d-a58b-17b3c682bf78: 'Button URL' # Button URL
     2c78574c-f465-43d1-9d21-dd994ad477d5: description # description
     2cac1ef0-cccd-4bd9-8eb7-0b4cb03ef9c7: Image # Image
     2df64663-e25f-45a2-a011-711a266f33f9: 'Invest Now' # Invest Now
     2f4e054b-a655-44f4-8f45-656936edd3f9: 'Blog Posts' # Blog Posts
+    3c6de1a3-4ec5-40ef-be11-18556ebd9104: Text # Text
     003ca87e-0573-4b1c-805d-95d38d0186a1: 'Advantages Cards' # Advantages Cards
     3d11e0ba-45a2-4513-931e-0682291d148a: Street # Street
     3dfa7882-b8c2-411e-99e1-ae22481518ee: Imprint # Imprint
@@ -25,28 +27,36 @@ meta:
     4b19afcb-6acb-40e6-95f8-5dfdf8749f92: 'Links Heading' # Links Heading
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
     4d81e03e-37b8-4687-b55f-8276fb8f1203: Team # Team
+    4de76389-7f5c-4f1a-9c0c-144e8c7b5571: Firstname # Firstname
     5d5fdcce-f97d-4006-8820-38ec9736c507: Cards # Cards
     5f7e87a6-fb96-4322-9e00-df144fba4bc9: FAQ # FAQ
     6e82f08b-f0d2-44b8-ba4f-52148cc7100c: Publications # Publications
+    6e90f54d-71de-45b3-96b8-568f7004a6e4: Title # Title
     6f120f87-5628-45a2-b252-8ed06e2c4884: Heading # Heading
     6ffe2f43-64f3-4bba-808e-6006fcadf5ed: Heading # Heading
     07be08e7-5cc1-4eaa-83b5-e6109a5daaec: 'Button Text (Right)' # Button Text (Right)
     07c698c2-62aa-4a04-97b9-133ecea6ad9c: Heading # Heading
     7cc6125c-099b-4da6-a99d-1a27def26011: Phone # Phone
     7d9a46af-f0d7-4984-92e2-4096ebec2e38: Footer # Footer
+    7d78b88e-36c1-4a79-b5f0-982112a3a93d: Phone # Phone
     7f7c5213-842b-42cb-87cf-a4ff30211285: 'Card List Item' # Card List Item
     8f0d9d59-abec-4c6c-b85b-b5a9f07d7ed2: Pages # Pages
+    08fa66f6-f9db-49ca-9484-5ff81a390874: Email # Email
     8fefe0fa-c1db-432d-9393-eb276e149e29: Image # Image
     9adbcd4e-fd0e-4b16-a889-045ae4002e62: 'Privacy Policy' # Privacy Policy
     9b6a4551-d6e2-47a7-9a63-e19e34fa0cff: Default # Default
     9c2f7997-3081-4173-a64c-df8937e0d116: Text # Text
     9c77be6a-0184-484b-b3bf-c0f3c7cfa6ff: Pages # Pages
+    9e6b4086-f0a8-4351-8ede-01b8e840a50f: 'Form Submissions' # Form Submissions
     9ffc23f6-4fc4-462f-b09f-c1b9025e12f1: Text # Text
     12e4144b-7079-45e5-90c6-ba60d324d967: formButton # formButton
     14f3515a-89b0-48e2-a4a2-3e3c63868dd4: 'Rich Text' # Rich Text
+    19f379cf-9cc5-4b5b-9b55-0f0a780da0a2: 'Button Text' # Button Text
     022bb762-8ee0-42f7-b0da-8132721dd0e6: Form # Form
+    29edb1b7-fd47-4d95-ad35-f8c3e3d7679e: 'Public Schema' # Public Schema
     36cb0b9c-e536-4e58-91fe-98888c9d1d68: 'Logo Link' # Logo Link
     41a573d5-cf7d-4762-acd1-8d443591a8c0: 'Button Text (Left)' # Button Text (Left)
+    44c4cac7-bdf9-44e5-9499-854084516269: 'Success Form' # Success Form
     47e141aa-0e25-4fba-a12d-3c3c69341d04: 'Request Informations' # Request Informations
     48ecb720-dbbf-40c8-ade7-b84c53975070: 'Advantages Icons' # Advantages Icons
     56c6bc86-4c8d-45cd-94e4-02ee8e546449: 'Decom Web' # Decom Web
@@ -57,6 +67,7 @@ meta:
     62d1cb9b-ab67-4951-a1c0-54df90522885: Text # Text
     64ecd5e4-9666-4d6a-8f60-67ceedd2a9fa: 'Button Text' # Button Text
     066aac79-3187-4ad0-8f9a-b20746246592: 'Advantages Card' # Advantages Card
+    66d2ef0b-562c-428e-a8d2-e22dc384d262: 'Success Form' # Success Form
     68d60c1c-a6bb-4a06-a9f4-aacd491c4cbf: 'Terms of Use' # Terms of Use
     68d68bbf-b6e1-4d48-af49-4827aeca244b: 'Email Address' # Email Address
     68f7f02e-2197-4aa0-a4cf-8da646619942: 'Card Text' # Card Text
@@ -76,18 +87,22 @@ meta:
     358dc55b-3499-4f44-adee-d2a10449091d: 'Blog Post Categories' # Blog Post Categories
     406a5f78-1232-4800-b8fa-7b2d0f614bfb: Heading # Heading
     438bd3e2-ae61-41cd-8042-8a282c431361: Firstname # Firstname
+    499aaac7-51b2-459b-ace8-6d5e0d0351b2: Text # Text
     510da438-969c-4bfa-be17-61e2b0965bac: Cards # Cards
     519f6fdb-8ecd-4965-a0ba-b50bf0c13cd1: 'Request Informations' # Request Informations
     537ae76e-a20c-48b3-9b86-ab8d7a38cd9d: Home # Home
     568ffdb9-b553-4167-ae09-4f9d57c6b02a: 'Social Media Links' # Social Media Links
+    652f6622-f578-49ca-b252-2e8c44b6473c: Company # Company
     659e43ae-5d94-496b-96d2-0092b7fb5ea7: 'Decom Web (EN)' # Decom Web (EN)
     690fc049-70b5-49c2-8ac6-f216533c110c: 'Terms Of Use' # Terms Of Use
     713d4a8e-8e76-4737-96eb-a3f7bda327ba: Content # Content
+    802e5e16-a2ed-481f-952b-9b0f596dd6bb: 'Button Text' # Button Text
     835e70d2-1b6f-493d-aa02-a4a58214ccb5: Portfolio # Portfolio
     902b62f9-788b-45ef-b791-df534001615d: Gender # Gender
     940e3270-e12d-49ad-ac3e-944d259e2c9e: 'Card Description' # Card Description
     955a42e9-c70f-42f8-bcaf-63cd54f8f96d: Advantages # Advantages
     994f6b0d-7390-4dad-983f-2a25b2e573be: Heading # Heading
+    001791c0-9a7a-4272-8795-e484970d1b06: 'Success Newsletter Subscription' # Success Newsletter Subscription
     04323e28-6477-4f9f-92f8-4d958cc79a09: 'Button Text' # Button Text
     05724e8d-bc6d-4290-88c0-d42e6a79184c: Route # Route
     5854c782-f1f9-4559-9ebc-d48ec2b074ec: Statement # Statement
@@ -104,7 +119,9 @@ meta:
     64589df0-0678-44bb-b0b3-37a8026a962a: Navigation # Navigation
     200816f0-2eb9-4323-8516-aa41c07d18b3: Roadmap # Roadmap
     277747c4-7256-4fc2-baee-dab17a0123cf: Advantages # Advantages
+    503735ce-b504-4ae6-8af6-1717fe0e2a5a: 'Success Form' # Success Form
     561209e9-0935-4d95-b321-51c05d7777b9: 'Privacy Policy' # Privacy Policy
+    654840ae-2367-498e-99f2-1d6578873cb9: 'Success Newsletter Subscription' # Success Newsletter Subscription
     751813ae-6c0f-4d14-86cf-5714a12ec0cd: 'Blog Overview' # Blog Overview
     2658489d-0e2b-4f9b-882e-35e553f765d3: FAQ # FAQ
     4567892c-850a-4f2b-8d3d-d764a240f7ff: 'Card Text' # Card Text
@@ -113,10 +130,12 @@ meta:
     34818444-6c43-4076-85f2-548a6a63614a: 'Request Informations' # Request Informations
     40786505-2be6-4db4-bfc6-7fb6db69c13f: Heading # Heading
     60551541-a3a4-428a-a109-3d8b789da966: Cards # Cards
+    66007103-3a79-4e1a-abfd-dcd9c8e19c66: Error # Error
     73568354-2f80-4596-b606-e4de3a380525: Content # Content
     a3eb364c-dd3e-4635-b763-11b86bc35277: Company # Company
     a9de6693-20d1-4b19-9e63-1aa20b1af9b1: 'Button URL' # Button URL
     a25d8340-f2b9-4cc4-bcb4-bc01b26649e0: Common # Common
+    a33e4f14-33b1-484b-ab4d-767e93c59209: 'Success Newlsetter Subscription' # Success Newlsetter Subscription
     a34df6f4-d16b-4b0b-a9b3-0dd6d45d6dc6: Statement # Statement
     a46e71e9-ffa9-4f42-bda4-fc8dc6f85cb0: Portfolio # Portfolio
     a60ed416-8baf-4c1c-82fd-5b605cd0238a: Form # Form
@@ -124,27 +143,35 @@ meta:
     a93e0d97-20cd-4c0b-ae66-82d56580fe16: 'Advantages Cards' # Advantages Cards
     a107ba60-0c1e-461b-9c8b-08df5bff1019: 'Blog Overview' # Blog Overview
     a99118c5-5009-4be6-ae33-165539b25e06: Lastname # Lastname
+    aa00987d-24ab-4915-8dab-3dfe171905b7: Error # Error
     aa808202-24d6-41c0-a236-cd8ef47a113e: Image # Image
     aacd1716-d19f-4664-bd04-3bdf2f3b602a: Heading # Heading
     acc82756-cf0e-4738-9ff4-0bfe0104787c: Publications # Publications
     acd8bae9-53b3-443e-9081-53d1ecd4c825: 'Email Address' # Email Address
+    ae12ad68-24d7-4c51-b3b7-efa5a7d8d2e3: Title # Title
     b03ceaef-8e2d-4e9f-a5c1-7a915c83d255: Roadmap # Roadmap
     b3a117f0-83d5-4334-8d3c-2d99c3c28b72: Cards # Cards
     b4a4dd8c-1033-45c0-8c69-c6985f5e45f2: Statement # Statement
     b5c8a2bf-d646-4fa3-9d18-73102eada341: Text # Text
     b14c194a-60b4-49e7-903c-f10b45506296: 'Invest Now' # Invest Now
+    b56fb6f8-f8a8-47d9-9bce-c0722b082ff1: Title # Title
     b93c1358-1b17-4606-83d5-a5485f0aa381: Hero # Hero
     b397a87a-5975-4c19-b068-e064ffac70e5: Heading # Heading
     b5017fd1-2fe4-45a1-82c8-f608e357f3af: 'Publication Logos' # Publication Logos
     b30822fb-0646-47b4-ae83-2bdaae755848: 'Button Link' # Button Link
     b9360097-71a7-48f3-a64e-c1d69e386a3c: Heading # Heading
     ba871ec6-5e41-4759-85ed-d112fcaa63f5: Form # Form
+    babc2a04-f8e5-4fca-b4f1-b138b8b3ae1b: 'Button URL' # Button URL
     bc227de7-ffb3-40cc-aae5-31c4b1d41822: 'Buton URL (Right)' # Buton URL (Right)
     beaefe4d-3ae0-4fe1-8865-47a50b45153e: Home # Home
     bedcd1cd-4cda-4448-977e-f1fe38045d0f: Default # Default
+    bfe4cd46-ac16-4b6f-87eb-d4211ad138fb: Lastname # Lastname
+    c2ab3a3d-b2ca-4012-80c4-0cf5598624d4: Default # Default
     c2bd43c8-768a-49fa-a790-d741d1ab4b86: 'Portfolio Cards' # Portfolio Cards
     c9f06f27-c777-497e-ba60-91e6a5a723dd: Company # Company
     c44d5a98-9a85-4460-8633-7dbf04e7fdaf: Heading # Heading
+    c95c53d6-a8e3-4415-87dd-f33b4d767917: 'Form Submissions' # Form Submissions
+    ca9e4ebb-777a-4f3b-901e-e3672336ef0f: Error # Error
     cb6a2d16-0545-467c-b90f-50ca83a28b13: Logos # Logos
     ce04bdd2-4719-44f3-b898-c671f9bb5e13: Team # Team
     d0b5d985-7c99-4340-afde-4fb5bd7a9cb4: Town # Town
@@ -168,12 +195,16 @@ meta:
     e91a4797-ff06-46bb-a85b-a05f48e75259: 'Contact Heading' # Contact Heading
     e824f35a-7304-44ea-aadf-81d8b021fc5f: Blog-Content # Blog-Content
     e3356350-dbf7-48ae-8ef1-0027c74ec586: Firstname # Firstname
+    ea00e616-77b7-44f8-839b-039c45767894: 'Button Text' # Button Text
     ebaa74d3-c63d-41a1-b048-d9e2e9706831: Hero # Hero
+    ec3fa37d-2193-47b7-9ff1-a0daf3199429: Order # Order
     f8caa6c1-0922-44d1-90d3-da8bec954d93: Company # Company
     f64aeb78-cc50-4afe-bd75-23d50746c9ed: PreviewImage # PreviewImage
     f3548a4e-1e94-4b20-b30b-8a9610b87078: Heading # Heading
     f5978435-7303-43f4-ab0d-70dce4475040: Heading # Heading
     fde6d049-18ea-4505-ad38-0a99678e8b56: 'Team Cards' # Team Cards
+    febcffd0-0a5d-4a57-a7aa-ab9d0547e9e1: Text # Text
+    fefee734-e08f-4a6f-9fd7-706082335c4a: 'Button URL' # Button URL
     ff2a9ff9-80ae-4e2d-8c0d-676666e4a62e: Role # Role
 plugins:
   redactor:

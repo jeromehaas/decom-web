@@ -7,18 +7,20 @@ class Form {
 		this.button = document.getElementsByClassName('form__button')[0];
 		this.errors = [];
 		this.inputs = {
+			gender: document.getElementsByName("gender")[0],
 			firstname: document.getElementsByName("firstname")[0],
 			lastname: document.getElementsByName("lastname")[0],
 			company: document.getElementsByName("company")[0],
-			email: document.getElementsByName("email")[0],
-			phone: document.getElementsByName("phone")[0]
+			email_address: document.getElementsByName("email")[0],
+			phone_number: document.getElementsByName("phone")[0]
 		};
 		this.values ={
+			gender: "",
 			firstname: "",
 			lastname: "",
 			company: "",
-			email: "",
-			phone: ""
+			email_address: "",
+			phone_number: ""
 		}
 		if (this.form && this.inputs) {
 			this.init();
@@ -31,7 +33,7 @@ class Form {
 
 	validateInputs = () => {
 		this.reset();
-		for ( let input in this.inputs) {
+		for ( let input in this.inputs ) {
 			this.values[input] = this.inputs[input].value;
 			if (this.inputs[input].value === "") this.errors.push(input);
 		}
@@ -61,22 +63,20 @@ class Form {
 	}
 
 	sendMessage = async () => {
-
 		const body = JSON.stringify(this.values);
-		const data = await fetch("https://mailserver.yellowreach.io/decom/request-informations", {
+		const data = await fetch("http://localhost:3005/decom/request-informations", {
+		// const data = await fetch("https://mailserver.yellowreach.io/decom/request-informations", {
 			method: "POST", 
 			headers: {
 				"Content-Type": "application/json",
 			},
 			body: body
 		});
-
 		if (data.status === 200) {
-			window.location.href = "https://decom.ch/success.html";
+			window.location.href = "/success-form";
 		} else {
-			window.location.href = "https://decom.ch/error.html";
+			window.location.href = "/error";
 		}
-
 	}
 
 	redirect = () => {
@@ -87,16 +87,12 @@ class Form {
 		event.preventDefault();
 		const inputIsValid = this.validateInputs();
 		if (inputIsValid) {
-			console.log('succeess');
 			this.sendMessage();
 			this.redirect();
 		} else {
 			this.addErrorStyles();
-
 		}
 	}
-
-
 
 }
 

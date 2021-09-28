@@ -1,0 +1,15 @@
+columnSuffix: myfxmsvi
+contentColumnType: string(255)
+fieldGroup: ca9e4ebb-777a-4f3b-901e-e3672336ef0f # Error
+handle: errorButtonUrl
+instructions: ''
+name: 'Button URL'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

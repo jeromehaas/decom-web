@@ -34,25 +34,24 @@
 		<nav class='navigation-mobile'>
 			<div class='navigation-mobile__inner'>
 				<div class='navigation-mobile__bar'>
-				<a href="#">
+				<a href="{{ navigation.navigationLogoLink }}">
 					<img class='navigation-mobile__logo' src='/uploads/logos/logo-decom-full.png' alt='Decom' class='navigation-desktop__logo' />
 				</a>					
 				{% include ("partials/hamburger")  %}
 				</div>
 				<div class="navigation-mobile__backgroundlayer navigation-mobile__backgroundlayer--closed" id="backgroundlayer" type='button'>
 						<div class='navigation-mobile__link-container' key={index}>												
-						{% include ("partials/link") with { text: "Sublink", class: "navigation-mobile__link", color: "darkblue", link: "#" } %}							
 							{% for link in links %}
 								{% if link.hasDescendants %}
-									{% include ("partials/link") with { text: link.title, class: "navigation-mobile__link navigation-mobile__link--has-childs", color: "darkblue", link: "#" } %}
+									{% include ("partials/link") with { text: link.title, link: link.pagesRoute, class: "navigation-mobile__link navigation-mobile__link--has-childs", color: "darkblue" } %}
 								{% else %}
-									{% include ("partials/link") with { text: link.title, class: "navigation-mobile__link", color: "darkblue", link: "#"} %}
+									{% include ("partials/link") with { text: link.title, link: link.pagesRoute, class: "navigation-mobile__link", color: "darkblue",} %}
 								{% endif %}
 								{% if link.hasDescendants %}
-								<div class='navigation-mobile__sublink-box navigation-mobile__sublink-box--closed'>
+								<div class='navigation-mobile__sublink-box navigation-mobile__sublink-box'>
 									{% set sublinks = link.getChildren() %}
 									{% for sublink in sublinks %}
-										{% include "partials/link" with { text: sublink.title, class: "navigation-mobile__sublink-item", color: "darkblue", link: "#s" } %}
+										{% include "partials/link" with { text: sublink.title, link: sublink.pagesRoute, class: "navigation-mobile__sublink-item", color: "darkblue"} %}
 									{% endfor %}
 									</div>
 								{% endif %}

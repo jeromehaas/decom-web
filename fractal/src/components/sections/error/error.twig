@@ -1,0 +1,11 @@
+<section id='error' class='error section'>
+			<div class='error__inner section__inner'>
+	
+				<div class="error__card card" >
+					{% render "@heading" with { text: "Fehler", class: "error__title", type: 'h2' } %}
+					{% render "@text" with { text: "Etwas ist schiefgelaufen. Bitte nehmen Sie direkt mit uns Kontakt auf.", class: "error__text" } %}
+					{% render "@button" with { text: "Zurück", class: "error__button", color: "white", link: "/" } %}
+				</div>
+
+			</div>
+		</section>

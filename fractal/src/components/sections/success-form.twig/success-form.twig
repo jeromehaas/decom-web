@@ -1,0 +1,11 @@
+<section id='success-form' class='success-form section'>
+			<div class='success-form__inner section__inner'>
+	
+				<div class="success-form__card card" >
+					{% render "@heading" with { text: "Vielen Dank!", class: "success-form__title", type: 'h2' } %}
+					{% render "@text" with { text: "In Kürz erhalten Sie eine E-Mail mit weiteren Informationen", class: "success-form__text" } %}
+					{% render "@button" with { text: card.button.text, class: "success-form__button", color: "white", link: "/" } %}
+				</div>
+
+			</div>
+		</section>

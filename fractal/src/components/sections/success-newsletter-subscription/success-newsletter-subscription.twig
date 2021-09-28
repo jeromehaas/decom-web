@@ -1,0 +1,11 @@
+<section id='success-newsletter-subscription' class='success-newsletter-subscription section'>
+			<div class='success-newsletter-subscription__inner section__inner'>
+	
+				<div class="success-newsletter-subscription__card card" >
+					{% render "@heading" with { text: "Vielen Dank für Ihre Anmeldung!", class: "success-newsletter-subscription__title", type: 'h2' } %}
+					{% render "@text" with { text: "Wir freuen uns Ihnen in Zukunft unseren Newsletter zusenden zu dürfen.", class: "success-newsletter-subscription__text" } %}
+					{% render "@button" with { text: card.button.text, class: "success-newsletter-subscription__button", color: "white", link: "/" } %}
+				</div>
+
+			</div>
+		</section>

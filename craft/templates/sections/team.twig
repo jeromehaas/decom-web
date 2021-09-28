@@ -1,5 +1,5 @@
 {% set team = craft.entries.section('team').one() %}
-{% set teamCards = craft.entries.section('teamCards') %}
+{% set teamCards = craft.entries.section('teamCards').orderBy('teamCardOrder ASC') %}
 
 <section id='team' class='team section'>
 			<div class='team__inner section__inner'>
