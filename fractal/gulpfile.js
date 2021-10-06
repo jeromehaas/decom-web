@@ -7,6 +7,7 @@ const sass         = require('gulp-sass');
 const sassGlob     = require('gulp-sass-glob');
 const plumber      = require('gulp-plumber');
 const notify       = require('gulp-notify');
+const autoprefixer 	= require('gulp-autoprefixer');
 const path         = require('path');
 
 gulp.task('sass', gulp.series( function() {
@@ -14,6 +15,7 @@ gulp.task('sass', gulp.series( function() {
     .pipe(customPlumber('Error running Sass'))
     .pipe(sassGlob())
     .pipe(sass())
+		.pipe(autoprefixer())
     .pipe(gulp.dest('public/css'))
     .pipe(gulp.dest('../craft/web/assets/css'))
 }));

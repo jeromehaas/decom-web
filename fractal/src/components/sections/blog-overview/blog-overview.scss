@@ -4,7 +4,7 @@
 	 
 	 &__content-wrapper {
 		 
-		 margin: 30px;
+		margin: 30px;
 		padding: 30px;
 		margin: 0 auto;
 		max-width: $max-width;
@@ -25,10 +25,17 @@
 	&__card-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 	}	
+
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+	&__heading {
+		grid-template-columns: 1fr;
+	}	
+}
+
+@media (max-width: 800px) {
 	&__card-wrapper {
 		grid-template-columns: 1fr;
 	}	

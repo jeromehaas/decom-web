@@ -5,10 +5,13 @@
 <section id='hero' class='hero section'>
 	<div class='hero__inner section__inner'>
 
-		{% include ("partials/heading") with { text: hero.heroHeading, class: 'hero__heading' , type: "h1", color: "darkblue"} %}
+	<span class="hero__heading-wrapper">
+	{% include ("partials/heading") with { text: hero.heroHeading, class: 'hero__heading' , type: "h1", color: "darkblue"} %}
+	{% include ("partials/heading") with { text: hero.heroHighlight, class: 'hero__highlight' , type: "h1", color: "blue"} %}
+	</span>
 
 		<div class='hero__button-container'>
-			{% include ("partials/button") with { color: "blue", text: hero.heroButtonTextLeft, class: "hero__button", link: hero.heroButtonUrlLeft } %}
+			{% include ("partials/button") with { color: "darkblue", text: hero.heroButtonTextLeft, class: "hero__button", link: hero.heroButtonUrlLeft } %}
 			{% include ("partials/button") with { color: "white", text: hero.heroButtonTextRight, class: "hero__button", link: hero.heroButtonUrlRight } %}
 		</div>
 

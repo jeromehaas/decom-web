@@ -8,7 +8,7 @@
 			<div class='card statement__card'>
 				{% include ("partials/heading") with { text: entry.statementCardHeading, class: "statement__card__title", type: "h3", color: "darkblue" } %}
 				{% include ("partials/text") with { text: entry.statementCardText, class: "statement__card__text", color: "darkblue" } %}
-				{% include ("partials/button") with { text: entry.statementCardButtonText, class: "statement__button", color: "white", link: "statementCardButtonUrl" } %}
+				{% include ("partials/button") with { text: entry.statementCardButtonText, class: "statement__button", color: "white", link: entry.statementCardButtonUrl } %}
 			</div>
 
 				

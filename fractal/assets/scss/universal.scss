@@ -11,6 +11,10 @@
 	-webkit-appearance: none;
 }
 
+*::selection {
+	background-color: #f0f4fc;
+}
+
 body {
 	font-size: 10px;
 }

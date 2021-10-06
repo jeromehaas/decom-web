@@ -34,7 +34,16 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 75
+          -
+            fieldUid: e4d3432b-fc9e-4dc6-b9d7-fe7330ea47b7 # Highlight
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
           -
             fieldUid: 41a573d5-cf7d-4762-acd1-8d443591a8c0 # Button Text (Left)
             instructions: null

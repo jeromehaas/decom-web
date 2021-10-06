@@ -54,9 +54,22 @@ input {
 	font-size: 2.4em;
 }
 
+@media (max-width: 850px) {
+	.blog-card__heading {
+		font-size: 2em;
+	}
+	.top-blog-card__heading {
+		font-size: 2em;
+	}
+}
+
 @media (max-width: 500px) {
 	h1, .heading--h1 {
 		font-size: 3em;
+	}
+	h2, .heading--h2 {
+		font-size: 2.0em;
+		font-family: "Heebo-Medium";
 	}
 }
 

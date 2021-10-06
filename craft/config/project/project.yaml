@@ -1,4 +1,4 @@
-dateModified: 1632863547
+dateModified: 1632901277
 email:
   fromEmail: hello@jeromehaas.dev
   fromName: 'Decom Web'
@@ -188,6 +188,7 @@ meta:
     e00dcac7-104b-4226-b928-94065aa33593: Heading # Heading
     e1f79275-cdd9-440f-9b91-0d851bc664d6: Heading # Heading
     e3a19840-54cf-4fe5-912a-bed2f923f455: Team # Team
+    e4d3432b-fc9e-4dc6-b9d7-fe7330ea47b7: Highlight # Highlight
     e8cdfc58-722a-4596-8daa-48e3420d2ae8: Pages # Pages
     e9f0fd3d-88bb-4fc8-b6d1-230082c89b7f: Text # Text
     e9f75f2a-0cf7-4881-8057-7435497c662f: Company # Company

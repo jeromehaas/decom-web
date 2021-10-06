@@ -12,6 +12,7 @@
     "@frctl/fractal": "^1.5.6",
     "@frctl/twig": "^1.2.11",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^2.0.0",

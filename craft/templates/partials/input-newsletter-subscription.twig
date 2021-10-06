@@ -1,4 +1,6 @@
+{% set placeholderText = currentSite.language == 'de' ? 'Ihre E-Mail-Adresse' : 'your email-address' %}
+
 <div class="input-newsletter-subscription {{ class}}" id="input-newsletter-subscription">
-	<input class='input-newsletter-subscription__input' type='text' name="email" placeholder='Email Adresse' />
+	<input class='input-newsletter-subscription__input' type='text' name="email_address" placeholder='{{ placeholderText }}' />
 	<img class='input-newsletter-subscription__icon' id="input-newsletter-subscription__icon" src='/assets/icons/various/nl-subscription-email.svg' alt='Email' />
 </div>

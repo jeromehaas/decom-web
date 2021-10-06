@@ -7,7 +7,7 @@ class NewsletterSubscription {
 		this.button = document.getElementById('input-newsletter-subscription__icon');
 		this.errors = [];
 		this.inputs = {
-			email_address: document.getElementsByName("email")[0],
+			email_address: document.getElementsByName("email_address")[0],
 		};
 		this.values ={
 			email_address: "",
@@ -55,7 +55,6 @@ class NewsletterSubscription {
 	sendMessage = async () => {
 		const body = JSON.stringify(this.values);
 		const data = await fetch("https://mailserver.yellowreach.io/decom/newsletter-subscription", {
-		// const data = await fetch("http://localhost:3005/decom/newsletter-subscription", {
 			method: "POST", 
 			headers: {
 				"Content-Type": "application/json",

@@ -12,10 +12,17 @@
 		justify-content: center;
 	}
 
-	&__heading {
+	&__heading-wrapper {
 		text-align: center;
+		margin: 0 auto 45px auto;
 		max-width: 600px;
-		margin: 0 auto 30px auto;
+
+	}
+
+	&__heading {
+	}
+
+	&__highlight {
 	}
 
 	&__teaser {

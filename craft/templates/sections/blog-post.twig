@@ -6,7 +6,7 @@
 			{% include ("partials/image") with { url: entry.blogPostPreviewImage.one().url() } %}
 		{% endif %}
 		{% for category in entry.blogPostCategories %}
-			{% include ("partials/category-label") with { text: "ICO's" ,color: "blue", class: "blog-post__category-label"} %}
+			{% include ("partials/category-label") with {text: category.label, color: category.value, class: "blog-card__category-label" } %}	
 		{% endfor %}
 		{% include ("partials/heading") with { text: entry.blogPostHeading, class:"blog-post__heading", type: "h1"} %}
 		{% include ("partials/date") with { date: entry.blogPostDate|date, class: "blog-post__date" } %}
