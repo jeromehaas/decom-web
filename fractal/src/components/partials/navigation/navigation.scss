@@ -19,7 +19,7 @@
 			justify-content: space-between;
 			align-items: center;
 			padding: 30px;
-			max-width: $max-width;
+			max-width: 1500px;
 			margin: 0 auto;
 			height: 100px;
 		}
@@ -34,12 +34,6 @@
 
 		&__link-container {
 			position: relative;
-	
-			// &:hover > .navigation-desktop__link-dropdown-box, 
-			// .navigation-desktop__link-dropdown-box:hover {
-			// 	display: flex;
-			// }
-
 		}
 
 		&__links {
