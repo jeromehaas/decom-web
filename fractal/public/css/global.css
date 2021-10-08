@@ -1040,7 +1040,8 @@ body {
     .hero__inner {
       min-height: calc(100vh - 75px - 50px); }
     .hero__button-container {
-      grid-template: auto auto / auto; } }
+      grid-template: auto auto / auto;
+      text-align: center; } }
   @media (max-width: 370px) {
     .hero__inner {
       min-height: calc(100vh - 75px - 0px); } }
