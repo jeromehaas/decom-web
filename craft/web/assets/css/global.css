@@ -91,9 +91,11 @@ input {
 .footer__language-button {
   font-size: 1em; }
 
-.navigation-mobile__link,
-.navigation-mobile__sublink-item {
+.navigation-mobile__link {
   font-size: 2.4em; }
+
+.navigation-mobile__sublink-item {
+  font-size: 1.8em; }
 
 .image__caption {
   font-size: 1.4em; }
@@ -681,7 +683,8 @@ body {
       padding: 20px;
       position: absolute;
       right: -100%;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+      overflow: scroll; }
       .navigation .navigation-mobile__backgroundlayer--open {
         right: -0%; }
     .navigation .navigation-mobile__logo-link {
@@ -691,10 +694,24 @@ body {
     .navigation .navigation-mobile__link-container {
       display: flex;
       flex-direction: column;
-      width: 100%; }
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 75px; }
     .navigation .navigation-mobile__link {
       color: #fff;
       padding: 5px 0; }
+      .navigation .navigation-mobile__link--has-childs::after {
+        position: absolute;
+        content: url("/assets/icons/input-field-icons/dropdown-caret-white.svg");
+        width: 7.5px;
+        height: 7.5px;
+        display: inline-block;
+        margin-left: 7.5px;
+        transform: translateY(-25%); }
+      .navigation .navigation-mobile__link--has-childs > * {
+        fill: white; }
     .navigation .navigation-mobile__sublink-box {
       max-height: 0px;
       display: none;
@@ -702,20 +719,17 @@ body {
       align-items: flex-end; }
       .navigation .navigation-mobile__sublink-box--open {
         max-height: unset;
-        display: flex; }
+        display: flex;
+        width: 175px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+        margin: 10px; }
     .navigation .navigation-mobile__sublink-item {
       color: #fff;
       padding: 7.5px 0;
-      width: 100%; }
-      .navigation .navigation-mobile__sublink-item::before {
-        content: '';
-        width: 5px;
-        height: 5px;
-        background-color: #fff;
-        display: inline-block;
-        transform: translateY(-3px);
-        border-radius: 50%;
-        margin-right: 10px; }
+      width: 100%;
+      text-align: center; }
   .navigation .navigation-placeholder {
     margin-bottom: 100px; }
   @media (max-width: 900px) {
