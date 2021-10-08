@@ -1,4 +1,4 @@
-dateModified: 1632901277
+dateModified: 1633693757
 email:
   fromEmail: hello@jeromehaas.dev
   fromName: 'Decom Web'
@@ -117,6 +117,7 @@ meta:
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
     55324d78-6366-4167-a383-dd58e355304c: Navigation # Navigation
     64589df0-0678-44bb-b0b3-37a8026a962a: Navigation # Navigation
+    71702b43-aecb-4334-b866-cbba74532566: Teaser # Teaser
     200816f0-2eb9-4323-8516-aa41c07d18b3: Roadmap # Roadmap
     277747c4-7256-4fc2-baee-dab17a0123cf: Advantages # Advantages
     503735ce-b504-4ae6-8af6-1717fe0e2a5a: 'Success Form' # Success Form

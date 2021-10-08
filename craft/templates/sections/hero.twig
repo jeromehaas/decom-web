@@ -6,9 +6,11 @@
 	<div class='hero__inner section__inner'>
 
 	<span class="hero__heading-wrapper">
-	{% include ("partials/heading") with { text: hero.heroHeading, class: 'hero__heading' , type: "h1", color: "darkblue"} %}
-	{% include ("partials/heading") with { text: hero.heroHighlight, class: 'hero__highlight' , type: "h1", color: "blue"} %}
+		{% include ("partials/heading") with { text: hero.heroHeading, class: 'hero__heading' , type: "h1", color: "darkblue"} %}
+		{% include ("partials/heading") with { text: hero.heroHighlight, class: 'hero__highlight' , type: "h1", color: "blue"} %}
 	</span>
+
+	{% include ("partials/heading") with { text: hero.heroTeaser, class: 'hero__teaser' , type: "h2", color: "darkblue"} %}
 
 		<div class='hero__button-container'>
 			{% include ("partials/button") with { color: "darkblue", text: hero.heroButtonTextLeft, class: "hero__button", link: hero.heroButtonUrlLeft } %}
