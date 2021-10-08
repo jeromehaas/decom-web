@@ -10,18 +10,33 @@
 	}
 
 	&__card > * {
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 
 	&__heading {
+		margin-bottom: 10px;
 	}
 
 	&__date {
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 	}
 
 	&__category-label {
-		margin-bottom: 15px;
+		margin-bottom: 25px;
+	}
+
+	&__image {
+
+		&--big {
+			width: 100%;
+		}
+	
+		&--small {
+			width: 50%;
+			border: 10;
+			margin: 0 auto 20px auto;
+		}
+
 	}
 
 	&__button {
@@ -29,6 +44,16 @@
 		display: block;
 		max-width: 200px; 
 		text-align: center;
+	}
+
+	@media (max-width: 700px) {
+		&__image {
+
+			&--small {
+				width: 100%;
+			}
+	
+		}
 	}
 
 }
