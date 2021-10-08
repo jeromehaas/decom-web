@@ -18,7 +18,11 @@
 				{% case "richText" %}
 					{{ block.richText }}
 				{% case "image" %}
-					{% include ("partials/image") with { url: block.image.one().url() } %}
+					{% if block.size == 'small' %}
+						{% include ("partials/image") with { url: block.image.one().url(), class: "image--small", caption: block.caption } %}
+					{% elseif block.size == 'big' %}
+						{% include ("partials/image") with { url: block.image.one().url(), class: "image--big", caption: block.caption } %}
+					{% endif %}
 				{% case "heading" %}
 					{% include ("partials/heading") with { text: block.heading, class:"blog-post__heading", type: "h2"} %}
 				{% default %}

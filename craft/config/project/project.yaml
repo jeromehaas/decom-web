@@ -1,8 +1,18 @@
-dateModified: 1633693757
+dateModified: 1633697533
 email:
-  fromEmail: hello@jeromehaas.dev
-  fromName: 'Decom Web'
-  transportType: craft\mail\transportadapters\Sendmail
+  fromEmail: developer@decom.ch
+  fromName: 'Decom Developer'
+  replyToEmail: developer@decom.ch
+  template: ''
+  transportSettings:
+    encryptionMethod: ssl
+    host: asmtp.mail.hostpoint.ch
+    password: Wy9r88g78ATyC3dMhe
+    port: '465'
+    timeout: '10'
+    useAuthentication: '1'
+    username: developer@decom.ch
+  transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
     0a1ff91f-aab9-499a-b7e9-10b9da340441: Team # Team
@@ -117,7 +127,6 @@ meta:
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
     55324d78-6366-4167-a383-dd58e355304c: Navigation # Navigation
     64589df0-0678-44bb-b0b3-37a8026a962a: Navigation # Navigation
-    71702b43-aecb-4334-b866-cbba74532566: Teaser # Teaser
     200816f0-2eb9-4323-8516-aa41c07d18b3: Roadmap # Roadmap
     277747c4-7256-4fc2-baee-dab17a0123cf: Advantages # Advantages
     503735ce-b504-4ae6-8af6-1717fe0e2a5a: 'Success Form' # Success Form
@@ -127,6 +136,7 @@ meta:
     2658489d-0e2b-4f9b-882e-35e553f765d3: FAQ # FAQ
     4567892c-850a-4f2b-8d3d-d764a240f7ff: 'Card Text' # Card Text
     7847516e-ca6f-4b1e-986a-88ab874cce06: Advantages # Advantages
+    8501350c-6f01-4855-b604-946d13913734: Size # Size
     28079231-b66b-4f84-84b6-5b5342a54f1c: Name # Name
     34818444-6c43-4076-85f2-548a6a63614a: 'Request Informations' # Request Informations
     40786505-2be6-4db4-bfc6-7fb6db69c13f: Heading # Heading
@@ -172,12 +182,14 @@ meta:
     c9f06f27-c777-497e-ba60-91e6a5a723dd: Company # Company
     c44d5a98-9a85-4460-8633-7dbf04e7fdaf: Heading # Heading
     c95c53d6-a8e3-4415-87dd-f33b4d767917: 'Form Submissions' # Form Submissions
+    c682ee2f-9610-4b00-ba7a-bcfbb89dfa88: Caption # Caption
     ca9e4ebb-777a-4f3b-901e-e3672336ef0f: Error # Error
     cb6a2d16-0545-467c-b90f-50ca83a28b13: Logos # Logos
     ce04bdd2-4719-44f3-b898-c671f9bb5e13: Team # Team
     d0b5d985-7c99-4340-afde-4fb5bd7a9cb4: Town # Town
     d1bde873-0e2d-4c1e-a0be-805f105b758a: Advantages # Advantages
     d2c90e0a-9924-4ccb-96ce-3a63ce210d75: 'Card Icon' # Card Icon
+    d8abc8b4-7ffa-4740-b990-cebb3a11eda9: Teaser # Teaser
     d14d639b-8136-4576-bf8a-86a759f6ce91: 'Card Button Text' # Card Button Text
     d39e1790-9b14-4a08-b249-615eae6a62a1: Categories # Categories
     d82f51bb-0aed-4b10-afec-4cc790d5ab8f: Default # Default
@@ -220,7 +232,7 @@ plugins:
 system:
   edition: pro
   live: true
-  name: 'Decom Web'
+  name: 'Decom Website'
   retryDuration: null
   schemaVersion: 3.7.8
   timeZone: Africa/Tunis

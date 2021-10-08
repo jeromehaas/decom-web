@@ -13,6 +13,24 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: c682ee2f-9610-4b00-ba7a-bcfbb89dfa88 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8501350c-6f01-4855-b604-946d13913734 # Size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -30,7 +48,7 @@ fields:
       allowedKinds: null
       defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
       defaultUploadLocationSubpath: ''
-      limit: ''
+      limit: '1'
       localizeRelations: false
       previewMode: full
       restrictFiles: ''
@@ -49,6 +67,62 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  8501350c-6f01-4855-b604-946d13913734: # Size
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: ''
+    name: Size
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - big
+            -
+              - value
+              - big
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c682ee2f-9610-4b00-ba7a-bcfbb89dfa88: # Caption
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: ''
+    name: Caption
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
 handle: image
 name: Image
 sortOrder: 1

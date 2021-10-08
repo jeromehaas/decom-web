@@ -2,6 +2,8 @@
 	"name": "Image",
 	"context": {
 		"url": "/assets/images/blog/blog-image.jpg",
-		"alt": "example-image"
+		"alt": "example-image",
+		"caption": "Image Caption",
+		"class": "image--big"
 	}
 }

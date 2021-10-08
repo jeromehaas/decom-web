@@ -1,1 +1,7 @@
-<img src="{{ url }}" alt="{{ alt|default('') }} " class="image {{ class|default('') }}">
+{# <img src="{{ url }}" alt="{{ alt|default('') }} " class="image {{ class|default('') }}"> #}
+
+
+<div class="image {{ class|default("") }}">
+	<img src="{{ url }}" alt="{{ alt|default("") }}" class="image__image" />
+	<p class="image__caption">{{ caption|default("") }}</p>
+</div>

@@ -95,6 +95,9 @@ input {
 .navigation-mobile__sublink-item {
   font-size: 2.4em; }
 
+.image__caption {
+  font-size: 1.4em; }
+
 @media (max-width: 850px) {
   .blog-card__heading {
     font-size: 2em; }
@@ -430,11 +433,23 @@ body {
 .highlight--bold {
   font-weight: 700; }
 
-.image {
+.image--big {
+  width: 100%; }
+
+.image--small {
+  width: 50%;
+  border: 10;
+  margin: 0 auto; }
+
+.image__image {
   width: 100%;
   height: auto;
+  border-radius: 7.5px;
   display: block;
-  border-radius: 7.5px; }
+  margin-bottom: 5px; }
+
+.image__caption {
+  color: #bbbbbb; }
 
 .input-newsletter-subscription {
   position: relative;

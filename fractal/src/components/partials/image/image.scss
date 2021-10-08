@@ -1,6 +1,25 @@
 .image {
-	width: 100%;
-	height: auto;
-	display: block;
-	border-radius: $border-radius;
+
+	&--big {
+		width: 100%;
+	}
+
+	&--small {
+		width: 50%;
+		border: 10;
+		margin: 0 auto;
+	}
+	
+	&__image {
+		width: 100%;
+		height: auto;
+		border-radius: $border-radius;
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	&__caption {
+		color: $midgrey;
+	}
+
 }
