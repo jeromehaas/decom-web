@@ -12,7 +12,8 @@ class Form {
 			lastname: document.getElementsByName("lastname")[0],
 			company: document.getElementsByName("company")[0],
 			email_address: document.getElementsByName("email_address")[0],
-			phone_number: document.getElementsByName("phone_number")[0]
+			phone_number: document.getElementsByName("phone_number")[0],
+			lang: document.getElementsByName("lang")[0],
 		};
 		this.values ={
 			gender: "",
@@ -20,7 +21,8 @@ class Form {
 			lastname: "",
 			company: "",
 			email_address: "",
-			phone_number: ""
+			phone_number: "",
+			lang: "",
 		}
 		if (this.form && this.inputs) {
 			this.init();
@@ -68,6 +70,7 @@ class Form {
 
 	sendMessage = async () => {
 		const body = JSON.stringify(this.values);
+		console.log(body);
 		const data = await fetch("https://mailserver.yellowreach.io/decom/request-informations", {
 			method: "POST", 
 			headers: {

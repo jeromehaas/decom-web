@@ -14,14 +14,23 @@
 		border-color: $lightblue;
 		padding: 7.5px 58px 7.5px 7.5px;
 		outline: none;
+
+		&--hidden {
+			width: 0;
+			height: 0;
+			visibility: hidden;
+			overflow: hidden;
+			padding: 0;
+		}
 	}
 	
 	&__icon {
-		position: absolute;
-		top: 50%;
-		right: 20px;
-		transform: translateY(-50%);
-		cursor: pointer;
+    position: absolute;
+    top: 70%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 30px;
 	}
 
 }

@@ -1,4 +1,5 @@
 {% set form = craft.entries.section('form').one() %}
+{% set lang = currentSite.language %}
 
 <div class='card form' id="form">
 
@@ -9,6 +10,7 @@
 	</div>
 
 	<div class="input-text__wrapper">
+		{% include ("partials/input-text") with { label: "", name: "lang", class: "input-text--hidden", value: lang} %}
 		{% for row in form.formFirstname %}
 			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
 		{% endfor %}

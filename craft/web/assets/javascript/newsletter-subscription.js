@@ -7,10 +7,12 @@ class NewsletterSubscription {
 		this.button = document.getElementById('input-newsletter-subscription__icon');
 		this.errors = [];
 		this.inputs = {
-			email_address: document.getElementsByName("email_address")[0],
+			email_address: document.getElementsByName("nl_email_address")[0],
+			lang: document.getElementsByName("nl_lang")[0],
 		};
 		this.values ={
 			email_address: "",
+			lang: "",
 		}
 		if (this.form && this.inputs) {
 			this.init();
@@ -54,6 +56,7 @@ class NewsletterSubscription {
 
 	sendMessage = async () => {
 		const body = JSON.stringify(this.values);
+		console.log(body);
 		const data = await fetch("https://mailserver.yellowreach.io/decom/newsletter-subscription", {
 			method: "POST", 
 			headers: {
@@ -70,17 +73,11 @@ class NewsletterSubscription {
 
 	}
 
-	redirect = () => {
-		console.log("redirect");
-	}
-
 	submit = ( event ) => {
 		event.preventDefault();
 		const inputIsValid = this.validateInputs();
 		if (inputIsValid) {
-			console.log('succeess');
 			this.sendMessage();
-			this.redirect();
 		} else {
 			this.addErrorStyles();
 

@@ -450,12 +450,19 @@ body {
     border-color: #f0f4fc;
     padding: 7.5px 58px 7.5px 7.5px;
     outline: none; }
+    .input-newsletter-subscription__input--hidden {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+      padding: 0; }
   .input-newsletter-subscription__icon {
     position: absolute;
-    top: 50%;
+    top: 70%;
     right: 20px;
     transform: translateY(-50%);
-    cursor: pointer; }
+    cursor: pointer;
+    height: 30px; }
 
 .input-radio:last-child {
   margin-bottom: 30px; }
@@ -495,6 +502,11 @@ body {
   margin-top: 5px;
   color: #041834;
   font-size: 1.8em; }
+
+.input-text--hidden {
+  height: 0;
+  width: 0;
+  visibility: none; }
 
 .input-text__label {
   display: block;
