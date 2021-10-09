@@ -1013,12 +1013,13 @@ body {
     position: absolute;
     top: 50%;
     right: 0;
-    height: 50vh;
+    height: 60vh;
+    max-height: 1250px;
     display: block;
     transform: translate(50%, -50%); }
-  @media screen and (max-width: 1050px), screen and (max-height: 900px) {
+  @media screen and (max-width: 1150px), screen and (max-height: 1000px) {
     .hero__inner {
-      padding-bottom: 200px; }
+      padding-bottom: 275px; }
     .hero__heading-wrapper {
       text-align: center;
       margin: 0 auto 45px auto; }
@@ -1036,7 +1037,7 @@ body {
       right: 50%;
       bottom: 0;
       max-width: 80vw;
-      max-height: 450px;
+      max-height: 650px;
       height: 100%;
       display: block;
       transform: translate(50%, 50%); } }
