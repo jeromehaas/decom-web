@@ -1151,6 +1151,11 @@ body {
     grid-gap: 30px;
     margin-top: 30px;
     margin-bottom: 45px; }
+  .portfolio__card {
+    background-image: url("/assets/logos/decom/logo-decom-globus-gradient.jpeg");
+    background-size: 200px;
+    background-position: right -100px bottom -100px;
+    background-repeat: no-repeat; }
   .portfolio__button {
     margin: 0 auto;
     display: block;
