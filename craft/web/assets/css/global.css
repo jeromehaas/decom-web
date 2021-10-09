@@ -252,7 +252,7 @@ body {
   border-radius: 7.5px;
   border-width: 1px;
   border-style: solid;
-  border-color: #041834;
+  border-color: #2d7eff;
   color: #2d7eff;
   background-color: #fff;
   display: inline-block;
@@ -270,7 +270,7 @@ body {
     border-color: white; }
   .button--white {
     background-color: #fff;
-    color: #041834; }
+    color: #2d7eff; }
 
 .category-label {
   padding: 5px 15px;
