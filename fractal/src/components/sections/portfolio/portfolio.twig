@@ -7,15 +7,17 @@
 
 				<div class='portfolio__card-wrapper'>
 
-					{% for card in cards %}					
-						<div class='card portfolio__card'>
-							{% render "@heading" with { text: card.title, class: "portfolio__card__title", type: 'h3' } %}
-							{% render "@line" with { class: 'portfolio__card__line line--darkblue'} %}
+					{% for card in cards %}	
+						<a href="{{ link }}" class="portfolio__link" >
+							<div class='card portfolio__card'>
+								{% render "@heading" with { text: card.title, class: "portfolio__card__title", type: 'h3' } %}
+								{% render "@line" with { class: 'portfolio__card__line line--darkblue'} %}
 
-							{% for item in card.itemList %}			
-								{% render "@list-element" with { text: item, class: "portfolio__card__list-element" } %}
-							{% endfor %}
-						</div>			
+								{% for item in card.itemList %}			
+									{% render "@list-element" with { text: item, class: "portfolio__card__list-element" } %}
+								{% endfor %}
+							</div>			
+						</a>
 					{% endfor %}
 
 				</div>

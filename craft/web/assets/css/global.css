@@ -1155,7 +1155,12 @@ body {
     background-image: url("/assets/logos/decom/logo-decom-globus-gradient.jpeg");
     background-size: 200px;
     background-position: right -100px bottom -100px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    width: 100%; }
+    .portfolio__card__title {
+      font-size: 20px; }
+    .portfolio__card__list-element {
+      font-size: inherit; }
   .portfolio__button {
     margin: 0 auto;
     display: block;

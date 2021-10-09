@@ -30,14 +30,21 @@
 
 &__card {
 
-	&__title {}
+	&__title {
+		font-size: 20px;
+	}
+
 	&__line {}
-	&__list-element{}
+	
+	&__list-element {
+		font-size: inherit;
+	}
 
 	background-image: url('/assets/logos/decom/logo-decom-globus-gradient.jpeg');
 	background-size: 200px;
 	background-position: right -100px bottom -100px;
 	background-repeat: no-repeat;
+	width: 100%;
 
 }
 
