@@ -38,13 +38,13 @@
 		position: absolute;
 		top: 50%;
 		right: 0;
-		height: 60vh;
+		height: 100vh;
 		max-height: 1250px;
 		display: block;
 		transform: translate(50%, -50%);
 	}
 
-	@media 	screen and (max-width: 1150px), 
+	@media 	screen and (max-width: 1250px), 
   screen and (max-height: 1000px) {
 
 						&__inner {

@@ -1013,11 +1013,11 @@ body {
     position: absolute;
     top: 50%;
     right: 0;
-    height: 60vh;
+    height: 100vh;
     max-height: 1250px;
     display: block;
     transform: translate(50%, -50%); }
-  @media screen and (max-width: 1150px), screen and (max-height: 1000px) {
+  @media screen and (max-width: 1250px), screen and (max-height: 1000px) {
     .hero__inner {
       padding-bottom: 275px; }
     .hero__heading-wrapper {
