@@ -1092,7 +1092,7 @@ body {
   .invest-now__title {
     margin-bottom: 45px;
     text-align: center; }
-  .invest-now__text {
+  .invest-now__text, .invest-now p {
     margin-bottom: 30px;
     text-align: center; }
 
@@ -1231,7 +1231,7 @@ body {
   .request-informations__title {
     margin-bottom: 45px;
     text-align: center; }
-  .request-informations__text {
+  .request-informations__text, .request-informations p {
     margin-bottom: 30px;
     text-align: center; }
 
