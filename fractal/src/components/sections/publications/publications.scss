@@ -2,13 +2,22 @@
 	height: auto;
 	border-top: 1px solid $lightblue;
 	border-bottom: 1px solid $lightblue;
-	background-color: $white;
+	background-color: $lightblue;
 
 	&__inner {
+		padding: 50px 0;
+	}
+
+	&__title {
+		text-align: center;
+	}
+
+	&__logo-wrapper {
 		display: grid;
 		grid-template: auto / repeat(5, 20%);
 		justify-content: center;
 		grid-gap: 15px;
+		padding: 0 15px;
 	}
 
 	&__logo-link {
@@ -23,6 +32,11 @@
 		display: block;
 	}
 
+	@media (max-width: 775px) {
+		&__logo-image {
+			height: 100px;
+		};
+	} 
 	
 	@media (max-width: 600px) {
 		display: none;

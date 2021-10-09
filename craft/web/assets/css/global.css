@@ -1204,12 +1204,17 @@ body {
   height: auto;
   border-top: 1px solid #f0f4fc;
   border-bottom: 1px solid #f0f4fc;
-  background-color: #fff; }
+  background-color: #f0f4fc; }
   .publications__inner {
+    padding: 50px 0; }
+  .publications__title {
+    text-align: center; }
+  .publications__logo-wrapper {
     display: grid;
     grid-template: auto/repeat(5, 20%);
     justify-content: center;
-    grid-gap: 15px; }
+    grid-gap: 15px;
+    padding: 0 15px; }
   .publications__logo-link {
     max-width: 100%;
     display: block; }
@@ -1218,6 +1223,9 @@ body {
     padding: 30px 15px;
     margin: 0 auto;
     display: block; }
+  @media (max-width: 775px) {
+    .publications__logo-image {
+      height: 100px; } }
   @media (max-width: 600px) {
     .publications {
       display: none; } }

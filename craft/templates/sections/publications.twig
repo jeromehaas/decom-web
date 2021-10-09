@@ -1,11 +1,18 @@
 {% set publications = craft.entries.section('publications').one() %}
 
+
 <section id='publications' class='publications section'> 
 	<div class='publications__inner section__inner'>
+
+	{% include ("partials/heading") with { text: publications.publicationsHeading, class: "publications__title", type: 'h2', color: "darkblue" } %}
 	
-	{% for logo in publications.publicationsLogos %} 
-		<img class='publications__logo-image' src="{{ logo.url }}" alt="Publication" />
-	{% endfor %}	
+	<div class="publications__logo-wrapper">
+		{% for logo in publications.publicationsLogos %} 
+			<a href="{{ logo.publicationsUrl }}" class="publications__logo-link" target="_blank" >
+				<img class='publications__logo-image' src="{{ logo.publicationsLogo.one().url() }}" alt="Publication" />
+			</a>	
+		{% endfor %}	
+	</div>
 
 	</div>
 </section>

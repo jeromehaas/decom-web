@@ -1,4 +1,4 @@
-dateModified: 1633697533
+dateModified: 1633784009
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom Developer'
@@ -177,6 +177,7 @@ meta:
     beaefe4d-3ae0-4fe1-8865-47a50b45153e: Home # Home
     bedcd1cd-4cda-4448-977e-f1fe38045d0f: Default # Default
     bfe4cd46-ac16-4b6f-87eb-d4211ad138fb: Lastname # Lastname
+    c018d09e-479c-4dc6-874b-62f403709aed: Heading # Heading
     c2ab3a3d-b2ca-4012-80c4-0cf5598624d4: Default # Default
     c2bd43c8-768a-49fa-a790-d741d1ab4b86: 'Portfolio Cards' # Portfolio Cards
     c9f06f27-c777-497e-ba60-91e6a5a723dd: Company # Company
@@ -198,6 +199,7 @@ meta:
     d9215dce-34e1-4faa-aee3-2daebff5f127: 'Card Heading' # Card Heading
     daa71cd6-4b7b-4613-8a60-a5fc17b5fe47: Footer # Footer
     dcc4919b-6402-49a3-9319-8ccbc14549a0: Lastname # Lastname
+    dfb9b5ed-be4a-4a78-a2e8-fcfa7a9142c4: URL # URL
     e00dcac7-104b-4226-b928-94065aa33593: Heading # Heading
     e1f79275-cdd9-440f-9b91-0d851bc664d6: Heading # Heading
     e3a19840-54cf-4fe5-912a-bed2f923f455: Team # Team
@@ -212,6 +214,7 @@ meta:
     ea00e616-77b7-44f8-839b-039c45767894: 'Button Text' # Button Text
     ebaa74d3-c63d-41a1-b048-d9e2e9706831: Hero # Hero
     ec3fa37d-2193-47b7-9ff1-a0daf3199429: Order # Order
+    f6e3493d-c456-4618-8828-ce5fe0700434: Logo # Logo
     f8caa6c1-0922-44d1-90d3-da8bec954d93: Company # Company
     f64aeb78-cc50-4afe-bd75-23d50746c9ed: PreviewImage # PreviewImage
     f3548a4e-1e94-4b20-b30b-8a9610b87078: Heading # Heading

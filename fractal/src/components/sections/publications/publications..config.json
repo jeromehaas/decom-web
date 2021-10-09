@@ -1,6 +1,7 @@
 {
 	"name": "Publications", 
 	"context": {
+		"title": "Featured in",
 		"publications": [
 			{
 				"link": "https://www.coinpro.ch/studie-deshalb-kam-es-zum-preisfall-von-bitcoin-ende-letzten-jahres/",

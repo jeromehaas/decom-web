@@ -6,28 +6,14 @@ instructions: ''
 name: Logos
 searchable: false
 settings:
-  allowSelfRelations: false
-  allowUploads: true
-  allowedKinds: null
-  defaultUploadLocationSource: 'volume:b5017fd1-2fe4-45a1-82c8-f608e357f3af' # Publication Logos
-  defaultUploadLocationSubpath: ''
-  limit: '5'
-  localizeRelations: false
-  previewMode: full
-  restrictFiles: ''
+  contentTable: '{{%stc_publicationslogos}}'
+  fieldLayout: table
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationMethod: all
   selectionLabel: ''
-  showSiteMenu: false
-  showUnpermittedFiles: false
-  showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
-  singleUploadLocationSubpath: ''
-  source: null
-  sources:
-    - 'volume:b5017fd1-2fe4-45a1-82c8-f608e357f3af' # Publication Logos
-  targetSiteId: null
-  useSingleFolder: false
-  validateRelatedElements: false
-  viewMode: list
+  staticField: ''
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Assets
+type: verbb\supertable\fields\SuperTableField
