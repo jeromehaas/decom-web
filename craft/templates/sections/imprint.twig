@@ -10,10 +10,8 @@
 			{% for row in imprint.imprintCards %}
 				
 			
-			{# {% for card in cards %} #}
 			<div class='card imprint__card'>
 				<div class='imprint__item'>
-
 					{% include ("partials/heading") with { text: row.title, type: 'h3', class: "imprint__card__title" } %}
 					{% include ("partials/text") with { text: row.company, } %}
 					{% include ("partials/text") with { text: row.companyAddition, } %}
@@ -21,18 +19,8 @@
 					{% include ("partials/text") with { text: row.town, } %}
 					{% include ("partials/text") with { text: row.email, } %}
 					{% include ("partials/text") with { text: row.phone, } %}
-
-			{# {% render "@heading" with { text: card.title, type: 'h3' } %} #}
-		{# {% render "@text" with { text: card.company } %} #}
-			{# {% render "@text" with { text: card.teaser } %} #}
-			{# {% render "@text" with { text: card.city } %} #}
-			{# {% render "@text" with { text: card.street } %} #}
-			{# {% render "@link" with { text: card.email, link: "#" } %} #}
-			{# {% render "@link" with { text: card.webiste, link: "#" } %} #}
-			{# {% render "@link" with { text: card.phone, link: "#" } %} #}
 				</div>
 			</div>	
-			{# {% endfor %} #}
 			{% endfor %}
 
 			</div>

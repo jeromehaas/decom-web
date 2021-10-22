@@ -1072,16 +1072,19 @@ body {
   .imprint__card-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px; }
-  .imprint__card {
+    grid-gap: 30px;
     margin-bottom: 90px; }
-    .imprint__card__title {
-      margin-bottom: 15px; }
-    .imprint__card__text {
-      margin-bottom: 15px;
-      word-break: break-word; }
+  .imprint__card__title {
+    margin-bottom: 15px; }
+  .imprint__card__text {
+    margin-bottom: 15px;
+    word-break: break-word; }
   .imprint__address-item {
     display: block; }
+  @media (max-width: 700px) {
+    .imprint__card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 90px; } }
 
 .invest-now {
   padding-top: 60px;
@@ -1156,7 +1159,8 @@ body {
     background-size: 200px;
     background-position: right -100px bottom -100px;
     background-repeat: no-repeat;
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
     .portfolio__card__title {
       font-size: 20px; }
     .portfolio__card__list-element {
@@ -1166,12 +1170,12 @@ body {
     display: block;
     max-width: 220px;
     text-align: center; }
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .portfolio__card-wrapper {
       grid-template: auto auto/repeat(1, 1fr); }
     .portfolio__card__title {
       text-align: center; }
-    .portfolio__card__line {
+    .portfolio__card .line {
       margin: 30px auto; }
     .portfolio__card__list-element {
       text-align: center; }

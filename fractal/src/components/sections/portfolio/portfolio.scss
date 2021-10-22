@@ -29,22 +29,15 @@
 }
 
 &__card {
-
-	&__title {
-		font-size: 20px;
-	}
-
-	&__line {}
-	
-	&__list-element {
-		font-size: inherit;
-	}
-
 	background-image: url('/assets/logos/decom/logo-decom-globus-gradient.jpeg');
 	background-size: 200px;
 	background-position: right -100px bottom -100px;
 	background-repeat: no-repeat;
 	width: 100%;
+	height: 100%;
+
+	&__title { font-size: 20px;}
+	&__list-element { font-size: inherit; }
 
 }
 
@@ -55,7 +48,7 @@
 	text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	
 	&__card-wrapper {
 		grid-template: auto auto / repeat(1, 1fr);
@@ -67,7 +60,7 @@
 			text-align: center;
 		}
 
-		&__line {
+		& .line {
 			margin: 30px auto;
 		}
 
