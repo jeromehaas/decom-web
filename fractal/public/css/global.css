@@ -1321,7 +1321,8 @@ body {
   background-size: 300%;
   background-position: 0% 0%;
   background-image: url("/assets/graphics/graphic-wave.svg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  min-height: 767px; }
   .success-form__card {
     display: block; }
   .success-form__title {
