@@ -2,41 +2,123 @@
 {% set lang = currentSite.language %}
 {% set page = entry.slug %}
 
-<div class='card form' id="form">
+{% macro errorList(errors) %}
+    {% if errors %}
+        {{ ul(errors, {class: 'errors'}) }}
+    {% endif %}
+{% endmacro %}
 
-	<div class="input-radio__wrapper input-radio__wrapper--gender">
-		{% for row in form.formGender %}
-			{% include ("partials/input-radio") with { label: row.label, name: row.name, value: row.value } %}
-		{% endfor %}
-	</div>
+{% set message = message ?? null %}
 
-	<div class="input-text__wrapper">
-		{% include ("partials/input-text") with { label: "", name: "lang", class: "input-text--hidden", value: lang} %}
-		{% for row in form.formFirstname %}
-			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
-		{% endfor %}
-		{% for row in form.formLastname %}
-			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
-		{% endfor %}
-		{% for row in form.formCompany %}
-			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
-		{% endfor %}
-		{% for row in form.formEmailAddress %}
-			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
-		{% endfor %}
-		{% for row in form.formPhone %}
-			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
-		{% endfor %}
-	</div>
+	<form  class="form card" method="post" action="" accept-charset="UTF-8">
+    {{ csrfInput() }}
+    {{ actionInput('contact-form/send') }}
+    {{ redirectInput('/success-form') }}
+	
+		<input type="hidden" name="subject" value="Decom Website">
+		<input type="hidden" name="message[language]" value="{{ lang }}">
+		<input type="hidden" name="message[formName]" value="contact-form">
 
+
+		<div class="input-text__wrapper">
+
+			{# GENDER #}
+			<div class="input-radio__wrapper input-radio__wrapper--gender">
+				{% for row in form.formGender %}
+				<div class="input-radio">
+					<span class='input-radio__option'>	
+						<input class='input-radio__input' name="message[{{ row.name }}]" id="message[{{ row.value }}]" type='radio' value="{{ row.value }}" />
+						<label class='input-radio__label' for="message[{{ row.value }}]">{{ row.label }}</label>
+					</span>
+				</div>
+				{% endfor %}
+			</div>
+
+			{# FIRSTNAME #}
+			{% for row in form.formFirstname %}	
+				<div class="input-text">
+					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+					<input 
+						class='input-text__input' 
+						type='text' 
+						id="message[{{ row.name }}]"
+						name="{{ row.name }}" 
+						required
+					/>
+				</div>
+			{% endfor %}
+
+			{# LASTNAME #}
+			{% for row in form.formLastname %}	
+				<div class="input-text">
+					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+					<input 
+						class='input-text__input' 
+						type='text' 
+						id="message[{{ row.name }}]"
+						name="message[{{ row.name }}]" 
+						required
+					/>
+				</div>
+			{% endfor %}
+
+			{# COMPANY #}
+			{% for row in form.formCompany %}	
+				<div class="input-text">
+					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+					<input 
+						class='input-text__input' 
+						type='text' 
+						id="{{ row.name }}"
+						name="message[{{ row.name }}]" 
+					/>
+				</div>
+			{% endfor %}
+
+			{# EMAILADDRESS #}
+			{% for row in form.formEmailAddress %}	
+			<div class="input-text">
+				<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+				<input 
+					class='input-text__input' 
+					type='email' 
+					id="{{ row.name }}"
+					name="{{ row.name }}" 
+					required
+				/>
+			</div>
+		{% endfor %}
+		
+		{# PHONE #}
+		{% for row in form.formPhone %}	
+			<div class="input-text">
+				<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+				<input 
+					class='input-text__input' 
+					type='text' 
+					id="{{ row.name }}"
+					name="message[{{ row.name }}]" 
+				/>
+			</div>
+		{% endfor %}
+
+	</div>	
+	
+	{# CRYPTO CURRENCIES #}
 	{% if page == 'invest-now' %}
 		<div class="input-radio__wrapper input-radio__wrapper--crypto">
 			<p>{{ form.formCryptoQuestion }}</p>
 			{% for row in form.formCrypto %}
-				{% include ("partials/input-radio") with { label: row.label, name: row.name, value: row.value } %}
+				<div class="input-radio">
+					<span class='input-radio__option'>	
+						<input class='input-radio__input' id="message[{{ row.value }}]" name="message[{{ row.name }}]" type='radio' value="{{ row.label }}" />
+						<label class='input-radio__label' for="message[{{ row.value }}]">{{ row.label }}</label>
+					</span>
+				</div>
 			{% endfor %}
 		</div>	
 	{% endif %}
+	
+	<button class="form__button button button--blue" type="submit">{{ form.formButton }}</button>
 
-	{% include ("partials/button") with { text: form.formButton, class: "form__button", color: 'white'} %}
-</div>
+</form>

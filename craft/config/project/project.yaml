@@ -1,9 +1,9 @@
-dateModified: 1634892675
+dateModified: 1634926356
 email:
   fromEmail: developer@decom.ch
-  fromName: 'Decom Developer'
+  fromName: 'Decom '
   replyToEmail: developer@decom.ch
-  template: ''
+  template: emails/confirmation
   transportSettings:
     encryptionMethod: ssl
     host: asmtp.mail.hostpoint.ch
@@ -55,6 +55,7 @@ meta:
     8fefe0fa-c1db-432d-9393-eb276e149e29: Image # Image
     9adbcd4e-fd0e-4b16-a889-045ae4002e62: 'Privacy Policy' # Privacy Policy
     9b6a4551-d6e2-47a7-9a63-e19e34fa0cff: Default # Default
+    9b796480-f31d-4114-bbc6-3f160f948f9f: Downloads # Downloads
     9c2f7997-3081-4173-a64c-df8937e0d116: Text # Text
     9c77be6a-0184-484b-b3bf-c0f3c7cfa6ff: Pages # Pages
     9e6b4086-f0a8-4351-8ede-01b8e840a50f: 'Form Submissions' # Form Submissions
@@ -124,6 +125,7 @@ meta:
     07771f31-585a-4337-8f94-4cc4599122aa: 'Card Heading' # Card Heading
     8176e94a-c2d0-467a-8f2e-feeb2d8e925b: 'Portfolio Cards' # Portfolio Cards
     8314c389-170f-42d9-9f0e-9672fafff415: Date # Date
+    8847caff-ce1f-48ee-8441-c8bcd23927b8: 'Social Media Icons' # Social Media Icons
     9752d1c4-83d2-4dda-b72e-748c26628f8e: 'Card Heading' # Card Heading
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
     55324d78-6366-4167-a383-dd58e355304c: Navigation # Navigation
@@ -226,6 +228,39 @@ meta:
     fefee734-e08f-4a6f-9fd7-706082335c4a: 'Button URL' # Button URL
     ff2a9ff9-80ae-4e2d-8c0d-676666e4a62e: Role # Role
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      prependSender: 'Decom '
+      prependSubject: 'Decom Website'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: j.haas@cyberplanet.ch
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      confirmationSubject: 'Decom Website'
+      confirmationTemplate: emails/confirmation
+      enableConfirmationEmail: '1'
+      enableDatabase: '1'
+      enableRecaptchaOverride: ''
+      enableTemplateOverwrite: '1'
+      notificationTemplate: emails/message
+      recaptcha: ''
+      recaptchaDataBadge: bottomright
+      recaptchaDebug: ''
+      recaptchaHideBadge: ''
+      recaptchaSecretKey: ''
+      recaptchaSiteKey: ''
+      recaptchaThreshold: '0.5'
+      recaptchaTimeout: '5'
+      recaptchaUrl: ''
+      recaptchaVerificationUrl: ''
+      recaptchaVersion: ''
   redactor:
     edition: standard
     enabled: true

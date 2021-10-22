@@ -1,12 +1,28 @@
-<div class='card form' id="form">
 
-		{% for item in radio %}
-			{% render "@input-radio" with { label: item.label, name: item.name } %}
-		{% endfor %}
+<form class='card form' method="post" action="" id="form" accept-charset="UTF-8">
 
-		{% for item in text %}
-			{% render "@input-text" with { label: item.label, name: item.name } %} 	
-		{% endfor %}
+	<div class="input-radio__wrapper input-radio__wrapper--gender">
+			{% render "@input-radio" with { label: 'Herr', name: 'gender', value: 'Herr' } %}
+			{% render "@input-radio" with { label: 'Frau', name: 'gender', value: 'Frau' } %}
+	</div>
 
-	{% render "@button" with { text: "Infos beantragen", class: "form__button"} %}
-</div>
+	<div class="input-text__wrapper">
+		{% render "@input-text" with { label: "", name: "lang", class: "input-text--hidden", value: 'lang'} %}
+		{% render "@input-text" with { label: 'Vorname', name: 'firstname' } %} 	
+		{% render "@input-text" with { label: 'Nachname', name: 'lastname' } %} 	
+		{% render "@input-text" with { label: 'Unternehmen', name: 'company' } %} 	
+		{% render "@input-text" with { label: 'E-Mail Adresse', name: 'email-address' } %} 	
+		{% render "@input-text" with { label: 'Telefon-Nummer', name: 'phone-number' } %} 	
+	</div>
+
+		<div class="input-radio__wrapper input-radio__wrapper--crypto">
+			<p> Besitzen Sie bereits Krypto-Währungen?</p>
+			{% render "@input-radio" with { label: 'Ja', name: 'crypto', value: 'Ja' } %}
+			{% render "@input-radio" with { label: 'Nein', name: 'crypto', value: 'Nein' } %}
+		</div>	
+
+		<div class="form__submit">
+			<button class="form__button" type="submit">Senden</button>
+		</div>
+	{# {% render "@button" with { text: 'Senden', class: "", color: 'white'} %}  #}
+	</form>
