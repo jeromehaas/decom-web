@@ -1,9 +1,10 @@
 {% set form = craft.entries.section('form').one() %}
 {% set lang = currentSite.language %}
+{% set page = entry.slug %}
 
 <div class='card form' id="form">
 
-	<div class="input-radio__wrapper">
+	<div class="input-radio__wrapper input-radio__wrapper--gender">
 		{% for row in form.formGender %}
 			{% include ("partials/input-radio") with { label: row.label, name: row.name, value: row.value } %}
 		{% endfor %}
@@ -27,6 +28,15 @@
 			{% include ("partials/input-text") with { label: row.label, name: row.name } %} 	
 		{% endfor %}
 	</div>
+
+	{% if page == 'invest-now' %}
+		<div class="input-radio__wrapper input-radio__wrapper--crypto">
+			<p>{{ form.formCryptoQuestion }}</p>
+			{% for row in form.formCrypto %}
+				{% include ("partials/input-radio") with { label: row.label, name: row.name, value: row.value } %}
+			{% endfor %}
+		</div>	
+	{% endif %}
 
 	{% include ("partials/button") with { text: form.formButton, class: "form__button", color: 'white'} %}
 </div>

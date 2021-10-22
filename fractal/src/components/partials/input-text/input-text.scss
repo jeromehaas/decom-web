@@ -14,7 +14,7 @@
 	&__input {
 		background-color: $white;
 		border-radius: $border-radius;
-		border-width: 1px;
+		border-width: 0.5px;
 		border-style: solid;
 		border-color: $lightblue;
 		padding: 7.5px 15px;
@@ -24,11 +24,6 @@
 
 		&--error {
 			border-color: red !important;
-		}
-
-		&:focus, 
-		&:active {
-			border-color: $blue;
 		}
 		
 	}

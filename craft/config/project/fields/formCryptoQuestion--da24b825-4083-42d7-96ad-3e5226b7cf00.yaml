@@ -1,9 +1,9 @@
-columnSuffix: uypabfxi
+columnSuffix: vhrgatvo
 contentColumnType: text
 fieldGroup: 022bb762-8ee0-42f7-b0da-8132721dd0e6 # Form
-handle: formButton
+handle: formCryptoQuestion
 instructions: ''
-name: Button
+name: 'Crypto Question'
 searchable: false
 settings:
   byteLimit: null

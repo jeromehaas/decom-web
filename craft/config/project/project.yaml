@@ -1,4 +1,4 @@
-dateModified: 1633784009
+dateModified: 1634892675
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom Developer'
@@ -59,7 +59,7 @@ meta:
     9c77be6a-0184-484b-b3bf-c0f3c7cfa6ff: Pages # Pages
     9e6b4086-f0a8-4351-8ede-01b8e840a50f: 'Form Submissions' # Form Submissions
     9ffc23f6-4fc4-462f-b09f-c1b9025e12f1: Text # Text
-    12e4144b-7079-45e5-90c6-ba60d324d967: formButton # formButton
+    12e4144b-7079-45e5-90c6-ba60d324d967: Button # Button
     14f3515a-89b0-48e2-a4a2-3e3c63868dd4: 'Rich Text' # Rich Text
     19f379cf-9cc5-4b5b-9b55-0f0a780da0a2: 'Button Text' # Button Text
     022bb762-8ee0-42f7-b0da-8132721dd0e6: Form # Form
@@ -69,6 +69,7 @@ meta:
     44c4cac7-bdf9-44e5-9499-854084516269: 'Success Form' # Success Form
     47e141aa-0e25-4fba-a12d-3c3c69341d04: 'Request Informations' # Request Informations
     48ecb720-dbbf-40c8-ade7-b84c53975070: 'Advantages Icons' # Advantages Icons
+    49ef58fc-cf27-4d74-a507-4f325cfdd1a5: Crypto # Crypto
     56c6bc86-4c8d-45cd-94e4-02ee8e546449: 'Decom Web' # Decom Web
     56eb4d1d-6ad6-4587-a552-5b27cb0cead1: 'Button URL (Left)' # Button URL (Left)
     57d46814-b5d6-435b-9126-0697baf6c8b6: Content # Content
@@ -197,6 +198,7 @@ meta:
     d97e170d-8ab2-4b84-ae3d-c1a8f358cef1: Imprint # Imprint
     d798cc12-9886-402e-9579-c9410fb83089: Footer # Footer
     d9215dce-34e1-4faa-aee3-2daebff5f127: 'Card Heading' # Card Heading
+    da24b825-4083-42d7-96ad-3e5226b7cf00: 'Crypto Question' # Crypto Question
     daa71cd6-4b7b-4613-8a60-a5fc17b5fe47: Footer # Footer
     dcc4919b-6402-49a3-9319-8ccbc14549a0: Lastname # Lastname
     dfb9b5ed-be4a-4a78-a2e8-fcfa7a9142c4: URL # URL

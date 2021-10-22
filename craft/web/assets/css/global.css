@@ -76,7 +76,7 @@ p, li, td, a {
   font-family: "Heebo-Light"; }
 
 label {
-  font-size: 1.2em;
+  font-size: 1.8em;
   color: #041834;
   font-family: "Heebo-Light"; }
 
@@ -343,8 +343,13 @@ body {
   display: block;
   max-width: 400px;
   display: grid; }
-  .form .input-radio:nth-child(2) {
+  .form .input-radio__wrapper {
     margin-bottom: 15px; }
+    .form .input-radio__wrapper p {
+      margin-bottom: 10px;
+      text-align: left; }
+  .form .input-radio {
+    display: inline-block; }
   .form__button {
     width: 100%;
     text-align: center;
@@ -527,7 +532,7 @@ body {
 .input-text__input {
   background-color: #fff;
   border-radius: 7.5px;
-  border-width: 1px;
+  border-width: 0.5px;
   border-style: solid;
   border-color: #f0f4fc;
   padding: 7.5px 15px;
@@ -536,8 +541,6 @@ body {
   width: 100%; }
   .input-text__input--error {
     border-color: red !important; }
-  .input-text__input:focus, .input-text__input:active {
-    border-color: #2d7eff; }
 
 .language-switcher__button {
   border: 1px solid #fff;

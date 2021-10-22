@@ -14,6 +14,7 @@ class Form {
 			email_address: document.getElementsByName("email_address")[0],
 			phone_number: document.getElementsByName("phone_number")[0],
 			lang: document.getElementsByName("lang")[0],
+			gender: document.getElementsByName("crypto")[0],
 		};
 		this.values ={
 			gender: "",
@@ -23,6 +24,7 @@ class Form {
 			email_address: "",
 			phone_number: "",
 			lang: "",
+			crypto: ""
 		}
 		if (this.form && this.inputs) {
 			this.init();
@@ -37,7 +39,7 @@ class Form {
 		this.reset();
 		for ( let input in this.inputs ) {
 			this.values[input] = this.inputs[input].value;
-			if ( input === 'company' || input === 'phone_number') {
+			if ( input === 'company' || input === 'phone_number' || input === 'crypto') {
 				continue;
 			} else {
 				if (this.inputs[input].value === "") this.errors.push(input);
