@@ -1,0 +1,15 @@
+columnSuffix: whmiusqd
+contentColumnType: string(255)
+fieldGroup: a33e4f14-33b1-484b-ab4d-767e93c59209 # Success Newlsetter Subscription
+handle: successNewsletterSubscriptionButtonUrl
+instructions: ''
+name: 'Button URL'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

@@ -1,0 +1,29 @@
+.success-form {
+	padding: 60px 0;
+	background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/assets/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+	min-height: 767px;
+
+	& .section {
+	}
+
+	&__card {
+		display: block;
+	}
+
+	&__title {
+		margin-top: 60px;
+		margin-bottom: 15px;
+	}
+
+	&__text {
+		margin-bottom: 15px;
+	}
+
+	&__button {
+		margin-bottom: 60px;
+	}
+
+}

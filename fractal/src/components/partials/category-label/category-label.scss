@@ -1,0 +1,14 @@
+.category-label {
+
+	padding: 5px 15px;
+	background-color: $blue;
+	display: inline-block;
+	color: $white;
+	border-radius: 5px;
+	margin-right: 15px;
+
+	&--green { background-color: $green; }
+	&--blue { background-color: $blue; }
+	&--red { background-color: $red; }
+	&--orange { background-color: $orange; }
+}

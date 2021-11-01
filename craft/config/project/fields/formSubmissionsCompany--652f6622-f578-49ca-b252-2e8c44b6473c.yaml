@@ -1,0 +1,19 @@
+columnSuffix: udtzshua
+contentColumnType: text
+fieldGroup: c95c53d6-a8e3-4415-87dd-f33b4d767917 # Form Submissions
+handle: formSubmissionsCompany
+instructions: ''
+name: Company
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

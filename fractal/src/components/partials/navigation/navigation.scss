@@ -19,7 +19,7 @@
 			justify-content: space-between;
 			align-items: center;
 			padding: 30px;
-			max-width: $max-width;
+			max-width: 1500px;
 			margin: 0 auto;
 			height: 100px;
 		}
@@ -29,17 +29,11 @@
 		}
 		
 		&__logo {
-			height: 35px;
+			height: 50px;
 		}
 
 		&__link-container {
 			position: relative;
-	
-			// &:hover > .navigation-desktop__link-dropdown-box, 
-			// .navigation-desktop__link-dropdown-box:hover {
-			// 	display: flex;
-			// }
-
 		}
 
 		&__links {
@@ -60,12 +54,16 @@
 				}
 
 				&:after {
-					content: url('/icons/input-field-icons/dropdown-caret.svg');
+					content: url('/assets/icons/input-field-icons/dropdown-caret-darkblue.svg');
 					width: 7.5px;
 					height: 7.5px;
 					display: inline-block;
 					margin-left: 7.5px;
 					transform: translateY(-25%);
+					-webkit-transform: translateY(-25%);
+					-moz-transform: translateY(-25%);
+					 -ms-transform: translateY(-25%);
+						-o-transform: translateY(-25%);;
 				}
 			}
 		}
@@ -131,6 +129,7 @@
 			position: absolute;
 			right: -100%;
 			transition: all 0.3s ease;
+			overflow: scroll;
 
 			&--open {
 				right: -0%;
@@ -150,11 +149,37 @@
 			display: flex;
     	flex-direction: column;
 			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 75px;
 		}
 		
 		&__link {
 			color: $white;
 			padding: 5px 0;
+
+			&--has-childs {
+				
+				&::after {
+					content: url('/assets/icons/input-field-icons/dropdown-caret-white.svg');
+					width: 7.5px;
+					height: 7.5px;
+					display: inline-block;
+					margin-left: 7.5px;
+					transform: translateY(-25%);
+					-webkit-transform: translateY(-25%);
+					-moz-transform: translateY(-25%);
+					 -ms-transform: translateY(-25%);
+						-o-transform: translateY(-25%);
+				}
+
+				> * {
+					fill: white;
+				}
+			
+			}
+
 		}
 		
 		&__sublink-box {
@@ -166,6 +191,11 @@
 			&--open {
 				max-height: unset;
 				display: flex;
+				width: 175px;
+				border-top: 1px solid $white;
+				border-bottom: 1px solid $white;
+				padding: 10px;
+				margin: 10px;
 			}
 		}
 		
@@ -173,17 +203,18 @@
 			color: $white;
 			padding: 7.5px 0;
 			width: 100%;
+			text-align: center;
 			
-			&::before {
-				content: '';
-				width: 5px;
-				height: 5px;
-				background-color: $white;
-				display: inline-block;
-				transform: translateY(-3px);
-				border-radius: 50%;
-				margin-right: 10px;
-			}
+			// &::before {
+			// 	content: '';
+			// 	width: 5px;
+			// 	height: 5px;
+			// 	background-color: $white;
+			// 	display: inline-block;
+			// 	transform: translateY(-3px);
+			// 	border-radius: 50%;
+			// 	margin-right: 10px;
+			// }
 		}
 		
 	}

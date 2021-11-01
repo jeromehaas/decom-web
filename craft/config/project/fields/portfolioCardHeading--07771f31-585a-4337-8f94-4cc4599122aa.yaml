@@ -1,0 +1,19 @@
+columnSuffix: ivgharbx
+contentColumnType: text
+fieldGroup: 8176e94a-c2d0-467a-8f2e-feeb2d8e925b # Portfolio Cards
+handle: portfolioCardHeading
+instructions: ''
+name: 'Card Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

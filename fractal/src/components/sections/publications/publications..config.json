@@ -1,30 +1,31 @@
 {
 	"name": "Publications", 
 	"context": {
+		"title": "Featured in",
 		"publications": [
 			{
 				"link": "https://www.coinpro.ch/studie-deshalb-kam-es-zum-preisfall-von-bitcoin-ende-letzten-jahres/",
-				"logoUrl": "/logos/publications/logo-coinpro.png",
+				"logoUrl": "/assets/logos/publications/logo-coinpro.png",
 				"altTag": "Coinpro"
 			},
 			{
 				"link": "https://www.finews.ch/news/finanzplatz/35534-bitcoin-crash-erklaerung-decom",
-				"logoUrl": "/logos/publications/logo-finews.png",
+				"logoUrl": "/assets/logos/publications/logo-finews.png",
 				"altTag": "Finews"
 			},
 			{
 				"link": "https://www.luzernerzeitung.ch/zentralschweiz/zug/wie-iraner-ins-crypto-valley-kommen-ld.1110558",
-				"logoUrl": "/logos/publications/logo-luzerner-zeitung.png",
+				"logoUrl": "/assets/logos/publications/logo-luzerner-zeitung.png",
 				"altTag": "Luzerner Zeitung"
 			},
 			{
 				"link": "https://www.wealthandfinance-news.com/winners/decom-switzerland-llc/",
-				"logoUrl": "/logos/publications/logo-wealth-and-finance.png",
+				"logoUrl": "/assets/logos/publications/logo-wealth-and-finance.png",
 				"altTag": "Wealth & Finance"
 			},
 			{
 				"link": "https://www.zug4you.ch/en/news/news-articles/a/iranian-crypto-currency-entrepreneur-looks-to-operating-through-zug",
-				"logoUrl": "/logos/publications/logo-zug4you.png",
+				"logoUrl": "/assets/logos/publications/logo-zug4you.png",
 				"altTag": "Zug4You"
 			}
 		]

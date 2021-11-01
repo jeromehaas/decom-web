@@ -1,14 +1,18 @@
 <section id='hero' class='hero section'>
 	<div class='hero__inner section__inner'>
 
+	<span class="hero__heading-wrapper">
 		{% render "@heading" with { text: 'Ihre Vermögensverwaltung für Kryptowährungen', class: 'hero__heading'} %}
+	</span>
+		
+	{% render "@heading" with { text: 'Wir erstellen Ihnen ein Krypto-Portfolio und verwalten es für Sie aktiv.', type: "h2", class: 'hero__teaser'} %}
 
 		<div class='hero__button-container'>
-			{% render "@button" with { color: "blue", text: "Hello", class: "hero__button"} %}
+			{% render "@button" with { color: "darkblue", text: "Hello", class: "hero__button"} %}
 			{% render "@button" with { color: "white", text: "World", class: "hero__button"} %}
 		</div>
 
-		<img class='hero__globus' src='/logos/decom/logo-decom-globus.svg' alt='Decom'  />
+		<img class='hero__globus' src='/assets/logos/decom/logo-decom-globus.svg' alt='Decom'  />
 
 	</div>	
 </section>

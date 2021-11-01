@@ -3,7 +3,7 @@
 	position: relative;
 	background-position: 100% 100%;
 	background-size: 300vh;
-	background-image:  url('/graphics/graphic-wave-inverted.svg');
+	background-image:  url('/assets/graphics/graphic-wave-inverted.svg');
 	background-repeat: no-repeat;
 
 &__inner {
@@ -24,14 +24,20 @@
 	display: grid;
 	grid-template: auto auto / repeat(2, 1fr);
 	grid-gap: 30px;
+	margin-top: 30px;
 	margin-bottom: 45px,
 }
 
 &__card {
+	background-image: url('/assets/logos/decom/logo-decom-globus-gradient.jpeg');
+	background-size: 200px;
+	background-position: right -100px bottom -100px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
 
-	&__title {}
-	&__line {}
-	&__list-element{}
+	&__title { font-size: 20px;}
+	&__list-element { font-size: inherit; }
 
 }
 
@@ -42,7 +48,7 @@
 	text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	
 	&__card-wrapper {
 		grid-template: auto auto / repeat(1, 1fr);
@@ -54,7 +60,7 @@
 			text-align: center;
 		}
 
-		&__line {
+		& .line {
 			margin: 30px auto;
 		}
 

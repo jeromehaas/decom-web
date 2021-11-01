@@ -1,0 +1,56 @@
+fieldLayouts:
+  4800cad2-882d-427a-bee8-295efc216392:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 07771f31-585a-4337-8f94-4cc4599122aa # Card Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7f7c5213-842b-42cb-87cf-a4ff30211285 # Card List Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: default
+hasTitleField: false
+name: Default
+section: c2bd43c8-768a-49fa-a790-d741d1ab4b86 # Portfolio Cards
+sortOrder: 1
+titleFormat: '{portfolioCardHeading}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

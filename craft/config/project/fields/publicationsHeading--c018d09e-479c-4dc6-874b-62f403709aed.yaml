@@ -1,0 +1,19 @@
+columnSuffix: toszcuib
+contentColumnType: text
+fieldGroup: acc82756-cf0e-4738-9ff4-0bfe0104787c # Publications
+handle: publicationsHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

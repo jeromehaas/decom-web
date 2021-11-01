@@ -2,6 +2,7 @@
 	"name": "Portfolio",
 	"context": {
     "title":"Starte mit einem Portfolio",
+		"link": "/request-informations",
     "text":"Je nach Ihren individuellen Bedürfnissen, Zielen und Möglichkeiten wird für Ihr Geld eine «defensive», «ausgewogene», «dynamische» oder «dynamisch plus» Anlagestrategie ausgewählt. Auch andere Faktoren wie Ihr Anlagehorizont, Ihre Risikotoleranz und Ihre Vermögensstruktur spielen eine entscheidende Rolle.",
     "cards":[
       {

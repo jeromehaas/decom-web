@@ -1,0 +1,59 @@
+.blog-post {
+
+	padding: 30px 0;
+	background-color: $lightblue;
+	&__card {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		display: block;
+		max-width: $max-width;
+	}
+
+	&__card > * {
+		margin-bottom: 20px;
+	}
+
+	&__heading {
+		margin-bottom: 10px;
+	}
+
+	&__date {
+		margin-bottom: 25px;
+	}
+
+	&__category-label {
+		margin-bottom: 25px;
+	}
+
+	&__image {
+
+		&--big {
+			width: 100%;
+		}
+	
+		&--small {
+			width: 50%;
+			border: 10;
+			margin: 0 auto 20px auto;
+		}
+
+	}
+
+	&__button {
+		margin: 0 auto;
+		display: block;
+		max-width: 200px; 
+		text-align: center;
+	}
+
+	@media (max-width: 700px) {
+		&__image {
+
+			&--small {
+				width: 100%;
+			}
+	
+		}
+	}
+
+}

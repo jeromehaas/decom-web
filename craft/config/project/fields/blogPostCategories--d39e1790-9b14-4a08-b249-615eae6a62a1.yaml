@@ -1,0 +1,36 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2f4e054b-a655-44f4-8f45-656936edd3f9 # Blog Posts
+handle: blogPostCategories
+instructions: ''
+name: Categories
+searchable: false
+settings:
+  multi: true
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Crypto Global'
+        -
+          - value
+          - orange
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Crypto Research'
+        -
+          - value
+          - blue
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MultiSelect

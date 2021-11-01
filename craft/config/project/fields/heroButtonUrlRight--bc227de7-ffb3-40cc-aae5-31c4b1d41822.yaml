@@ -1,0 +1,15 @@
+columnSuffix: sscbnvbq
+contentColumnType: string(255)
+fieldGroup: 102b9743-97fa-4132-b305-0df707717f31 # Hero
+handle: heroButtonUrlRight
+instructions: ''
+name: 'Buton URL (Right)'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

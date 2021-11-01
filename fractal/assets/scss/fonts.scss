@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Heebo-Light';
 	src:
-		local('fonts/heebo'), url('/fonts/heebo/heebo-light.woff2') format('woff2'),
-		local('fonts/heebo'), url('/fonts/heebo/heebo-light.woff') format('tff');
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-light.woff2') format('woff2'),
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-light.woff') format('tff');
 	font-weight: 300;
 	font-style: normal;
 	font-display: block;
@@ -11,8 +11,8 @@
 @font-face {
 	font-family: 'Heebo-Medium';
 	src:
-		local('fonts/heebo'), url('/fonts/heebo/heebo-medium.woff2') format('woff2'),
-		local('fonts/heebo'), url('/fonts/heebo/heebo-medium.woff') format('tff');
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-medium.woff2') format('woff2'),
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-medium.woff') format('tff');
 	font-weight: 500;
 	font-style: normal;
 	font-display: block;
@@ -21,8 +21,8 @@
 @font-face {
 	font-family: 'Heebo-Bold';
 	src:
-		local('fonts/heebo'), url('/fonts/heebo/heebo-bold.woff2') format('woff2'),
-		local('fonts/heebo'), url('/fonts/heebo/heebo-bold.woff') format('tff');
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-bold.woff2') format('woff2'),
+		local('assets/fonts/heebo'), url('/assets/fonts/heebo/heebo-bold.woff') format('tff');
 	font-weight: 700;
 	font-style: normal;
 	font-display: block;

@@ -1,0 +1,6 @@
+<div class="timeline-point {{ class|default('') }}"}>
+	<div class='timeline-point__card'>
+	{% include "partials/text" with { text: date } %}
+	{% include "partials/heading" with { text: description, class: "timeline-point__description", type: "h3" } %}
+	</div>	
+</div>

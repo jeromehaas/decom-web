@@ -1,0 +1,58 @@
+columnSuffix: ivfpwhgv
+contentColumnType: text
+fieldGroup: b03ceaef-8e2d-4e9f-a5c1-7a915c83d255 # Roadmap
+handle: roadmapCards
+instructions: ''
+name: Cards
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Date
+            -
+              - handle
+              - date
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Event
+            -
+              - handle
+              - event
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - '[object Object]'
+        -
+          - col2
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

@@ -1,0 +1,13 @@
+{% set error = craft.entries.section('error').one() %}
+
+<section id='success-form' class='success-form section'>
+			<div class='success-form__inner section__inner'>
+	
+				<div class="success-form__card card" >
+					{% include ("partials/heading") with { text: error.errorTitle, class: "success-form__title", type: 'h2' } %}
+					{% include ("partials/text") with { text: error.errorText, class: "success-form__text" } %}
+					{% include ("partials/button") with { text: error.errorButtonText, class: "success-form__button", color: "white", link: error.errorButtonUrl } %}
+				</div>
+
+			</div>
+		</section>

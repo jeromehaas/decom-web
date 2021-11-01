@@ -1,0 +1,6 @@
+<div class="card persona {{ class|default('') }}"}>
+	<img class='persona__image' src={{ imgUrl }} alt={{ name }} />	
+	{% include ("partials/heading") with { text: name, class: "persona__name", type: "h2" } %}
+	{% include ("partials/text") with { text: role, class: "persona__role", type: "h2" } %}
+	{% include ("partials/text") with { text: description, class: "persona__description", type: "h2" } %}
+</div>

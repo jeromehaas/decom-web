@@ -1,0 +1,76 @@
+field: 242be248-7cc9-49a1-8c4b-fdfe10a538da # Logos
+fieldLayouts:
+  5266630f-594f-41f0-843e-8c2f8706069a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f6e3493d-c456-4618-8828-ce5fe0700434 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dfb9b5ed-be4a-4a78-a2e8-fcfa7a9142c4 # URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  dfb9b5ed-be4a-4a78-a2e8-fcfa7a9142c4: # URL
+    columnSuffix: gcnsszpr
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: publicationsUrl
+    instructions: ''
+    name: URL
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  f6e3493d-c456-4618-8828-ce5fe0700434: # Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: publicationsLogo
+    instructions: ''
+    name: Logo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:b5017fd1-2fe4-45a1-82c8-f608e357f3af' # Publication Logos
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets

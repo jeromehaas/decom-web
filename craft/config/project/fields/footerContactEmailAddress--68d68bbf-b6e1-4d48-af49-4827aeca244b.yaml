@@ -1,0 +1,19 @@
+columnSuffix: euckklpk
+contentColumnType: text
+fieldGroup: 7d9a46af-f0d7-4984-92e2-4096ebec2e38 # Footer
+handle: footerContactEmailAddress
+instructions: ''
+name: 'Email Address'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

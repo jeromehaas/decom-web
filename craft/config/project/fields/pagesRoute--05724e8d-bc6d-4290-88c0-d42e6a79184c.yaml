@@ -1,0 +1,15 @@
+columnSuffix: wkpnfgec
+contentColumnType: string(255)
+fieldGroup: e8cdfc58-722a-4596-8daa-48e3420d2ae8 # Pages
+handle: pagesRoute
+instructions: ''
+name: Route
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

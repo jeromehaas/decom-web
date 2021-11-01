@@ -1,0 +1,19 @@
+columnSuffix: dwqojlut
+contentColumnType: text
+fieldGroup: fde6d049-18ea-4505-ad38-0a99678e8b56 # Team Cards
+handle: teamCardRole
+instructions: ''
+name: Role
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

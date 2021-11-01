@@ -30,7 +30,7 @@ p, li, td, a {
 }
 
 label {
-	font-size: 1.2em;
+	font-size: 1.8em;
 	color: $darkblue;
 	font-family: "Heebo-Light";
 }
@@ -49,7 +49,40 @@ input {
 	font-size: 1em;
 }
 
-.navigation-mobile__link,
-.navigation-mobile__sublink-item {
+.navigation-mobile__link {
 	font-size: 2.4em;
+}
+
+.navigation-mobile__sublink-item {
+	font-size: 1.8em
+}
+
+.image__caption {
+	font-size: 1.4em;
+}
+
+
+@media (max-width: 850px) {
+	.blog-card__heading {
+		font-size: 2em;
+	}
+	.top-blog-card__heading {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 500px) {
+	h1, .heading--h1 {
+		font-size: 3em;
+	}
+	h2, .heading--h2 {
+		font-size: 2.0em;
+		font-family: "Heebo-Medium";
+	}
+}
+
+@media (max-width: 450px) {
+	h1, .heading--h1 {
+		font-size: 2.5em;
+	}
 }

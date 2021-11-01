@@ -1,0 +1,37 @@
+
+{# <div class="input-newsletter-subscription {{ class}}" id="input-newsletter-subscription">
+<input class='input-newsletter-subscription__input input-newsletter-subscription__input--hidden' type='text' name="nl_lang" value='{{ lang }}' />
+<input class='input-newsletter-subscription__input' type='text' name="nl_email_address" placeholder='{{ placeholderText }}' />
+<img class='input-newsletter-subscription__icon' id="input-newsletter-subscription__icon" src='/assets/icons/various/nl-subscription-email.svg' alt='Email' />
+</div> #}
+
+{% set form = craft.entries.section('form').one() %}
+{% set lang = currentSite.language %}
+{% set page = entry.slug %}
+{% set placeholderText = currentSite.language == 'de' ? 'Ihre E-Mail-Adresse' : 'your email-address' %}
+
+
+{% macro errorList(errors) %}
+    {% if errors %}
+        {{ ul(errors, {class: 'errors'}) }}
+    {% endif %}
+{% endmacro %}
+
+{% set message = message ?? null %}
+
+	<form  class="input-newsletter-subscription" id="input-newsletter-subscription" method="post" action="" accept-charset="UTF-8">
+    {{ csrfInput() }}
+    {{ actionInput('contact-form/send') }}
+    {{ redirectInput('/success-form') }}
+	
+		<input type="hidden" name="subject" value="Decom Website">
+		<input type="hidden" name="message[language]" value="{{ lang }}">
+		<input type="hidden" name="message[formName]" value="newsletter-subscription">
+		<input type="hidden" name="fromName" value=" ">
+		<input type='hidden' name="nl_lang" value='{{ lang }}' />
+
+		{# EMAILADDRESS #}
+		<input class='input-newsletter-subscription__input' type='email' name="fromEmail" placeholder='{{ placeholderText }}' required />
+		<input type="submit" class="input-newsletter-subscription__button" value="" /> 
+
+</form>

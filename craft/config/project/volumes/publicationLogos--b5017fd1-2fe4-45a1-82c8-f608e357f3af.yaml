@@ -1,0 +1,40 @@
+fieldLayouts:
+  958f362d-9f1b-49ee-ba6c-c4ba436cbcf0:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: publicationLogos
+hasUrls: true
+name: 'Publication Logos'
+settings:
+  path: ./uploads/advantages-icons
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+type: craft\volumes\Local
+url: '@web/uploads/advantages-icons'

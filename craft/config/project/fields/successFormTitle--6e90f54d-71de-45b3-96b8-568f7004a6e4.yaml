@@ -1,0 +1,19 @@
+columnSuffix: hgwdpqod
+contentColumnType: text
+fieldGroup: 503735ce-b504-4ae6-8af6-1717fe0e2a5a # Success Form
+handle: successFormTitle
+instructions: ''
+name: Title
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

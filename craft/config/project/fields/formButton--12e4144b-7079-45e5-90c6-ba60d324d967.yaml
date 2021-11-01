@@ -1,0 +1,19 @@
+columnSuffix: uypabfxi
+contentColumnType: text
+fieldGroup: 022bb762-8ee0-42f7-b0da-8132721dd0e6 # Form
+handle: formButton
+instructions: ''
+name: Button
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

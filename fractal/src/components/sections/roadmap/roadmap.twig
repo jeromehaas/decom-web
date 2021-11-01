@@ -3,9 +3,11 @@
 	
 					{% render "@heading" with { text: title, class: "roadmap__title", type: 'h2' } %}
 
-					{% for item in items %}
-						{% render "@timeline-point" with { date: item.date, description: item.description } %}
-					{% endfor %}
+					<div class="roadmap__card card">					
+						{% for item in items %}
+							{% render "@timeline-point" with { date: item.date, description: item.description } %}
+						{% endfor %}
+					</div>
 
 	
 			</div>

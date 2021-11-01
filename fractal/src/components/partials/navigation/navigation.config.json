@@ -4,7 +4,7 @@
 		"links": [
 			{
 				"name": "Home", 
-				"link": "#",
+				"link": "/",
 				"sublinks": []
 			},
 			{
@@ -12,28 +12,30 @@
 				"sublinks": [
 					{
 						"name": "Unternehmen",
-						"link": "#"
+						"link": "/company"
 					},
 					{
 						"name": "Team",
-						"link": "#"
+						"link": "/team"
 					},
 					{
 						"name": "FAQ",
-						"link": "#"
+						"link": "/faq"
 					},
 					{
 						"name": "Roadmap",
-						"link": "#"
+						"link": "/roadmap"
 					}
 				]
 			},
 			{
-				"name": "Insights & Blog", 
+				"name": "Insights & Blog",
+				"link": "/blog-overview", 
 				"sublinks": []
 			},
 			{
 				"name": "Login", 
+				"link": "https:binance.com",
 				"sublinks": []
 			}
 		]	

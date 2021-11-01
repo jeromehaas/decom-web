@@ -1,0 +1,20 @@
+{% set faq = craft.entries.section('faq').one() %}
+
+<section id='faq' class='faq section'>
+			<div class='faq__inner section__inner'>
+	
+
+					{% include ("partials/heading") with { text: faq.faqHeading, class: 'faq__title' ,type: "h2" } %}
+
+					<div class='faq__accordion-wrapper'>
+
+					{% for row in faq.faqCards %}
+
+						{% include ("partials/accordion") with { title: row.question, content: row.answer } %}
+
+							{% endfor %}
+								
+				</div>
+
+			</div>
+		</section>

@@ -1,0 +1,19 @@
+columnSuffix: ntlcwmwu
+contentColumnType: text
+fieldGroup: b03ceaef-8e2d-4e9f-a5c1-7a915c83d255 # Roadmap
+handle: roadmapHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

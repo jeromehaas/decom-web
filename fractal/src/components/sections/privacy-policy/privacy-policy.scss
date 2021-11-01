@@ -3,7 +3,7 @@
 	padding-top: 60px;
 	background-size: 300%;
 	background-position: 0% 0%;
-	background-image:  url('/graphics/graphic-wave.svg');
+	background-image:  url('/assets/graphics/graphic-wave.svg');
 	background-repeat: no-repeat;
 
 	&__title {
@@ -20,13 +20,20 @@
 
 		margin-bottom: 90px;
 
-		&__title {
+		&__title, h3 {
 			margin-bottom: 15px;
+			color: $darkblue;
+
 		}
 
-		&__text {
-			margin-bottom: 15px;
+		&__text, p {
+			margin-bottom: 30px;
 			word-break: break-word;
+			color: $darkblue;
+		}
+
+		&__link, a {
+			font-size: inherit;
 		}
 
 		&__list-item {

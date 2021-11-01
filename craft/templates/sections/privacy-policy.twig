@@ -1,0 +1,22 @@
+{% set privacyPolicy = craft.entries.section('privacyPolicy').one() %}
+
+<section id='privacy-policy' class='privacy-policy section'>
+			<div class='privacy-policy__inner section__inner'>
+
+				{% include ("partials/heading") with { text: privacyPolicy.privacyPolicyHeading, class: 'privacy-policy__title', type: 'h2' } %}
+				{% include ("partials/text") with { text: privacyPolicy.privacyPolicyText, class: "privacy-policy__text" } %}	
+				
+				<div class='card privacy-policy__card'>
+				
+				{% include ("partials/text") with { text: privacyPolicy.privacyPolicyContent, class: "privacy-policy__card__text" } %}	
+				{# {% for item in items %}
+							<div class='privacy-policy__item'>
+								{% include ("partials/heading") with { text: item.title, class: 'privacy-policy__card__title', type: 'h3' } %}
+								{% include ("partials/text") with { text: item.text, class: "privacy-policy__card__text" } %}
+							</div>	
+						{% endfor %} #}
+
+				</div>	
+
+			</div>
+		</section>

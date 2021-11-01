@@ -1,0 +1,38 @@
+{% set footer = craft.entries.section('footer').one() %}
+
+<footer class='footer'>
+	<div class='footer__inner'>
+		<div class='footer__info-block-wrapper'>
+			
+			<div class="footer__info-block footer__info-block--block-1">
+				{% include ("partials/heading") with { text: footer.footerContactHeading, class: "h3", type: "h3", color: "white"} %}		
+				{% include ("partials/line") with { color: "white"} %}
+				{% include ("partials/text") with { text: footer.footerContactStreet, color: "white"} %} 
+				{% include ("partials/text") with { text: footer.footerContactTown, color: "white"} %} 
+				{% include ("partials/link") with { text: footer.footerContactEmailAddress, class: "footer__link" ,color: "white", link: "mailto:info@decom.ch"} %}
+				{% include ("partials/link") with { text: footer.footerContactPhone, class: "footer__link" ,color: "white", link: "tel:04155592115"} %}
+			</div>
+			
+			<div class='footer__info-block footer__info-block--block-2'>
+				{% include ("partials/heading") with { text: footer.footerLinksHeading, class: "h3", type: "h3", color: "white" } %}		
+				{% include ("partials/line") with { color: "white"} %}
+				{% for row in footer.footerLinksPages %}
+					{% include ("partials/link") with { text: row.text, class: "footer__link", color: "white", link: row.link } %}
+				{% endfor %}
+			</div>
+
+			<div class="footer__info-block footer__info-block--block-3">
+				{% include ("partials/heading") with { text: footer.socialHeading, class: "h3", type: "h3", color: "white" } %}			
+				{% include ("partials/line") with { color: "white"} %}
+				{% include ("partials/input-newsletter-subscription") with { class: 'footer__newsletter-subscription' } %}
+				{% include ("partials/social-media-icons") with { class: "footer__social-media-icons social-media-icons--white", color: "white" } %}	
+				{% include ("partials/language-switcher") with { class: "footer__language-switcher" } %}
+			</div>
+
+		</div>
+
+		<img class='footer__image' src='/assets/logos/other/logo-vqf.png' alt='VQF Verein zur Qualitätssicherung von Finanzdienstleistungen' />
+		{% include ("partials/text") with { text: "Copyright © 2021 DECOM Switzerland AG", class: "footer__copyright text--white" } %}
+
+	</div>
+</footer>

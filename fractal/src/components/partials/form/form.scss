@@ -4,7 +4,22 @@
 		display: block;
 		max-width: 400px;
 		display: grid;
-		
+
+		& .input-radio__wrapper {
+
+			margin-bottom: 15px;
+
+			p {
+				margin-bottom: 10px;
+				text-align: left;
+			}
+
+		}
+
+		& .input-radio {
+			display: inline-block;
+		}
+
 		&__button {
 			width: 100%;
 			text-align: center;

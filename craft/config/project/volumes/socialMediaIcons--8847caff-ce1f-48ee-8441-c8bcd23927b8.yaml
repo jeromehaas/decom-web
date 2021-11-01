@@ -1,0 +1,40 @@
+fieldLayouts:
+  de5cf736-2667-43f2-94c0-3436cd30e66e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: socialMediaIcons
+hasUrls: true
+name: 'Social Media Icons'
+settings:
+  path: ./uploads/social-media-icons
+sortOrder: 7
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+type: craft\volumes\Local
+url: '@web/uploads/social-media-icons'

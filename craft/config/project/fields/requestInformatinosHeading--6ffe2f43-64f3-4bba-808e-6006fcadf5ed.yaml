@@ -1,0 +1,19 @@
+columnSuffix: tmcoqdzq
+contentColumnType: text
+fieldGroup: 47e141aa-0e25-4fba-a12d-3c3c69341d04 # Request Informations
+handle: requestInformatinosHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

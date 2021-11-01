@@ -1,0 +1,15 @@
+columnSuffix: jynzebxo
+contentColumnType: string(255)
+fieldGroup: 88dc9c41-f4d5-4d80-bb10-1824ef40e5a9 # Navigation
+handle: navigationButtonLink
+instructions: ''
+name: 'Button Link'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

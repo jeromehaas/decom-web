@@ -17,7 +17,7 @@
 	}
 
 	&__logo-image {
-		height: 100%;
+		height: 100px;
 		margin: 0 auto;
 		display: block;
 	}
@@ -27,6 +27,9 @@
 		&__logo-link {
 			max-height: 75px;
 		}	
+		&__logo-image {
+			height: 75px;
+		}
 	} 
 	
 	@media (max-width: 530px) {
@@ -34,6 +37,9 @@
 		&__logo-link {
 			max-height: 50px;
 		}	
+		&__logo-image {
+			height: 50px;
+		}
 	} 
 
 	@media (max-width: 370px) {

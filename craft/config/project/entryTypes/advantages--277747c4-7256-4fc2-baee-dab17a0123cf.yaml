@@ -1,0 +1,65 @@
+fieldLayouts:
+  dd4c7102-7735-4a6c-afd9-c2cba574d187:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: d2c90e0a-9924-4ccb-96ce-3a63ce210d75 # Card Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9752d1c4-83d2-4dda-b72e-748c26628f8e # Card Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 940e3270-e12d-49ad-ac3e-944d259e2c9e # Card Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: advantages
+hasTitleField: false
+name: Advantages
+section: 003ca87e-0573-4b1c-805d-95d38d0186a1 # Advantages Cards
+sortOrder: 1
+titleFormat: '{heading}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

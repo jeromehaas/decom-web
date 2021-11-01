@@ -1,0 +1,19 @@
+columnSuffix: lxapewcn
+contentColumnType: text
+fieldGroup: 102b9743-97fa-4132-b305-0df707717f31 # Hero
+handle: heroTeaser
+instructions: ''
+name: Teaser
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

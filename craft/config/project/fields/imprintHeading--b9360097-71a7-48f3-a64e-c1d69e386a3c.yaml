@@ -1,0 +1,19 @@
+columnSuffix: tycrglnb
+contentColumnType: text
+fieldGroup: d97e170d-8ab2-4b84-ae3d-c1a8f358cef1 # Imprint
+handle: imprintHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

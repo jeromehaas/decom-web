@@ -3,8 +3,12 @@
 	padding-top: 60px;
 	background-size: 300%;
 	background-position: 0% 0%;
-	background-image:  url('/graphics/graphic-wave.svg');
+	background-image:  url('/assets/graphics/graphic-wave.svg');
 	background-repeat: no-repeat;
+
+	&__inner {
+		min-height: 80vh;
+	}
 
 	&__title {
 		margin-bottom: 45px;

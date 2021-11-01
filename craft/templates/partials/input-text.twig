@@ -1,0 +1,9 @@
+<div class="input-text {{ class|default('') }}">
+	<label class='input-text__label' for="{{ name }}">{{ label }}</label>	
+	<input 
+		class='input-text__input' 
+		type='text' 
+		id="{{ name }}"
+		name="message[{{ name }}]" 
+	/>
+</div>

@@ -1,0 +1,50 @@
+{% set blogPosts = craft.entries.section('blogPosts').limit(21) %}
+{% set firstBlogPost = blogPosts.first() %}
+{% set allBlogPosts = blogPosts.id('not ' ~ firstBlogPost.id) %}
+{% set next = currentSite.language == 'de' ? 'weiter' : 'next' %}
+{% set back = currentSite.language == 'de' ? 'zurück' : 'back' %}
+
+{% paginate allBlogPosts as pageInfo, pageEntries %}
+
+<div class="blog-overview">
+	<div class="blog-overview__content-wrapper">
+
+	{% if not pageInfo.prevUrl %}
+		{% include ("partials/top-blog-card") with { 
+			heading: firstBlogPost.blogPostHeading, 
+			date: firstBlogPost.blogPostDate|date,
+			previewText: firstBlogPost.blogPostPreviewText,
+			previewImage: firstBlogPost.blogPostPreviewImage,
+			categories: firstBlogPost.blogPostCategories,
+			slug: firstBlogPost.slug } 
+		%}
+	{% endif %}
+
+	<div class="blog-overview__card-wrapper">	
+
+	{% for blogPost in pageEntries %}
+
+		{% include ("partials/blog-card") with { 
+			slug: blogPost.slug,
+			heading: blogPost.blogPostHeading, 
+			date: blogPost.blogPostDate|date,
+			categories: blogPost.blogPostCategories,
+			previewImage: blogPost.blogPostPreviewImage,
+			previewText: blogPost.blogPostPreviewText
+		} %}
+	
+	{% endfor %}
+
+		</div>
+
+		<div class="blog-overview__pagination">	
+		{% if pageInfo.prevUrl %}
+			{% include ("partials/button") with { color: "blue", text: back, class: "blog-overview__pagination__button", link: pageInfo.prevUrl } %}
+		{% endif %}
+		{% if pageInfo.nextUrl %}
+			{% include ("partials/button") with { color: "blue", text: next, class: "blog-overview__pagination__button", link: pageInfo.nextUrl } %}
+		{% endif %}
+
+	</div>
+</div>
+
