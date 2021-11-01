@@ -12,6 +12,7 @@
 	{% if not pageInfo.prevUrl %}
 		{% include ("partials/top-blog-card") with { 
 			heading: firstBlogPost.blogPostHeading, 
+			date: firstBlogPost.blogPostDate|date,
 			previewText: firstBlogPost.blogPostPreviewText,
 			previewImage: firstBlogPost.blogPostPreviewImage,
 			categories: firstBlogPost.blogPostCategories,
