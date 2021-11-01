@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://decom.ch/</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://decom.ch/company</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/company"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/company"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/team</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/team"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/team"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/faq</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/faq"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/faq"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/roadmap</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/roadmap"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/roadmap"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-overview</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/blog-overview"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/blog-overview"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/invest-now</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/invest-now"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/invest-now"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/request-informations</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/request-informations"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/request-informations"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/privacy-policy</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/privacy-policy"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/privacy-policy"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/terms-of-use</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/terms-of-use"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/terms-of-use"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/imprint</loc>
+  <xhtml:link
+           rel="alternate"
+           hreflang="de"
+           href="https://decom.ch/imprint"/>
+ <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://decom.ch/en/imprint"/>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-altcoin-saison-2021-hat-erst-begonnen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/neues-bitcoin-allzeithoch</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/dex-dezentrale-b%C3%B6rsen-vs-cex-zentrale-b%C3%B6rsen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/crypto-fear-and-greed-index-2</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/wieder-bitcoin-verbot-in-china</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/rollups-ethereum-layer-2-l%C3%B6sung-erkl%C3%A4rt</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/was-sind-ercs</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/was-ist-solana-sol</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/ein-weiteres-lateinamerikanisches-land-zieht-nach</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-preis-wieder-bei-50000-usd-nft-markt-st%C3%A4rker-denn-je</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/poly-network-hack-hacker-geben-fast-die-h%C3%A4lfte-der-600-millionen-dollar-zur%C3%BCck</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/das-us-infrastruktur-programm-kryptow%C3%A4hrungsvorschriften-stehen-vor-der-t%C3%BCr</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/ethereums-london-hard-fork-geht-am-4-august-live</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/kryptow%C3%A4hrungen-und-esg</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/london-upgrade-f%C3%BCr-ethereum</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/web-3-0-und-das-internet-der-dinge</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-anpassung-der-difficulty</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/airdrop</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/lightning-network</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-cross-chain-technologie</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-soll-in-el-salvador-gesetzliches-zahlungsmittel-werden</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/goldman-sachs-anerkennt-kryptow%C3%A4hrungen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>https://decom.ch/blog-post/kurseinbr%C3%BCche-auf-dem-kryptomarkt</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-aktuelle-debatte-%C3%BCber-bitcoin-und-energieverbrauch</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/cardano-ada</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-kurs-konsolidiert-steht-eine-neue-rallye-bevor</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/social-tokens-potenzielle-wachstumschance-f%C3%BCr-markenunternehmen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/der-aufstieg-der-virtuellen-welten</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-marktkapitalisierung-f%C3%BCr-kryptow%C3%A4hrungen-%C3%BCbersteigt-zum-ersten-mal-2-billionen-us-dollar</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-skalierung-der-privatsph%C3%A4re</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/wird-bitcoin-das-mobilste-verm%C3%B6genskapital-der-welt-bleiben</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-auswirkungen-von-etfs-auf-bitcoin-und-sein-%C3%B6kosystem</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-improvement-proposal</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/eip-1559</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/binance-smart-chain-bsc</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/wrapped-token</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-transaktionsgeb%C3%BChren-f%C3%BCr-ethereum-erreichen-rekordh%C3%B6hen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/der-anstieg-digitaler-zahlungen-und-kryptow%C3%A4hrungen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/test</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/janet-yellens-stance-on-cryptocurrencies</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/ein-neues-paradigma-entsteht</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/hello-world</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/hello-mars</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-overview/p3</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/en/blog-post/die-altcoin-saison-2021-hat-erst-begonnen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/altcoin-boom-im-2021</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-vs-gold</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/ethereum-2-0</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/ethereum-bull-run</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-aktuelle-st%C3%A4rke-von-bitcoin</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/blockchain-abstimmungssystem</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/kommt-ein-bitcoin-bull-run</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/redeemable-tokens-die-demokratisierung-von-wertgegenst%C3%A4nden-und-dienstleistungen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/r%C3%BCckblick-ico-boom</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/non-fungible-tokens-nfts</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/passives-einkommen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/inx-erster-blockchain-ipo</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-kurs-anfang-september-2020</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/omg-network</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/yield-farming</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/algorithmischer-handel</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/krypto-trading-strategien</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/krypto-wallets</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/das-patoshi-muster</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/binance-x-swipe</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/utility-token-vs-security-token</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-overview/p4</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/en/blog-overview/p3</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/krypto-und-millennials</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/datenschutz-und-blockchain</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/was-ist-chainlink-link</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-identit%C3%A4t-von-satoshi-nakamoto</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-kapitulation-der-klein-miner</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-dritte-halving-%C3%A4ra</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-geldpolitik-von-ethereum</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/eine-welt-ohne-zentralbanken</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/decentralized-finance</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/der-energieverbrauch-von-pow</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-demokratische-geldpolitik</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/fiatgeld-vs-kryptow%C3%A4hrungen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-bedeutung-digitaler-parallelw%C3%A4hrungen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/mining-informationen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/verlorene-bitcoins-ein-fluch-oder-ein-segen</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-safe-haven-oder-doch-nicht</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-halving-eine-schrittfunktion</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/das-aufw%C3%A4rtspotential-von-ethereum</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/globaler-wettbewerb-krypto-unternehmensw%C3%A4hrungen-und-cbdc</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/bitcoin-2020</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-verbesserung-der-privatsph%C3%A4re-von-bitcoin</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/die-blockchain-skalierbarkeit</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/mining-algorithmus</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://decom.ch/blog-post/11-jahre-bitcoin-ein-kurzer-r%C3%BCckblick-zur%C3%BCck</loc>
+  <lastmod>2021-11-01T17:23:05+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+</urlset>
