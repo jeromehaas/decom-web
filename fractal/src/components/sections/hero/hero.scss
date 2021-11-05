@@ -44,7 +44,19 @@
 		transform: translate(50%, -50%);
 	}
 
-	@media 	screen and (max-width: 1250px), 
+	@media screen and (max-width: 1400px) {
+		&__globus {
+			max-height: 850px;
+		}	
+	}
+
+	@media screen and (max-width: 1300px) {
+		&__globus {
+			max-height: 750px;
+		}	
+	}
+
+	@media 	screen and (max-width: 1000px), 
   screen and (max-height: 1000px) {
 
 						&__inner {

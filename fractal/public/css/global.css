@@ -1034,7 +1034,13 @@ body {
     max-height: 1250px;
     display: block;
     transform: translate(50%, -50%); }
-  @media screen and (max-width: 1250px), screen and (max-height: 1000px) {
+  @media screen and (max-width: 1400px) {
+    .hero__globus {
+      max-height: 850px; } }
+  @media screen and (max-width: 1300px) {
+    .hero__globus {
+      max-height: 750px; } }
+  @media screen and (max-width: 1000px), screen and (max-height: 1000px) {
     .hero__inner {
       padding-bottom: 275px; }
     .hero__heading-wrapper {
