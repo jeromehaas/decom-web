@@ -621,8 +621,9 @@ body {
       line-height: 1; }
     .navigation .navigation-desktop__logo {
       height: 50px; }
-    .navigation .navigation-desktop__link-container {
-      position: relative; }
+    .navigation .navigation-desktop__link-wrapper {
+      position: relative;
+      border: 10px red; }
     .navigation .navigation-desktop__links {
       display: flex; }
     .navigation .navigation-desktop__link {
@@ -647,8 +648,8 @@ body {
     .navigation .navigation-desktop__link-dropdown-box {
       display: none;
       position: absolute;
-      top: 40px;
-      left: 120px;
+      top: 50px;
+      left: 20px;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
