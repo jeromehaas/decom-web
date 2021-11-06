@@ -3,7 +3,7 @@
 <section id='downloads' class='downloads section'>
 			<div class='downloads__inner section__inner'>
 	
-					{# {% include ("partials/heading") with { text: downloads.downloadsHeading, class: "downloads__title", type: "h2" } %} #}
+					{% include ("partials/heading") with { text: downloads.downloadHeading, class: "downloads__title", type: "h2" } %}
 					
 					<div class='downloads__card-wrapper'>
 
@@ -18,23 +18,4 @@
 	
 			</div>
 		</section>
-
-
-		{# <section id='downloads' class='downloads section'>
-			<div class='downloads__inner section__inner'>
-	
-					{% render "@heading" with { text: title, class: "downloads__title", type: "h2" } %}
-					{% render "@text" with { text: text, class: "downloads__text" } %}
-	
-					<div class='downloads__card-wrapper'>
-						{% for file in files %}
-							<a class='card downloads__card' href="{{file.path}}">
-								<img class="downloads__icon" src="/assets/icons/various/pdf.svg" />
-								{% render "@heading" with { text: file.title, class: "downloads__card__title", type: "h2" } %}
-							</a>
-						{% endfor %}
-					</div>
-	
-			</div>
-		</section> #}
 
