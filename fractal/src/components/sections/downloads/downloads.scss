@@ -1,0 +1,42 @@
+.downloads {
+
+	padding-top: 60px;
+	background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/assets/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+
+	&__title {
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	&__text {
+		margin-bottom: 30px;
+	}
+
+	&__card-wrapper {
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+		grid-gap: 30px;
+		margin-bottom: 60px;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: row;
+		font-size: inherit;
+		text-decoration: none;
+	}
+
+	&__icon {
+		margin-right: 15px;
+	}
+
+	@media (max-width: 730px) {
+		&__card-wrapper {
+			grid-template: auto auto / repeat(1, 1fr);
+		}
+	}
+
+}

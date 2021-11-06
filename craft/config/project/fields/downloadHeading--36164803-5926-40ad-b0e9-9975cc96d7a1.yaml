@@ -1,0 +1,19 @@
+columnSuffix: cfnyjipy
+contentColumnType: text
+fieldGroup: 2edb47fe-fdab-4124-b9f0-1d54503ee9a8 # Downloads
+handle: downloadHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
