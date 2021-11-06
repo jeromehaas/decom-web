@@ -9,8 +9,8 @@
 					<img class='navigation-desktop__logo' src='/uploads/logos/logo-decom-full.png' alt='Decom' class='navigation-desktop__logo' />
 				</a>
 				<div class='navigation-desktop__links'>
-					<div class='navigation-desktop__link-container'>														
 						{% for link in links %}
+						<div class="navigation-desktop__link-wrapper">
 							{% if link.hasDescendants %}
 								{% include ("partials/link") with { text: link.title, class: "navigation-desktop__link navigation-desktop__link--has-childs", color: "darkblue", link: ""} %}
 							{% else %}
@@ -24,8 +24,8 @@
 								{% endfor %}
 								</div> 
 							 {% endif %} 
+							</div>
 						{% endfor %}
-					</div>
 				</div>
 				{% include ("partials/button") with { text: navigation.navigationButtonText, class: "navigation-desktop__button", color: "blue", link: navigation.navigationButtonLink} %}
 			</div>

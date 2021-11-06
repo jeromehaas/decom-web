@@ -6,7 +6,9 @@ class Navigation {
 		this.hamburger = document.getElementById("hamburger");
 		this.backgroundLayer = document.getElementById('backgroundlayer');
 		this.aboutLink = document.getElementsByClassName('navigation-mobile__link--has-childs')[0];
+		this.loginLink = document.getElementsByClassName('navigation-mobile__link--has-childs')[1];
 		this.aboutLinkSublinkBox = document.getElementsByClassName('navigation-mobile__sublink-box')[0];
+		this.loginLinkSublinkBox = document.getElementsByClassName('navigation-mobile__sublink-box')[1];
 		if (this.hamburger && this.backgroundLayer) {
 			this.init();
 		}
@@ -14,7 +16,8 @@ class Navigation {
 	
 	init = () => {
 		this.hamburger.addEventListener("click", this.toggleMenu);
-		this.aboutLink.addEventListener("click", (event) => this.showMobileSublinks(event));
+		this.aboutLink.addEventListener("click", (event) => this.showAboutSublinks(event));
+		this.loginLink.addEventListener("click", (event) => this.showLoginSublinks(event));
 	}
 
 	toggleMenu = () => {
@@ -22,9 +25,14 @@ class Navigation {
 		this.backgroundLayer.classList.toggle('navigation-mobile__backgroundlayer--open')
 	}
 
-	showMobileSublinks = (event) => {
+	showAboutSublinks = (event) => {
 		event.preventDefault();
 		this.aboutLinkSublinkBox.classList.toggle('navigation-mobile__sublink-box--open');
+	}
+	
+	showLoginSublinks = (event) => {
+		event.preventDefault();
+		this.loginLinkSublinkBox.classList.toggle('navigation-mobile__sublink-box--open');
 	}
 
 }

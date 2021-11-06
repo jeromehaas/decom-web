@@ -1,0 +1,80 @@
+field: 918069a2-bfb1-468e-8d8a-c18a603165bb # Files
+fieldLayouts:
+  9ce1869f-2a92-49fd-8b82-d4c31e337309:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c99d95df-54b5-4c91-b6a3-a309d3108c3d # Filename
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0068f025-0ed3-4634-8cd0-17cc566c6f10 # Asset
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0068f025-0ed3-4634-8cd0-17cc566c6f10: # Asset
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: asset
+    instructions: ''
+    name: Asset
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9b796480-f31d-4114-bbc6-3f160f948f9f' # Downloads
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c99d95df-54b5-4c91-b6a3-a309d3108c3d: # Filename
+    columnSuffix: zvbekcko
+    contentColumnType: text
+    fieldGroup: null
+    handle: filename
+    instructions: ''
+    name: Filename
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText

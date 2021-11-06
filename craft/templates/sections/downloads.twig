@@ -1,0 +1,21 @@
+{% set downloads = craft.entries.section('downloads').one() %}
+
+<section id='downloads' class='downloads section'>
+			<div class='downloads__inner section__inner'>
+	
+					{% include ("partials/heading") with { text: downloads.downloadHeading, class: "downloads__title", type: "h2" } %}
+					
+					<div class='downloads__card-wrapper'>
+
+						{% for row in downloads.downloadFiles %}
+							<a class='card downloads__card' href="{{ row.path }}" target="_blank">
+								<img class="downloads__icon" src="/assets/icons/various/pdf.svg" />
+								{% include ("partials/heading") with { text: row.filename, class: "downloads__card__title", type: "h3" } %}
+							</a>
+						{% endfor %}
+	
+					</div>
+	
+			</div>
+		</section>
+

@@ -1,0 +1,77 @@
+columnSuffix: uadxydsz
+contentColumnType: text
+fieldGroup: 2edb47fe-fdab-4124-b9f0-1d54503ee9a8 # Downloads
+handle: downloadFiles
+instructions: ''
+name: Files
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Filename
+            -
+              - handle
+              - filename
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Path
+            -
+              - handle
+              - path
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Language
+            -
+              - handle
+              - language
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+        -
+          - col3
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

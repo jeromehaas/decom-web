@@ -35,8 +35,16 @@
 			},
 			{
 				"name": "Login", 
-				"link": "https:binance.com",
-				"sublinks": []
+				"sublinks": [
+					{
+						"name": "Login",
+						"link": "/register"
+					},
+					{
+						"name": "Registrieren",
+						"link": "/register"
+					}	
+				]
 			}
 		]	
 	}

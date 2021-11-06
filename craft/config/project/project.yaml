@@ -1,4 +1,4 @@
-dateModified: 1634926356
+dateModified: 1636208099
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -28,12 +28,14 @@ meta:
     2c78574c-f465-43d1-9d21-dd994ad477d5: description # description
     2cac1ef0-cccd-4bd9-8eb7-0b4cb03ef9c7: Image # Image
     2df64663-e25f-45a2-a011-711a266f33f9: 'Invest Now' # Invest Now
+    2edb47fe-fdab-4124-b9f0-1d54503ee9a8: Downloads # Downloads
     2f4e054b-a655-44f4-8f45-656936edd3f9: 'Blog Posts' # Blog Posts
     3c6de1a3-4ec5-40ef-be11-18556ebd9104: Text # Text
     003ca87e-0573-4b1c-805d-95d38d0186a1: 'Advantages Cards' # Advantages Cards
     3d11e0ba-45a2-4513-931e-0682291d148a: Street # Street
     3dfa7882-b8c2-411e-99e1-ae22481518ee: Imprint # Imprint
     3e857d4d-6f04-4ebe-8515-2954fe9e4102: 'Decom Web' # Decom Web
+    04a5fff1-a2c3-4998-870e-008b814d9a17: Downloads # Downloads
     4b19afcb-6acb-40e6-95f8-5dfdf8749f92: 'Links Heading' # Links Heading
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
     4d81e03e-37b8-4687-b55f-8276fb8f1203: Team # Team
@@ -82,6 +84,7 @@ meta:
     66d2ef0b-562c-428e-a8d2-e22dc384d262: 'Success Form' # Success Form
     68d60c1c-a6bb-4a06-a9f4-aacd491c4cbf: 'Terms of Use' # Terms of Use
     68d68bbf-b6e1-4d48-af49-4827aeca244b: 'Email Address' # Email Address
+    0068f025-0ed3-4634-8cd0-17cc566c6f10: Asset # Asset
     68f7f02e-2197-4aa0-a4cf-8da646619942: 'Card Text' # Card Text
     72f7e656-11d7-4bef-afe5-f491bce0eb25: 'Card Button URL' # Card Button URL
     88dc9c41-f4d5-4d80-bb10-1824ef40e5a9: Navigation # Navigation
@@ -121,6 +124,7 @@ meta:
     5854e43c-b873-48ab-930d-80ad0aa2e406: Heading # Heading
     5873caa9-5b08-4abe-8114-b0f3945bf807: 'Privacy Policy' # Privacy Policy
     6103c328-74b9-4433-a617-4005e60428e5: 'Blog Posts' # Blog Posts
+    6268e356-15b7-4f70-a2ab-f1f251c3cd22: Downloads # Downloads
     7353ace4-7124-43f3-9f9d-41b75b7db7bb: Phone # Phone
     07771f31-585a-4337-8f94-4cc4599122aa: 'Card Heading' # Card Heading
     8176e94a-c2d0-467a-8f2e-feeb2d8e925b: 'Portfolio Cards' # Portfolio Cards
@@ -136,12 +140,14 @@ meta:
     561209e9-0935-4d95-b321-51c05d7777b9: 'Privacy Policy' # Privacy Policy
     654840ae-2367-498e-99f2-1d6578873cb9: 'Success Newsletter Subscription' # Success Newsletter Subscription
     751813ae-6c0f-4d14-86cf-5714a12ec0cd: 'Blog Overview' # Blog Overview
+    918069a2-bfb1-468e-8d8a-c18a603165bb: Files # Files
     2658489d-0e2b-4f9b-882e-35e553f765d3: FAQ # FAQ
     4567892c-850a-4f2b-8d3d-d764a240f7ff: 'Card Text' # Card Text
     7847516e-ca6f-4b1e-986a-88ab874cce06: Advantages # Advantages
     8501350c-6f01-4855-b604-946d13913734: Size # Size
     28079231-b66b-4f84-84b6-5b5342a54f1c: Name # Name
     34818444-6c43-4076-85f2-548a6a63614a: 'Request Informations' # Request Informations
+    36164803-5926-40ad-b0e9-9975cc96d7a1: Heading # Heading
     40786505-2be6-4db4-bfc6-7fb6db69c13f: Heading # Heading
     60551541-a3a4-428a-a109-3d8b789da966: Cards # Cards
     66007103-3a79-4e1a-abfd-dcd9c8e19c66: Error # Error
@@ -186,6 +192,7 @@ meta:
     c9f06f27-c777-497e-ba60-91e6a5a723dd: Company # Company
     c44d5a98-9a85-4460-8633-7dbf04e7fdaf: Heading # Heading
     c95c53d6-a8e3-4415-87dd-f33b4d767917: 'Form Submissions' # Form Submissions
+    c99d95df-54b5-4c91-b6a3-a309d3108c3d: Filename # Filename
     c682ee2f-9610-4b00-ba7a-bcfbb89dfa88: Caption # Caption
     ca9e4ebb-777a-4f3b-901e-e3672336ef0f: Error # Error
     cb6a2d16-0545-467c-b90f-50ca83a28b13: Logos # Logos
@@ -237,7 +244,7 @@ plugins:
       prependSender: 'Decom '
       prependSubject: 'Decom Website'
       successFlashMessage: 'Your message has been sent.'
-      toEmail: j.haas@cyberplanet.ch
+      toEmail: 'j.haas@cyberplanet.ch, info@decom.ch'
   contact-form-extensions:
     edition: standard
     enabled: true
