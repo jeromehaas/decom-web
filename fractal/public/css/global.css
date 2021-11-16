@@ -929,6 +929,9 @@ body {
     max-width: 1300px; }
   .blog-post__card > * {
     margin-bottom: 20px; }
+  .blog-post__card ul {
+    list-style: disc;
+    padding-left: 25px; }
   .blog-post__heading {
     margin-bottom: 10px; }
   .blog-post__date {

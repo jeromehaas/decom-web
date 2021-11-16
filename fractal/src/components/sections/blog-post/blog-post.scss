@@ -12,6 +12,11 @@
 	&__card > * {
 		margin-bottom: 20px;
 	}
+	
+	&__card  ul {
+		list-style: disc;
+		padding-left: 25px;
+	}
 
 	&__heading {
 		margin-bottom: 10px;
