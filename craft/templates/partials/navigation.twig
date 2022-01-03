@@ -15,7 +15,6 @@
 								<p class="link link--darkblue navigation-desktop__link navigation-desktop__link--has-childs">
 									{{ link.title }}
 								</p>
-								{# {% include ("partials/link") with { text: link.title, class: "navigation-desktop__link navigation-desktop__link--has-childs", color: "darkblue", link: ""} %} #}
 							{% else %}
 								{% include ("partials/link") with { text: link.title, class: "navigation-desktop__link", color: 'darkblue', link: link.pagesRoute} %}
 							{% endif %}
