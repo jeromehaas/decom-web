@@ -744,7 +744,7 @@ body {
       text-align: center; }
   .navigation .navigation-placeholder {
     margin-bottom: 100px; }
-  @media (max-width: 900px) {
+  @media (max-width: 1040px) {
     .navigation .navigation-desktop {
       display: none; }
     .navigation .navigation-mobile {

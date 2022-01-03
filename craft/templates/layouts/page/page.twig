@@ -1,22 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
-		<link rel='apple-touch-icon' sizes='180x180' href='/assets/favicons/apple-touch-icon.png' />
-		<link rel='icon' type='image/png' sizes='32x32' href='/assets/favicons/favicon-32x32.png' />
-		<link rel='icon' type='image/png' sizes='16x16' href='/assets/favicons/favicon-16x16.png' />
-		<link rel='manifest' href='/assets/favicons/site.webmanifest' />
-		<link rel='mask-icon' href='/assets/favicons/safari-pinned-tab.svg' color='#ffffff' />
-		<link rel='shortcut icon' href='/assets/favicons/favicon.ico' />
-		<meta name='msapplication-TileColor' content='#ffffff' />
-		<meta name='msapplication-config' content='/assets/favicons/browserconfig.xml' />
-		<meta name='theme-color' content='#ffffff' />
-    <title>Decom</title>
-  </head>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/assets/css/global.css">
+	<link rel='apple-touch-icon' sizes='180x180' href='/assets/favicons/apple-touch-icon.png' />
+	<link rel='icon' type='image/png' sizes='32x32' href='/assets/favicons/favicon-32x32.png' />
+	<link rel='icon' type='image/png' sizes='16x16' href='/assets/favicons/favicon-16x16.png' />
+	<link rel='manifest' href='/assets/favicons/site.webmanifest' />
+	<link rel='mask-icon' href='/assets/favicons/safari-pinned-tab.svg' color='#ffffff' />
+	<link rel='shortcut icon' href='/assets/favicons/favicon.ico' />
+	<meta name='msapplication-TileColor' content='#ffffff' />
+	<meta name='msapplication-config' content='/assets/favicons/browserconfig.xml' />
+	<meta name='theme-color' content='#ffffff' />
+	<meta name="description" content="Ihr Partner für die Vermögensverwaltung in Kryptowährungen. Decom Switzerland ist eine SRO-regulierte Vermögensverwaltung, die den Zugang zum gesamten Kryptomarkt für den institutionellen und privaten Investor vereinfacht.">
+	<meta name="keywords" content="DECOM, DECOM Switzerland GmbH, DECOM Crypto Asset management, Bitcoin Vermögensverwaltung, Krypto Vermögsenverwaltung, Krypto Investieren, Bitcoin, Crypto, Krypto, Bitcoin kaufen, Ethereum kaufen">
+	{% set language = currentSite.language %}
+	{% if language == 'en' %} 
+		<title>DECOM Switzerland AG - Your asset management for cryptocurrencies</title>
+		<meta name="description" content="Your partner for cryptocurrency asset management. Decom Switzerland is an SRO-regulated asset management company that facilitates access to the entire crypto market for the institutional and private investor.">
+		<meta property="og:title" content="DECOM Switzerland AG">
+		<meta property="og:description" content="Your partner for cryptocurrency asset management. Decom Switzerland is an SRO-regulated asset management company that facilitates access to the entire crypto market for the institutional and private investor.">
+		<meta property="og:image" content="https://decom.ch/assets/logos/decom/logo-decom-full-with-bg.png">
+		<meta property="og:url" content="https://decom.ch">
+	{% else %}
+		<title>DECOM Switzerland AG - Ihre Vermögensverwaltung für Kryptowährungen</title>
+		<meta name="description" content="Ihr Partner für die Vermögensverwaltung in Kryptowährungen. Decom Switzerland ist eine SRO-regulierte Vermögensverwaltung, die den Zugang zum gesamten Kryptomarkt für den institutionellen und privaten Investor vereinfacht.">
+		<meta property="og:title" content="DECOM Switzerland AG">
+		<meta property="og:description" content="Ihr Partner für die Vermögensverwaltung in Kryptowährungen. Decom Switzerland ist eine SRO-regulierte Vermögensverwaltung, die den Zugang zum gesamten Kryptomarkt für den institutionellen und privaten Investor vereinfacht.">
+		<meta property="og:image" content="https://decom.ch/assets/logos/decom/logo-decom-full-with-bg.png">
+		<meta property="og:url" content="https://decom.ch">
+	{% endif %}
+ </head>
 
   <body>
 
