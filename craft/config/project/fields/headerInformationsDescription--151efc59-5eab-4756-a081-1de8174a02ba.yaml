@@ -1,0 +1,19 @@
+columnSuffix: csgqxraa
+contentColumnType: text
+fieldGroup: 0d6f9d42-1cbf-4879-8747-cda1d60e71f5 # Header Informations
+handle: headerInformationsDescription
+instructions: ''
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
