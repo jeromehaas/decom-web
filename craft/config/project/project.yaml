@@ -1,4 +1,4 @@
-dateModified: 1636208099
+dateModified: 1641201323
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -20,6 +20,7 @@ meta:
     0ab2ade3-f76d-4286-abe7-0e80996812da: Gender # Gender
     0ad9c7a7-aea9-47dd-a17a-ee968a773c97: Vision # Vision
     0aeff042-20ed-44db-91ca-0632fbdc43be: 'Preview Text' # Preview Text
+    0d6f9d42-1cbf-4879-8747-cda1d60e71f5: 'Header Informations' # Header Informations
     0d38dcd4-fa7d-4daa-8e3b-fdfaea3e7e2a: Heading # Heading
     0d493a6c-80bd-49c2-89d1-fe5f6774c315: Vision # Vision
     1cea6cef-083e-4130-b97d-ec3d5ca58bc1: FAQ # FAQ
@@ -95,6 +96,7 @@ meta:
     97a8fda9-1f55-4deb-8738-c11cdb99d841: Company # Company
     97c7e9aa-4e9f-4ba4-9976-d948002cc112: Publications # Publications
     102b9743-97fa-4132-b305-0df707717f31: Hero # Hero
+    151efc59-5eab-4756-a081-1de8174a02ba: Description # Description
     209de37c-0baf-4c78-bfde-2130079b5e9b: Text # Text
     242be248-7cc9-49a1-8c4b-fdfe10a538da: Logos # Logos
     290feaa9-1674-425d-bf10-f6462fa8ee45: 'Invest Now' # Invest Now
@@ -118,6 +120,7 @@ meta:
     955a42e9-c70f-42f8-bcaf-63cd54f8f96d: Advantages # Advantages
     994f6b0d-7390-4dad-983f-2a25b2e573be: Heading # Heading
     001791c0-9a7a-4272-8795-e484970d1b06: 'Success Newsletter Subscription' # Success Newsletter Subscription
+    3133adc2-d7e4-4bc8-b998-25fec3d898ec: 'Header Informations' # Header Informations
     04323e28-6477-4f9f-92f8-4d958cc79a09: 'Button Text' # Button Text
     05724e8d-bc6d-4290-88c0-d42e6a79184c: Route # Route
     5854c782-f1f9-4559-9ebc-d48ec2b074ec: Statement # Statement
@@ -205,6 +208,7 @@ meta:
     d39e1790-9b14-4a08-b249-615eae6a62a1: Categories # Categories
     d82f51bb-0aed-4b10-afec-4cc790d5ab8f: Default # Default
     d97e170d-8ab2-4b84-ae3d-c1a8f358cef1: Imprint # Imprint
+    d271d26b-1969-4fc5-9577-b1f7a678b65c: Title # Title
     d798cc12-9886-402e-9579-c9410fb83089: Footer # Footer
     d9215dce-34e1-4faa-aee3-2daebff5f127: 'Card Heading' # Card Heading
     da24b825-4083-42d7-96ad-3e5226b7cf00: 'Crypto Question' # Crypto Question
