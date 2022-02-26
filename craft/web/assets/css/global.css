@@ -69,7 +69,7 @@ h4, .heading--h4 {
   font-size: 1.6em;
   font-family: "Heebo-Bold"; }
 
-p, li, td, a {
+p, li, td, a, em {
   line-height: 1.5;
   font-size: 1.8em;
   color: #041834;
@@ -932,6 +932,12 @@ body {
   .blog-post__card ul {
     list-style: disc;
     padding-left: 25px; }
+  .blog-post__card em {
+    font-size: inherit; }
+  .blog-post__card a {
+    font-size: inherit;
+    color: #2d7eff;
+    text-decoration: none; }
   .blog-post__heading {
     margin-bottom: 10px; }
   .blog-post__date {

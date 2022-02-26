@@ -17,6 +17,16 @@
 		list-style: disc;
 		padding-left: 25px;
 	}
+	
+	&__card  em {
+		font-size: inherit;
+	}
+
+	&__card a {
+		font-size: inherit;
+		color: $blue;
+		text-decoration: none;
+	}
 
 	&__heading {
 		margin-bottom: 10px;
