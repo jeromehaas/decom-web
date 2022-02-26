@@ -22,7 +22,7 @@ h4, .heading--h4 {
 	font-family: "Heebo-Bold";
 }
 
-p, li, td, a {
+p, li, td, a, em {
 	line-height: 1.5;
 	font-size: 1.8em;
 	color: $darkblue;
@@ -39,6 +39,8 @@ input {
 	font-size: 1.8em;
 	font-family: "Heebo-Light";
 }
+
+
 
 .radio-input__label {
 	font-size: 1.8em;
