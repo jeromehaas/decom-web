@@ -1,3 +1,7 @@
+{% set title = title is defined ? 'DECOM Switzerland AG - ' ~ title : headerInformations.headerInformationsTitle %}
+{% set description = description is defined ? description : headerInformations.headerInformationsDescription %}
+{% set image = image is defined ? image : 'https://decom.ch/assets/logos/decom/logo-decom-full-with-bg.png' %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,11 +20,11 @@
 		<meta name='msapplication-config' content='/assets/favicons/browserconfig.xml'/>
 		<meta name='theme-color' content='#ffffff'/>
 		<meta name="keywords" content="DECOM, DECOM Switzerland GmbH, DECOM Crypto Asset management, Bitcoin Vermögensverwaltung, Krypto Vermögsenverwaltung, Krypto Investieren, Bitcoin, Crypto, Krypto, Bitcoin kaufen, Ethereum kaufen">
-		<title>{{ headerInformations.headerInformationsTitle }}</title>
-		<meta name="description" content="{{ headerInformations.headerInformationsDescription }}">
-		<meta property="og:title" content="{{ headerInformations.headerInformationsTitle }}">
-		<meta property="og:description" content="{{ headerInformations.headerInformationsDescription }}">
-		<meta property="og:image" content="https://decom.ch/assets/logos/decom/logo-decom-full-with-bg.png">
+		<title>{{ title }}</title>
+		<meta name="description" content="{{ description }}">
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:description" content="{{ description }}">
+		<meta property="og:image" content="{{ image}}">
 		<meta property="og:url" content="https://decom.ch">
 		<script defer data-domain="decom.ch" src="https://plausible.io/js/plausible.js"></script>
 	</head>
