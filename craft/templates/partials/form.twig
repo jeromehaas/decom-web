@@ -121,5 +121,7 @@
 	{% endif %}
 	
 	<button class="form__button button button--blue" type="submit">{{ form.formButton }}</button>
+	
+	{{ craft.contactFormExtensions.recaptcha | raw }}
 
 </form>
