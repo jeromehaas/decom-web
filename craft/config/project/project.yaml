@@ -1,4 +1,4 @@
-dateModified: 1641201323
+dateModified: 1654702655
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -248,7 +248,7 @@ plugins:
       prependSender: 'Decom '
       prependSubject: 'Decom Website'
       successFlashMessage: 'Your message has been sent.'
-      toEmail: 'j.haas@cyberplanet.ch, info@decom.ch'
+      toEmail: 'developer@decom.ch, info@decom.ch'
   contact-form-extensions:
     edition: standard
     enabled: true
