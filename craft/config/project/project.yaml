@@ -1,4 +1,4 @@
-dateModified: 1654702655
+dateModified: 1654703662
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -248,7 +248,7 @@ plugins:
       prependSender: 'Decom '
       prependSubject: 'Decom Website'
       successFlashMessage: 'Your message has been sent.'
-      toEmail: 'developer@decom.ch, info@decom.ch'
+      toEmail: 'hello@jeromehaas.ch, info@decom.ch'
   contact-form-extensions:
     edition: standard
     enabled: true
@@ -261,17 +261,17 @@ plugins:
       enableRecaptchaOverride: ''
       enableTemplateOverwrite: '1'
       notificationTemplate: emails/message
-      recaptcha: ''
+      recaptcha: '1'
       recaptchaDataBadge: bottomright
       recaptchaDebug: ''
-      recaptchaHideBadge: ''
-      recaptchaSecretKey: ''
-      recaptchaSiteKey: ''
+      recaptchaHideBadge: '1'
+      recaptchaSecretKey: 6Lf5yVQgAAAAAA0MPfdLHBpW_0Iejcvkof82QH9O
+      recaptchaSiteKey: 6Lf5yVQgAAAAAIvSbkR8vWOnUZGMyFgnYFfMwyMr
       recaptchaThreshold: '0.5'
       recaptchaTimeout: '5'
       recaptchaUrl: ''
       recaptchaVerificationUrl: ''
-      recaptchaVersion: ''
+      recaptchaVersion: '3'
   redactor:
     edition: standard
     enabled: true
