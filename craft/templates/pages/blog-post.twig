@@ -2,10 +2,11 @@
 {% set title = entry.blogPostHeading %}
 {% set description = entry.blogPostPreviewText %}
 {% set image = entry.blogPostPreviewImage.one().url() %}
+{% set url = entry.url() %}
 
 
 {% block main %}
-
+	
 	{% include ('sections/blog-post') %}
 
 {% endblock %}

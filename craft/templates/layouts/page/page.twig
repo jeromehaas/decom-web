@@ -1,6 +1,7 @@
 {% set title = title is defined ? 'DECOM Switzerland AG - ' ~ title : headerInformations.headerInformationsTitle %}
 {% set description = description is defined ? description : headerInformations.headerInformationsDescription %}
 {% set image = image is defined ? image : 'https://decom.ch/assets/logos/decom/logo-decom-full-with-bg.png' %}
+{% set url = url is defined ? url : 'https://decom.ch' %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +32,8 @@
 		<meta property="og:image:height" content="1080"/>
 		<meta property="og:image:alt" content="{{ description }}"/>
 		<meta property="og:image:type" content="image/png"/>
-		<meta property="og:url" content="https://decom.ch"/>
+		<meta property="og:type" content="image/png"/>
+		<meta property="og:url" content="{{ url }}"/>
 		<meta property="og:site_name" content=" {{ title }}"/>
 
 		<meta name="twitter:card" content="summary_large_image">
