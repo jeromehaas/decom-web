@@ -981,6 +981,48 @@ body {
     .company__card-wrapper {
       grid-template: auto auto/repeat(1, 1fr); } }
 
+.cookie-banner {
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  background-color: #fff;
+  transition: all 1s ease;
+  z-index: 15; }
+  .cookie-banner--visible {
+    transform: translateY(-100%); }
+  .cookie-banner__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px; }
+  .cookie-banner__text, .cookie-banner__link {
+    color: #000; }
+  .cookie-banner__link {
+    text-decoration: underline;
+    font-size: inherit;
+    text-underline-offset: 4px; }
+  .cookie-banner__button {
+    margin-left: 12px; }
+  @media (max-width: 1000px) {
+    .cookie-banner__inner {
+      flex-direction: column;
+      padding: 24px; }
+    .cookie-banner__text {
+      margin-bottom: 16px; }
+    .cookie-banner__button {
+      margin-left: 0; } }
+  @media (max-width: 500px) {
+    .cookie-banner__inner {
+      flex-direction: column;
+      padding: 24px; }
+    .cookie-banner__button {
+      width: 100%;
+      margin-left: 0;
+      text-align: center; } }
+
 .downloads {
   padding-top: 60px;
   background-size: 300%;

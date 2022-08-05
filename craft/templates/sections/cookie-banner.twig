@@ -1,0 +1,22 @@
+{% set lang = currentSite.language %}
+
+<section id='cookie-banner' class='cookie-banner js-cookie-banner section'>
+    <div class='cookie-banner__inner section__inner'>
+	{% if lang == 'de' %}
+        <p class="cookie-banner__text">
+            Um die Website für Sie optimal zu gestalten und fortlaufend verbessern zu können, werden Cookies verwendet. Durch die weitere Nutzung der Website stimmen Sie der Verwendung von Cookies zu. Weitere Informationen dazu finden Sie in den <a class="cookie-banner__link" href="/terms-of-use"> Datenschutzbestimmungen</a> zu.
+        </p>
+        <a class="button button--blue cookie-banner__button" href="#" }>
+            Zustimmen
+        </a>
+        {% else %}
+         <p class="cookie-banner__text">
+            In order to design the website optimally for you and to be able to improve it continuously, cookies are used. By continuing to use the website, you agree to the use of cookies. For more information, please see the <a class="cookie-banner__link" href="/en/terms-of-use">terms of use</a>.
+        </p>
+        <a class="button button--blue cookie-banner__button" href="#" }>
+            Confirm
+        </a>
+	{% endif %}
+    </div>
+</section>
+
