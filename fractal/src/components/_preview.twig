@@ -17,9 +17,10 @@
 		<meta name='theme-color' content='#ffffff' />
     <title>Decom</title>
   </head>
-
   <body>
     {{ yield }}
+    {% render "@cookie-banner" %}
+	<script type="text/javascript" src="/assets/javascript/cookie-banner.js"></script>
 	<script type="text/javascript" src="/assets/javascript/faq.js"></script>
 	<script type="text/javascript" src="/assets/javascript/navigation.js"></script>	
   </body>
