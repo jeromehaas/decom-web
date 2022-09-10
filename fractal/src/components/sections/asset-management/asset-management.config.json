@@ -1,0 +1,41 @@
+{
+    "name": "Asset Management",
+    "context": {
+        "title": "In Kryptowährungen investieren",
+        "subtitle": "Diese Krypto-Investments gibt es",
+        "text": "Mit mehreren Dutzend handelbaren virtuellen Währungen ist DECOM derzeit die Krypto Vermögensverwaltung mit dem umfassendsten Angebot im Bereich Krypto Asset Management in der Schweiz. Wenn Sie Bitcoin und Kryptowährungen kaufen möchten, wählen Sie je nach Ihren individuellen Bedürfnissen, Zielen und Möglichkeiten eine «defensive», «ausgewogene», «dynamische» oder «dynamisch plus» Strategie für Ihre Krypto-Investments aus. Auch andere Faktoren wie Ihr Anlagehorizont, Ihre Risikotoleranz und Ihre Vermögensstruktur spielen eine entscheidende Rolle.",
+        "cards": [
+            {
+                "title":"DAM S1 (defensiv)",
+                "itemList":[
+                  "BTC: 85%",
+                  "ETH: 15%"
+                ]
+              },
+              {
+                "title":"DAM S2 (ausgeglichen)",
+                "itemList":[
+                  "BTC: 65%",
+                  "ETH: 12%",
+                  "Various altcoins: 23%"
+                ]
+              },
+              {
+                "title":"DAM S3 (dynamisch)",
+                "itemList":[
+                  "BTC: 55%",
+                  "ETH: 12%",
+                  "Various altcoins: 33%"
+                ]
+              },
+              {
+                "title":"DAM S4 (dynamisch plus)",
+                "itemList":[
+                  "BTC: 45%",
+                  "ETH: 8%",
+                  "Various altcoins: 47%"
+                ]
+              }
+        ]
+    }
+}
