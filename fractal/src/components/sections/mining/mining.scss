@@ -21,5 +21,13 @@
         margin: 0 auto; 
         margin-bottom: 60px;
     }
+
+    @media (max-width: 500px) {
+        
+        &__title {
+            margin-bottom: 16px;
+        }
+        
+    }
     
 }

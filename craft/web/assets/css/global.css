@@ -942,6 +942,9 @@ body {
       margin: 0 auto;
       width: 100%;
       max-width: unset; } }
+  @media (max-width: 500px) {
+    .asset-management__title {
+      margin-bottom: 16px; } }
 
 .blog-overview {
   background-color: #f0f4fc; }
@@ -1274,6 +1277,9 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 60px; }
+  @media (max-width: 500px) {
+    .mining__title {
+      margin-bottom: 16px; } }
 
 .partners {
   height: 100px;
