@@ -1,0 +1,13 @@
+<section id="mining" class="mining section">
+    <div class="mining__inner section__inner"> 
+    
+        
+		{% render "@heading" with { text: title, class: "mining__title", type: "h2" } %}
+		{% render "@heading" with { text: subtitle, class: "mining__subtitle", type: "h3" } %}
+
+        <div class="card mining__card">
+            {% render "@text" with { text: text, class: "mining__card__text" } %}
+        </div>
+
+    </div>
+</section>

@@ -1,4 +1,4 @@
-dateModified: 1654703662
+dateModified: 1662825994
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -121,6 +121,7 @@ meta:
     994f6b0d-7390-4dad-983f-2a25b2e573be: Heading # Heading
     001791c0-9a7a-4272-8795-e484970d1b06: 'Success Newsletter Subscription' # Success Newsletter Subscription
     3133adc2-d7e4-4bc8-b998-25fec3d898ec: 'Header Informations' # Header Informations
+    3314e328-6e73-4f75-be24-9bf00bd38061: Mining # Mining
     04323e28-6477-4f9f-92f8-4d958cc79a09: 'Button Text' # Button Text
     05724e8d-bc6d-4290-88c0-d42e6a79184c: Route # Route
     5854c782-f1f9-4559-9ebc-d48ec2b074ec: Statement # Statement
@@ -137,6 +138,7 @@ meta:
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
     55324d78-6366-4167-a383-dd58e355304c: Navigation # Navigation
     64589df0-0678-44bb-b0b3-37a8026a962a: Navigation # Navigation
+    97759af3-c6ba-4756-915d-ab53d6341561: Mining # Mining
     200816f0-2eb9-4323-8516-aa41c07d18b3: Roadmap # Roadmap
     277747c4-7256-4fc2-baee-dab17a0123cf: Advantages # Advantages
     503735ce-b504-4ae6-8af6-1717fe0e2a5a: 'Success Form' # Success Form
@@ -182,6 +184,7 @@ meta:
     b397a87a-5975-4c19-b068-e064ffac70e5: Heading # Heading
     b5017fd1-2fe4-45a1-82c8-f608e357f3af: 'Publication Logos' # Publication Logos
     b30822fb-0646-47b4-ae83-2bdaae755848: 'Button Link' # Button Link
+    b7486502-a79f-4798-81e6-c89764a13236: Subheading # Subheading
     b9360097-71a7-48f3-a64e-c1d69e386a3c: Heading # Heading
     ba871ec6-5e41-4759-85ed-d112fcaa63f5: Form # Form
     babc2a04-f8e5-4fca-b4f1-b138b8b3ae1b: 'Button URL' # Button URL
@@ -211,9 +214,11 @@ meta:
     d271d26b-1969-4fc5-9577-b1f7a678b65c: Title # Title
     d798cc12-9886-402e-9579-c9410fb83089: Footer # Footer
     d9215dce-34e1-4faa-aee3-2daebff5f127: 'Card Heading' # Card Heading
+    d70740e9-94bc-4b98-9e84-403a87c47b87: Mining # Mining
     da24b825-4083-42d7-96ad-3e5226b7cf00: 'Crypto Question' # Crypto Question
     daa71cd6-4b7b-4613-8a60-a5fc17b5fe47: Footer # Footer
     dcc4919b-6402-49a3-9319-8ccbc14549a0: Lastname # Lastname
+    dcefd67b-b525-4aa2-b160-e62c9f74001b: Heading # Heading
     dfb9b5ed-be4a-4a78-a2e8-fcfa7a9142c4: URL # URL
     e00dcac7-104b-4226-b928-94065aa33593: Heading # Heading
     e1f79275-cdd9-440f-9b91-0d851bc664d6: Heading # Heading
@@ -234,6 +239,7 @@ meta:
     f64aeb78-cc50-4afe-bd75-23d50746c9ed: PreviewImage # PreviewImage
     f3548a4e-1e94-4b20-b30b-8a9610b87078: Heading # Heading
     f5978435-7303-43f4-ab0d-70dce4475040: Heading # Heading
+    fc7bb1c7-fc4a-476d-b31f-83d54aca5f8c: Text # Text
     fde6d049-18ea-4505-ad38-0a99678e8b56: 'Team Cards' # Team Cards
     febcffd0-0a5d-4a57-a7aa-ab9d0547e9e1: Text # Text
     fefee734-e08f-4a6f-9fd7-706082335c4a: 'Button URL' # Button URL
