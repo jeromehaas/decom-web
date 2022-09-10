@@ -8,6 +8,20 @@
 				"sublinks": []
 			},
 			{
+				"name": "Angebot",
+				"link": "/offer",
+				"sublinks": [
+					{
+						"name": "Vermögensverwaltung",
+						"link": "/asset-management"	
+					},
+					{
+						"name": "Minig",
+						"link": "/mining"
+					}
+				]
+			}, 
+			{
 				"name": "Über uns", 
 				"sublinks": [
 					{
