@@ -8,6 +8,20 @@
 				"sublinks": []
 			},
 			{
+				"name": "Angebot",
+				"link": "/offer",
+				"sublinks": [
+					{
+						"name": "Vermögensverwaltung",
+						"link": "/asset-management"	
+					},
+					{
+						"name": "Minig",
+						"link": "/mining"
+					}
+				]
+			}, 
+			{
 				"name": "Über uns", 
 				"sublinks": [
 					{
@@ -32,19 +46,6 @@
 				"name": "Insights & Blog",
 				"link": "/blog-overview", 
 				"sublinks": []
-			},
-			{
-				"name": "Login", 
-				"sublinks": [
-					{
-						"name": "Login",
-						"link": "/register"
-					},
-					{
-						"name": "Registrieren",
-						"link": "/register"
-					}	
-				]
 			}
 		]	
 	}

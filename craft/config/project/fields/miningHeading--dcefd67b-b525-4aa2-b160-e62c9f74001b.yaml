@@ -1,0 +1,19 @@
+columnSuffix: crcqdsvz
+contentColumnType: text
+fieldGroup: 3314e328-6e73-4f75-be24-9bf00bd38061 # Mining
+handle: miningHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

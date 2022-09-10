@@ -1,0 +1,33 @@
+{% set assetManagement = craft.entries.section('assetManagement').one() %}
+{% set portfolioCards = craft.entries.section('portfolioCards') %}
+
+<section id='asset-management' class='asset-management section'>
+			
+	<div class='portfolio__inner section__inner'>
+
+		{% include ("partials/heading") with { text: assetManagement.assetManagementHeading, class: "asset-management__title", type: 'h2', color: "darkblue" } %}
+		{% include ("partials/heading") with { text: assetManagement.assetManagementSubheading, class: "asset-management__subtitle", type: 'h3', color: "darkblue" } %}
+		{% include ("partials/text") with { text: assetManagement.assetManagementText, class: 'asset-management__text', color: "darkblue" } %}
+
+				<div class='asset-management__card-wrapper'>
+
+				{% set link = currentSite.language == 'de' ? '/request-informations' : '/en/request-informations' %}
+
+					{% for card in portfolioCards %}					
+					<a href="{{ link }}" class="asset-management__link" >
+						<div class='card asset-management__card'>
+							{% include ("partials/heading") with { text: card.portfolioCardHeading, class: "asset-management__card__title", type: 'h3', color: "darkblue" } %}
+							{% include ("partials/line") with { class: 'asset-management__card__line line--darkblue' ,color: "darkblue"} %}
+							{% for row in card.portfolioCardListItem %}			
+								{% include ("partials/list-element") with { text: row.name, class: "asset-management__card__list-element", color: "darkblue" } %}
+							{% endfor %}
+						</div>	
+					</a>		
+					{% endfor %}
+
+				</div>
+
+				{% include ("partials/button") with { text: assetManagement.assetManagementButtonText, class: 'asset-management__button button--blue', color: "white", link: assetManagement.assetManagementButtonUrl } %}
+
+			</div>
+		</section>

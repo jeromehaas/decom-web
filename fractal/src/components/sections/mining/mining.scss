@@ -1,0 +1,33 @@
+.mining {
+    padding-top: 60px;
+    background-size: 300%;
+	background-position: 0% 0%;
+	background-image:  url('/assets/graphics/graphic-wave.svg');
+	background-repeat: no-repeat;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__card {
+        max-width: 650px;        
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: 60px;
+    }
+
+    @media (max-width: 500px) {
+        
+        &__title {
+            margin-bottom: 16px;
+        }
+        
+    }
+    
+}

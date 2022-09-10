@@ -1,0 +1,15 @@
+columnSuffix: riltcawe
+contentColumnType: string(255)
+fieldGroup: b91a7615-d118-482e-820e-f383a266ac1e # Asset Management
+handle: assetManagementButtonUrl
+instructions: ''
+name: 'Button URL'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url
