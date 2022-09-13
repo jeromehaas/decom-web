@@ -1,4 +1,4 @@
-dateModified: 1662827876
+dateModified: 1663076605
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -23,6 +23,7 @@ meta:
     0d6f9d42-1cbf-4879-8747-cda1d60e71f5: 'Header Informations' # Header Informations
     0d38dcd4-fa7d-4daa-8e3b-fdfaea3e7e2a: Heading # Heading
     0d493a6c-80bd-49c2-89d1-fe5f6774c315: Vision # Vision
+    0ff413f9-e0fe-40db-8261-3bf82402462f: Flag # Flag
     1cea6cef-083e-4130-b97d-ec3d5ca58bc1: FAQ # FAQ
     01d3b8a6-5b6e-4968-8a2f-cd09d7a152f0: Portfolio # Portfolio
     1eeb7644-4740-41c2-b937-09117b152cb8: 'Button Text' # Button Text
@@ -36,7 +37,9 @@ meta:
     003ca87e-0573-4b1c-805d-95d38d0186a1: 'Advantages Cards' # Advantages Cards
     3d11e0ba-45a2-4513-931e-0682291d148a: Street # Street
     3dfa7882-b8c2-411e-99e1-ae22481518ee: Imprint # Imprint
+    3e9dd953-2f71-4662-9b2f-a43bfffeb360: Location # Location
     3e857d4d-6f04-4ebe-8515-2954fe9e4102: 'Decom Web' # Decom Web
+    3f2629c3-f6d0-4a45-90a0-747ac26a58c4: Properties # Properties
     04a5fff1-a2c3-4998-870e-008b814d9a17: Downloads # Downloads
     4b19afcb-6acb-40e6-95f8-5dfdf8749f92: 'Links Heading' # Links Heading
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
@@ -54,7 +57,9 @@ meta:
     7cc6125c-099b-4da6-a99d-1a27def26011: Phone # Phone
     7d9a46af-f0d7-4984-92e2-4096ebec2e38: Footer # Footer
     7d78b88e-36c1-4a79-b5f0-982112a3a93d: Phone # Phone
+    7e750cca-1635-4615-8338-56c705d73e03: Capacity # Capacity
     7f7c5213-842b-42cb-87cf-a4ff30211285: 'Card List Item' # Card List Item
+    8dbb329f-1f84-4e6e-8e40-a145ad8f6932: Item # Item
     8f0d9d59-abec-4c6c-b85b-b5a9f07d7ed2: Pages # Pages
     08fa66f6-f9db-49ca-9484-5ff81a390874: Email # Email
     8fefe0fa-c1db-432d-9393-eb276e149e29: Image # Image
@@ -101,11 +106,13 @@ meta:
     151efc59-5eab-4756-a081-1de8174a02ba: Description # Description
     209de37c-0baf-4c78-bfde-2130079b5e9b: Text # Text
     242be248-7cc9-49a1-8c4b-fdfe10a538da: Logos # Logos
+    259b97b9-f485-4233-8a1b-559c003d9d96: image # image
     290feaa9-1674-425d-bf10-f6462fa8ee45: 'Invest Now' # Invest Now
     325ee173-2441-4e8b-8ae5-549a1ec055f0: Text # Text
     358dc55b-3499-4f44-adee-d2a10449091d: 'Blog Post Categories' # Blog Post Categories
     406a5f78-1232-4800-b8fa-7b2d0f614bfb: Heading # Heading
     438bd3e2-ae61-41cd-8042-8a282c431361: Firstname # Firstname
+    483a2a8b-5063-40b6-84a2-1910e1085163: Flags # Flags
     499aaac7-51b2-459b-ace8-6d5e0d0351b2: Text # Text
     510da438-969c-4bfa-be17-61e2b0965bac: Cards # Cards
     519f6fdb-8ecd-4965-a0ba-b50bf0c13cd1: 'Request Informations' # Request Informations
@@ -122,6 +129,7 @@ meta:
     955a42e9-c70f-42f8-bcaf-63cd54f8f96d: Advantages # Advantages
     994f6b0d-7390-4dad-983f-2a25b2e573be: Heading # Heading
     001791c0-9a7a-4272-8795-e484970d1b06: 'Success Newsletter Subscription' # Success Newsletter Subscription
+    2555fda1-7ad3-420d-8a1e-7dbdb3a50054: Country # Country
     3130eb5b-1153-4a50-9148-3bf2206ee72e: Heading # Heading
     3133adc2-d7e4-4bc8-b998-25fec3d898ec: 'Header Informations' # Header Informations
     3314e328-6e73-4f75-be24-9bf00bd38061: Mining # Mining
@@ -133,9 +141,12 @@ meta:
     6103c328-74b9-4433-a617-4005e60428e5: 'Blog Posts' # Blog Posts
     6268e356-15b7-4f70-a2ab-f1f251c3cd22: Downloads # Downloads
     7353ace4-7124-43f3-9f9d-41b75b7db7bb: Phone # Phone
+    7728efd8-3be6-484d-b0c4-db8b6e82d70a: 'Button Text' # Button Text
     07771f31-585a-4337-8f94-4cc4599122aa: 'Card Heading' # Card Heading
     8176e94a-c2d0-467a-8f2e-feeb2d8e925b: 'Portfolio Cards' # Portfolio Cards
+    8306e2ed-f70c-4d11-a8f7-125f234d01d5: Farms # Farms
     8314c389-170f-42d9-9f0e-9672fafff415: Date # Date
+    8543d1fd-9f0c-4336-8dc1-602945ff6196: Text # Text
     8847caff-ce1f-48ee-8441-c8bcd23927b8: 'Social Media Icons' # Social Media Icons
     9752d1c4-83d2-4dda-b72e-748c26628f8e: 'Card Heading' # Card Heading
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
@@ -185,6 +196,7 @@ meta:
     b4a4dd8c-1033-45c0-8c69-c6985f5e45f2: Statement # Statement
     b5c8a2bf-d646-4fa3-9d18-73102eada341: Text # Text
     b14c194a-60b4-49e7-903c-f10b45506296: 'Invest Now' # Invest Now
+    b54ead22-a1c3-4ea6-ad67-8698e15b6ff5: 'Button Link' # Button Link
     b56fb6f8-f8a8-47d9-9bce-c0722b082ff1: Title # Title
     b91a7615-d118-482e-820e-f383a266ac1e: 'Asset Management' # Asset Management
     b93c1358-1b17-4606-83d5-a5485f0aa381: Hero # Hero
@@ -202,6 +214,7 @@ meta:
     c018d09e-479c-4dc6-874b-62f403709aed: Heading # Heading
     c2ab3a3d-b2ca-4012-80c4-0cf5598624d4: Default # Default
     c2bd43c8-768a-49fa-a790-d741d1ab4b86: 'Portfolio Cards' # Portfolio Cards
+    c6f51997-ce70-46e8-998b-9ea64c010206: Icon # Icon
     c9f06f27-c777-497e-ba60-91e6a5a723dd: Company # Company
     c44d5a98-9a85-4460-8633-7dbf04e7fdaf: Heading # Heading
     c95c53d6-a8e3-4415-87dd-f33b4d767917: 'Form Submissions' # Form Submissions
@@ -245,6 +258,7 @@ meta:
     f6e3493d-c456-4618-8828-ce5fe0700434: Logo # Logo
     f8caa6c1-0922-44d1-90d3-da8bec954d93: Company # Company
     f64aeb78-cc50-4afe-bd75-23d50746c9ed: PreviewImage # PreviewImage
+    f87ab606-6213-48da-a52a-5518cf40a379: Farms # Farms
     f3548a4e-1e94-4b20-b30b-8a9610b87078: Heading # Heading
     f5978435-7303-43f4-ab0d-70dce4475040: Heading # Heading
     fc7bb1c7-fc4a-476d-b31f-83d54aca5f8c: Text # Text

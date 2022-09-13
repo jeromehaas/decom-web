@@ -80,7 +80,6 @@ class Form {
 	}
 
 	redirect = () => {
-		console.log("redirect");
 	}
 
 	submit = ( event ) => {

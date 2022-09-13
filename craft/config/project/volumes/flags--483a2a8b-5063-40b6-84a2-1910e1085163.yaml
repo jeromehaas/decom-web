@@ -1,0 +1,40 @@
+fieldLayouts:
+  ba8c82f3-8dcd-4e63-a8de-af70e2003f8d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: flags
+hasUrls: true
+name: Flags
+settings:
+  path: ./uploads/flags
+sortOrder: 8
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+type: craft\volumes\Local
+url: '@web/uploads/flags'

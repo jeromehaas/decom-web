@@ -56,7 +56,6 @@ class NewsletterSubscription {
 
 	sendMessage = async () => {
 		const body = JSON.stringify(this.values);
-		console.log(body);
 		const data = await fetch("https://mailserver.yellowreach.io/decom/newsletter-subscription", {
 			method: "POST", 
 			headers: {

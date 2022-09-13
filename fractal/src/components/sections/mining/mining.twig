@@ -9,5 +9,49 @@
             {% render "@text" with { text: text, class: "mining__card__text" } %}
         </div>
 
+        <div class="mining__farms farms">
+            <div class="farms__item item">
+                <img class="item__image" src="/assets/images/farms/farm-paraguay.jpeg" />
+                <div class="item__content  content" >
+                    <span class="content__country country">
+                        <img class="country__flag" src="/assets/icons/flags/flag-usa.svg" /> 
+                        {% render "@heading" with { text: 'USA', class: "country__name", type: "h3" } %}
+                    </span>
+                    {% render "@text" with { text: "Kapazität: 15 MH", class: "content__capacity" } %}
+                    {% render "@button" with { text: "Jetzt anfragen", class: 'content__button' } %}
+                </div>
+            </div>
+             <div class="farms__item item">
+                <img class="item__image" src="/assets/images/farms/farm-paraguay.jpeg" />
+                <div class="item__content  content" >
+                    <span class="content__country country">
+                        <img class="country__flag" src="/assets/icons/flags/flag-usa.svg" /> 
+                        {% render "@heading" with { text: 'USA', class: "country__name", type: "h3" } %}
+                    </span>
+                    {% render "@text" with { text: "Kapazität: 15 MH", class: "content__capacity" } %}
+                    {% render "@button" with { text: "Jetzt anfragen", class: 'content__button' } %}
+                </div>
+            </div>
+        </div>
+
+        <div class="mining__benefits benefits">
+            <div class="benefits__item item">
+                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
+                <p class="item__text" >100% erneuerbare energien</p>
+            </div>
+            <div class="benefits__item item">
+                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
+                <p class="item__text" >100% erneuerbare energien</p>
+            </div>
+            <div class="benefits__item item">
+                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
+                <p class="item__text" >100% erneuerbare energien</p>
+            </div>
+            <div class="benefits__item item">
+                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
+                <p class="item__text" >100% erneuerbare energien</p>
+            </div>
+        </div>
+
     </div>
 </section>
