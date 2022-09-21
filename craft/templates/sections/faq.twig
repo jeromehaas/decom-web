@@ -10,7 +10,7 @@
 
 					{% for row in faq.faqCards %}
 
-						{% include ("partials/accordion") with { title: row.question, content: row.answer } %}
+						{% include ("partials/accordion") with { title: row.question, content: row.answer|nl2br } %}
 
 							{% endfor %}
 								
