@@ -6487,7 +6487,8 @@ readers do not read off random characters that represent icons */
   grid-template: auto auto / auto 30px;
   grid-template-areas: 'title carret' 'content content';
   margin-bottom: 30px;
-  cursor: pointer; }
+  cursor: pointer;
+  grid-column-gap: 15px; }
   .accordion-group__card:hover {
     box-shadow: 0px 2.5px 5px 2.5px rgba(214, 214, 214, 0.5);
     top: -5px; }
@@ -7429,7 +7430,7 @@ readers do not read off random characters that represent icons */
 
 .faq {
   padding-top: 60px;
-  background-size: 300%;
+  background-size: 600%;
   background-position: 0% 0%;
   background-image: url("/assets/graphics/graphic-wave.svg");
   background-repeat: no-repeat; }

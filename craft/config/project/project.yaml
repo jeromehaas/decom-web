@@ -1,4 +1,4 @@
-dateModified: 1663076605
+dateModified: 1663755870
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -30,6 +30,7 @@ meta:
     2b7b49b8-bf1d-467d-a58b-17b3c682bf78: 'Button URL' # Button URL
     2c78574c-f465-43d1-9d21-dd994ad477d5: description # description
     2cac1ef0-cccd-4bd9-8eb7-0b4cb03ef9c7: Image # Image
+    02d44b22-57bd-4399-a03a-a23858305192: question # question
     2df64663-e25f-45a2-a011-711a266f33f9: 'Invest Now' # Invest Now
     2edb47fe-fdab-4124-b9f0-1d54503ee9a8: Downloads # Downloads
     2f4e054b-a655-44f4-8f45-656936edd3f9: 'Blog Posts' # Blog Posts
@@ -45,7 +46,6 @@ meta:
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
     4d81e03e-37b8-4687-b55f-8276fb8f1203: Team # Team
     4de76389-7f5c-4f1a-9c0c-144e8c7b5571: Firstname # Firstname
-    5d5fdcce-f97d-4006-8820-38ec9736c507: Cards # Cards
     5f7e87a6-fb96-4322-9e00-df144fba4bc9: FAQ # FAQ
     6e82f08b-f0d2-44b8-ba4f-52148cc7100c: Publications # Publications
     6e90f54d-71de-45b3-96b8-568f7004a6e4: Title # Title
@@ -60,6 +60,7 @@ meta:
     7e750cca-1635-4615-8338-56c705d73e03: Capacity # Capacity
     7f7c5213-842b-42cb-87cf-a4ff30211285: 'Card List Item' # Card List Item
     8dbb329f-1f84-4e6e-8e40-a145ad8f6932: Item # Item
+    08e74fdc-7908-4969-8706-328cba8d8232: answer # answer
     8f0d9d59-abec-4c6c-b85b-b5a9f07d7ed2: Pages # Pages
     08fa66f6-f9db-49ca-9484-5ff81a390874: Email # Email
     8fefe0fa-c1db-432d-9393-eb276e149e29: Image # Image
@@ -253,8 +254,10 @@ meta:
     e824f35a-7304-44ea-aadf-81d8b021fc5f: Blog-Content # Blog-Content
     e3356350-dbf7-48ae-8ef1-0027c74ec586: Firstname # Firstname
     ea00e616-77b7-44f8-839b-039c45767894: 'Button Text' # Button Text
+    ea785bd7-5cc1-49a8-92fe-68fe345577ca: Items # Items
     ebaa74d3-c63d-41a1-b048-d9e2e9706831: Hero # Hero
     ec3fa37d-2193-47b7-9ff1-a0daf3199429: Order # Order
+    f4a8e59c-ade6-46f0-8e3c-ed293b380388: Item # Item
     f6e3493d-c456-4618-8828-ce5fe0700434: Logo # Logo
     f8caa6c1-0922-44d1-90d3-da8bec954d93: Company # Company
     f64aeb78-cc50-4afe-bd75-23d50746c9ed: PreviewImage # PreviewImage
