@@ -5,31 +5,42 @@
 
 		<nav class='navigation-desktop'>
 			<div class='navigation-desktop__inner'>
+
 				<a href="{{ navigation.navigationLogoLink }}">
 					<img class='navigation-desktop__logo' src='/uploads/logos/logo-decom-full.png' alt='Decom' class='navigation-desktop__logo' />
 				</a>
+
 				<div class='navigation-desktop__links'>
-						{% for link in links %}
-						<div class="navigation-desktop__link-wrapper">
-							{% if link.hasDescendants %}
-								<p class="link link--darkblue navigation-desktop__link navigation-desktop__link--has-childs">
-									{{ link.title }}
-								</p>
-							{% else %}
-								{% include ("partials/link") with { text: link.title, class: "navigation-desktop__link", color: 'darkblue', link: link.pagesRoute} %}
-							{% endif %}
-							{% if link.hasDescendants %}
-								<div class='navigation-desktop__link-dropdown-box'>
-								{% set sublinks = link.getChildren() %}
-								{% for sublink in sublinks %}
-									{% include ("partials/link") with { text: sublink.title, class: "navigation-desktop__link-dropdown-item", color: 'darkblue', link: sublink.pagesRoute } %}
-								{% endfor %}
-								</div> 
-							 {% endif %} 
-							</div>
-						{% endfor %}
+					{% for link in links %}
+					<div class="navigation-desktop__link-wrapper">
+						{% if link.hasDescendants %}
+							<p class="link link--darkblue navigation-desktop__link navigation-desktop__link--has-childs">
+								{{ link.title }}
+							</p>
+						{% else %}
+							{% include ("partials/link") with { text: link.title, class: "navigation-desktop__link", color: 'darkblue', link: link.pagesRoute} %}
+						{% endif %}
+						{% if link.hasDescendants %}
+							<div class='navigation-desktop__link-dropdown-box'>
+							{% set sublinks = link.getChildren() %}
+							{% for sublink in sublinks %}
+								{% include ("partials/link") with { text: sublink.title, class: "navigation-desktop__link-dropdown-item", color: 'darkblue', link: sublink.pagesRoute } %}
+							{% endfor %}
+							</div> 
+							{% endif %} 
+						</div>
+					{% endfor %}
 				</div>
-				{% include ("partials/button") with { text: navigation.navigationButtonText, class: "navigation-desktop__button", color: "blue", link: navigation.navigationButtonLink} %}
+
+				<div class="navigation-desktop__actions">
+					{% include ("partials/button") with { text: navigation.navigationButtonText, class: "navigation-desktop__button", color: "blue", link: navigation.navigationButtonLink} %}
+					<div class="navigation-desktop__language-switcher language-switcher">
+						{% include ("partials/link") with { text: 'EN', class: "language-switcher__item", color: 'darkblue', link: '/en' } %}
+						<figure class="language-switcher__separator"></figure>
+						{% include ("partials/link") with { text: 'DE', class: "language-switcher__item", color: 'darkblue', link: '/' } %}
+					</div>
+				</div>
+
 			</div>
 		</nav>
 
@@ -42,7 +53,8 @@
 				{% include ("partials/hamburger")  %}
 				</div>
 				<div class="navigation-mobile__backgroundlayer navigation-mobile__backgroundlayer--closed" id="backgroundlayer" type='button'>
-						<div class='navigation-mobile__link-container' key={index}>												
+						<div class='navigation-mobile__link-container' key={index}>				
+							<div class="navigation-mobile__link-wrapper">
 							{% for link in links %}
 								{% if link.hasDescendants %}
 									{% include ("partials/link") with { text: link.title, link: link.pagesRoute, class: "navigation-mobile__link navigation-mobile__link--has-childs", color: "darkblue" } %}
@@ -59,6 +71,12 @@
 								{% endif %}
 							{% endfor %}
 						</div>
+						<div class="navigation-mobile__language-switcher language-switcher">
+							{% include ("partials/link") with { text: 'EN', class: "language-switcher__item", color: 'white', link: '/en' } %}
+							<figure class="language-switcher__separator"></figure>
+							{% include ("partials/link") with { text: 'DE', class: "language-switcher__item", color: 'white', link: '/' } %}
+						<div>
+					</div>
       	</div>
 			</div>
 		</nav>
