@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 3314e328-6e73-4f75-be24-9bf00bd38061 # Mining
+handle: miningProperties
+instructions: ''
+name: Properties
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_miningproperties}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

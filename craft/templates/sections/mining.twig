@@ -10,5 +10,31 @@
 			{% include ("partials/text") with { text: mining.miningText, class: "mining__card__text" } %}
         </div>
 
+        <div class="mining__farms farms">
+        {% for farm in mining.miningFarms %}
+            <div class="farms__item item">
+                <img class="item__image" src="{{ farm.image.one().url() }}" />
+                <div class="item__content  content" >
+                    <span class="content__country country">
+                        <img class="country__flag" src="{{ farm.flag.one().url() }}" /> 
+                        {% include "partials/heading" with { text: farm.country, class: "country__name", type: "h3" } %}
+                    </span>
+                    {% include "partials/text" with { text: farm.capacity, class: "content__capacity" } %}
+                    {% include "partials/button" with { text: farm.buttonText, class: 'content__button', link: farm.buttonLink } %}
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="mining__benefits benefits">
+            {% for item in mining.miningProperties %}
+                
+            <div class="benefits__item item">
+                <img class="item__icon" src="{{ item.icon.one().url() }}" />
+                {% include "partials/text" with { text: item.text, class: "item__text" } %}
+            </div>
+            {% endfor %}
+        </div>
+
     </div>
 </section>

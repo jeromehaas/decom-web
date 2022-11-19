@@ -8,9 +8,9 @@
 
 					<div class='faq__accordion-wrapper'>
 
-					{% for row in faq.faqCards %}
+					{% for item in faq.faqItems %}
 
-						{% include ("partials/accordion") with { title: row.question, content: row.answer } %}
+						{% include ("partials/accordion") with { title: item.question, content: item.answer } %}
 
 							{% endfor %}
 								

@@ -22,10 +22,133 @@
         margin-bottom: 60px;
     }
 
+    &__farms, .farms {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 32px;
+        margin-bottom: 64px;
+
+        &__item, .item {
+            @include hoverable;
+            border-radius: 7.5px;
+            background-color: $white;
+            display: inline-block;
+            background-color: $white;
+            border: 1px solid $lightblue;
+            border-radius: $border-radius;
+            background-color: $white;
+            max-width: 300px;
+
+            &__image {
+                width: 100%;
+                display: block;
+            }
+
+            &__content, .content {
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &__country, .country {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 16px;
+                    margin-bottom: 16px;
+
+                    &__flag {
+                        width: 32px;
+                        display: block;
+                    }
+
+                    &__name {
+
+                    }
+
+                }
+
+                &__title {
+                    display: inline-block;
+                }
+
+                &__capacity {
+                    margin-bottom: 16px;
+                }
+
+            }
+
+
+        }
+
+    }
+
+    &__benefits, .benefits {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 16px;
+        margin-bottom: 64px;
+
+        &__item, .item {
+            @include hoverable;
+            border-radius: 7.5px;
+            background-color: $white;
+            background-color: $white;
+            border: 1px solid $lightblue;
+            border-radius: $border-radius;
+            background-color: $white;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+
+            &__icon {
+                height: 32px;
+                margin-bottom: 16px;
+            }
+
+            &__text {
+                text-align: center;
+            }
+        }
+    }
+
+    @media (max-width: 750px) {
+
+        &__benefits, .benefits {
+            grid-template-columns: 1fr 1fr;
+        }
+
+    }
+
+    @media (max-width: 600px) {
+
+        &__farms, .farms {
+            flex-direction: column;
+            gap: 32px;
+
+            &__item, .item {
+                max-width: unset;
+            }
+
+        }
+
+    }
+
     @media (max-width: 500px) {
         
         &__title {
             margin-bottom: 16px;
+        }
+        
+    }
+
+    @media (max-width: 400px) {
+
+        &__benefits, .benefits {
+            grid-template-columns: 1fr;
         }
         
     }
