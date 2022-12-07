@@ -46,6 +46,11 @@ meta:
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
     4d81e03e-37b8-4687-b55f-8276fb8f1203: Team # Team
     4de76389-7f5c-4f1a-9c0c-144e8c7b5571: Firstname # Firstname
+<<<<<<< HEAD
+    4e9e9279-b855-450f-b36c-0fcf86622f73: Location # Location
+    5d5fdcce-f97d-4006-8820-38ec9736c507: Cards # Cards
+=======
+>>>>>>> 82876e9a27328aa0610ffd384beb5407f17f3aa8
     5f7e87a6-fb96-4322-9e00-df144fba4bc9: FAQ # FAQ
     6e82f08b-f0d2-44b8-ba4f-52148cc7100c: Publications # Publications
     6e90f54d-71de-45b3-96b8-568f7004a6e4: Title # Title
@@ -57,7 +62,11 @@ meta:
     7cc6125c-099b-4da6-a99d-1a27def26011: Phone # Phone
     7d9a46af-f0d7-4984-92e2-4096ebec2e38: Footer # Footer
     7d78b88e-36c1-4a79-b5f0-982112a3a93d: Phone # Phone
+<<<<<<< HEAD
+    7e849a90-ebc0-42ab-8fec-3a5f85a51f9b: country # country
+=======
     7e750cca-1635-4615-8338-56c705d73e03: Capacity # Capacity
+>>>>>>> 82876e9a27328aa0610ffd384beb5407f17f3aa8
     7f7c5213-842b-42cb-87cf-a4ff30211285: 'Card List Item' # Card List Item
     8dbb329f-1f84-4e6e-8e40-a145ad8f6932: Item # Item
     08e74fdc-7908-4969-8706-328cba8d8232: answer # answer
@@ -122,6 +131,7 @@ meta:
     652f6622-f578-49ca-b252-2e8c44b6473c: Company # Company
     659e43ae-5d94-496b-96d2-0092b7fb5ea7: 'Decom Web (EN)' # Decom Web (EN)
     690fc049-70b5-49c2-8ac6-f216533c110c: 'Terms Of Use' # Terms Of Use
+    704dea54-e5f3-4581-bd79-36de543f9878: Flags # Flags
     713d4a8e-8e76-4737-96eb-a3f7bda327ba: Content # Content
     802e5e16-a2ed-481f-952b-9b0f596dd6bb: 'Button Text' # Button Text
     835e70d2-1b6f-493d-aa02-a4a58214ccb5: Portfolio # Portfolio
@@ -129,6 +139,7 @@ meta:
     940e3270-e12d-49ad-ac3e-944d259e2c9e: 'Card Description' # Card Description
     955a42e9-c70f-42f8-bcaf-63cd54f8f96d: Advantages # Advantages
     994f6b0d-7390-4dad-983f-2a25b2e573be: Heading # Heading
+    1606f661-fa3f-467b-9c76-5d1fdf5fee6d: 'Button Link' # Button Link
     001791c0-9a7a-4272-8795-e484970d1b06: 'Success Newsletter Subscription' # Success Newsletter Subscription
     2555fda1-7ad3-420d-8a1e-7dbdb3a50054: Country # Country
     3130eb5b-1153-4a50-9148-3bf2206ee72e: Heading # Heading
@@ -171,6 +182,7 @@ meta:
     34818444-6c43-4076-85f2-548a6a63614a: 'Request Informations' # Request Informations
     36164803-5926-40ad-b0e9-9975cc96d7a1: Heading # Heading
     40786505-2be6-4db4-bfc6-7fb6db69c13f: Heading # Heading
+    58950036-eef8-4aef-a6a2-5ed8f492f9f8: 'Button Text' # Button Text
     60551541-a3a4-428a-a109-3d8b789da966: Cards # Cards
     66007103-3a79-4e1a-abfd-dcd9c8e19c66: Error # Error
     73568354-2f80-4596-b606-e4de3a380525: Content # Content
@@ -191,6 +203,7 @@ meta:
     acc82756-cf0e-4738-9ff4-0bfe0104787c: Publications # Publications
     acd8bae9-53b3-443e-9081-53d1ecd4c825: 'Email Address' # Email Address
     ae12ad68-24d7-4c51-b3b7-efa5a7d8d2e3: Title # Title
+    ae499f75-dfb8-4b59-852e-e7c98a6019fe: flag # flag
     b03ceaef-8e2d-4e9f-a5c1-7a915c83d255: Roadmap # Roadmap
     b1a1dd03-a006-41b2-a979-c41485be5d7c: 'Button URL' # Button URL
     b3a117f0-83d5-4334-8d3c-2d99c3c28b72: Cards # Cards
@@ -209,6 +222,7 @@ meta:
     ba871ec6-5e41-4759-85ed-d112fcaa63f5: Form # Form
     babc2a04-f8e5-4fca-b4f1-b138b8b3ae1b: 'Button URL' # Button URL
     bc227de7-ffb3-40cc-aae5-31c4b1d41822: 'Buton URL (Right)' # Buton URL (Right)
+    bde5051b-eddb-4ccb-92d5-58e6b5f4f022: location # location
     beaefe4d-3ae0-4fe1-8865-47a50b45153e: Home # Home
     bedcd1cd-4cda-4448-977e-f1fe38045d0f: Default # Default
     bfe4cd46-ac16-4b6f-87eb-d4211ad138fb: Lastname # Lastname
@@ -221,6 +235,7 @@ meta:
     c95c53d6-a8e3-4415-87dd-f33b4d767917: 'Form Submissions' # Form Submissions
     c99d95df-54b5-4c91-b6a3-a309d3108c3d: Filename # Filename
     c682ee2f-9610-4b00-ba7a-bcfbb89dfa88: Caption # Caption
+    c859d084-513e-4f5d-a9f2-318006e2c114: capacity # capacity
     c1266304-6fac-40d6-956e-63c90a86e006: 'Asset Management' # Asset Management
     ca9e4ebb-777a-4f3b-901e-e3672336ef0f: Error # Error
     cb6a2d16-0545-467c-b90f-50ca83a28b13: Logos # Logos
