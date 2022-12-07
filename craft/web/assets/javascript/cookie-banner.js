@@ -37,7 +37,6 @@ class CookieBanner {
 
 	checkCookie() {
 		const cookies = document.cookie.split('; ');
-		console.log(cookies)
 		setTimeout(() => {
 			if (!cookies.includes(`${this.cookie.name}=${this.cookie.value}`)) this.showBanner();
 		}, 5000);
