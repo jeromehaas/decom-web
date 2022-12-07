@@ -1,7 +1,7 @@
 	<div class="accordion-group">
 		<div class="card accordion-group__card">
 			{% include "partials/heading" with { text: title, class: 'accordion-group__title heading--darkblue', type: 'h3'  } %}
-			{% include "partials/text" with { text: content, class: "accordion-group__content" } %}
+			<div class="accordion-group__content">{{ content }}</div>
 			<img class="accordion-group__carret" src='/assets/icons/various/accordion-carret.svg' alt='Carret'></img>	
 		</div>
 	</div>

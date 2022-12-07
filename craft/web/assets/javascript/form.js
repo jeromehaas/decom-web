@@ -72,7 +72,6 @@ class Form {
 
 	sendMessage = async () => {
 		const body = JSON.stringify(this.values);
-		console.log(body);
 		const data = await fetch("https://mailserver.yellowreach.io/decom/request-informations", {
 			method: "POST", 
 			headers: {
@@ -88,7 +87,6 @@ class Form {
 	}
 
 	redirect = () => {
-		console.log("redirect");
 	}
 
 	submit = ( event ) => {

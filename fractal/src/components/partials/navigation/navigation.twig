@@ -24,7 +24,14 @@
 						{% endfor %}
 				</div>
 
-				{% render "@button" with { text: "Jetzt investieren", color: "darkblue", class: "navigation-desktop__button"} %}
+				<div class="navigation-desktop__actions">
+					{% render "@button" with { text: "Jetzt investieren", color: "blue", class: "navigation-desktop__button"} %}
+					<div class="navigation-desktop__language-switcher language-switcher">
+						{% render "@link" with { text: 'EN', link: '/de', color: 'darkblue', class: "language-switcher__item" } %}
+						<figure class="language-switcher__separator"></figure>
+						{% render "@link" with { text: 'DE', link: '/en', color: 'darkblue', class: "language-switcher__item" } %}
+					</div>
+				</div>
 
 			</div>
 		</nav>
@@ -38,7 +45,8 @@
 				{% render "@hamburger"  %}
 				</div>
 				<div class="navigation-mobile__backgroundlayer navigation-mobile__backgroundlayer--closed" id="backgroundlayer" type='button'>
-						<div class='navigation-mobile__link-container'>												
+						<div class='navigation-mobile__link-container'>		
+							<div class="navigation-mobile__link-wrapper">
 							{% for link in links %}
 								{% if link.sublinks.length %}
 									{% render "@link" with { text: link.name, link: link.link, class: "navigation-mobile__link navigation-mobile__link--has-childs"} %}
@@ -51,6 +59,12 @@
 									{% render "@link" with { text: link.name, link: link.link, class: "navigation-mobile__link"} %}
 								{% endif %}
 							{% endfor %}
+							</div>										
+							<div class="navigation-mobile__language-switcher language-switcher">
+								{% render "@link" with { text: 'DE', link: '/en', color: 'white', class: "language-switcher__item" } %}
+								<figure class="language-switcher__separator"></figure>
+								{% render "@link" with { text: 'DE', link: '/en', color: 'white', class: "language-switcher__item" } %}
+							<div>
 						</div>
       	</div>
 			</div>

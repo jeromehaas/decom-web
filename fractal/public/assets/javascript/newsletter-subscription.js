@@ -14,7 +14,6 @@ class NewsletterSubscription {
 		}
 		if (this.form && this.inputs) {
 			this.init();
-			console.log('inint')
 		}
 	}
 
@@ -72,14 +71,12 @@ class NewsletterSubscription {
 	}
 
 	redirect = () => {
-		console.log("redirect");
 	}
 
 	submit = ( event ) => {
 		event.preventDefault();
 		const inputIsValid = this.validateInputs();
 		if (inputIsValid) {
-			console.log('succeess');
 			this.sendMessage();
 			this.redirect();
 		} else {
