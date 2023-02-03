@@ -1,0 +1,19 @@
+columnSuffix: gbtemnfh
+contentColumnType: text
+fieldGroup: 38433a73-20a4-4a6b-872d-65c318e147b8 # Meta
+handle: metaTitle
+instructions: ''
+name: 'Meta Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

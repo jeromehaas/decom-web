@@ -1,0 +1,19 @@
+columnSuffix: vfnhyymz
+contentColumnType: text
+fieldGroup: 38433a73-20a4-4a6b-872d-65c318e147b8 # Meta
+handle: metaDescription
+instructions: ''
+name: 'Meta Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

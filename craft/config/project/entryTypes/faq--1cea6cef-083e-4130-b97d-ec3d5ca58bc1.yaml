@@ -36,15 +36,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5d5fdcce-f97d-4006-8820-38ec9736c507
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: ea785bd7-5cc1-49a8-92fe-68fe345577ca # Items
             instructions: null
             label: null
@@ -55,6 +46,28 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: fae79f2d-53ef-4d5c-8f9f-ceb189df18a2 # Meta Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 445ad3ce-c5f8-40e1-a5a3-ee35d782c4b2 # Meta Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Meta
+        sortOrder: 2
 handle: faq
 hasTitleField: false
 name: FAQ

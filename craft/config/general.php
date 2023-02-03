@@ -27,11 +27,14 @@ return [
     'securityKey' => App::env('SECURITY_KEY'),
 
     // Whether Dev Mode should be enabled (see https://craftcms.com/guides/what-dev-mode-does)
-    'devMode' => $isDev,
+    'devMode' => false,
 
     // Whether administrative changes should be allowed
     'allowAdminChanges' => $isDev,
 
     // Whether crawlers should be allowed to index pages and following links
     'disallowRobots' => !$isProd,
+
+    // Path to error pages
+    'errorTemplatePrefix' => "pages/"
 ];
