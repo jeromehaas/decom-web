@@ -1,4 +1,4 @@
-dateModified: 1663755870
+dateModified: 1675455696
 email:
   fromEmail: developer@decom.ch
   fromName: 'Decom '
@@ -46,11 +46,7 @@ meta:
     4bed0ac4-d9b6-4305-802f-66628668e0f8: Imprint # Imprint
     4d81e03e-37b8-4687-b55f-8276fb8f1203: Team # Team
     4de76389-7f5c-4f1a-9c0c-144e8c7b5571: Firstname # Firstname
-<<<<<<< HEAD
     4e9e9279-b855-450f-b36c-0fcf86622f73: Location # Location
-    5d5fdcce-f97d-4006-8820-38ec9736c507: Cards # Cards
-=======
->>>>>>> 82876e9a27328aa0610ffd384beb5407f17f3aa8
     5f7e87a6-fb96-4322-9e00-df144fba4bc9: FAQ # FAQ
     6e82f08b-f0d2-44b8-ba4f-52148cc7100c: Publications # Publications
     6e90f54d-71de-45b3-96b8-568f7004a6e4: Title # Title
@@ -62,11 +58,8 @@ meta:
     7cc6125c-099b-4da6-a99d-1a27def26011: Phone # Phone
     7d9a46af-f0d7-4984-92e2-4096ebec2e38: Footer # Footer
     7d78b88e-36c1-4a79-b5f0-982112a3a93d: Phone # Phone
-<<<<<<< HEAD
-    7e849a90-ebc0-42ab-8fec-3a5f85a51f9b: country # country
-=======
     7e750cca-1635-4615-8338-56c705d73e03: Capacity # Capacity
->>>>>>> 82876e9a27328aa0610ffd384beb5407f17f3aa8
+    7e849a90-ebc0-42ab-8fec-3a5f85a51f9b: country # country
     7f7c5213-842b-42cb-87cf-a4ff30211285: 'Card List Item' # Card List Item
     8dbb329f-1f84-4e6e-8e40-a145ad8f6932: Item # Item
     08e74fdc-7908-4969-8706-328cba8d8232: answer # answer
@@ -122,6 +115,7 @@ meta:
     358dc55b-3499-4f44-adee-d2a10449091d: 'Blog Post Categories' # Blog Post Categories
     406a5f78-1232-4800-b8fa-7b2d0f614bfb: Heading # Heading
     438bd3e2-ae61-41cd-8042-8a282c431361: Firstname # Firstname
+    445ad3ce-c5f8-40e1-a5a3-ee35d782c4b2: 'Meta Description' # Meta Description
     483a2a8b-5063-40b6-84a2-1910e1085163: Flags # Flags
     499aaac7-51b2-459b-ace8-6d5e0d0351b2: Text # Text
     510da438-969c-4bfa-be17-61e2b0965bac: Cards # Cards
@@ -162,6 +156,7 @@ meta:
     8847caff-ce1f-48ee-8441-c8bcd23927b8: 'Social Media Icons' # Social Media Icons
     9752d1c4-83d2-4dda-b72e-748c26628f8e: 'Card Heading' # Card Heading
     26500d21-05cf-4245-b1a9-c31e0a3fc9bd: Default # Default
+    38433a73-20a4-4a6b-872d-65c318e147b8: Meta # Meta
     46347ea4-850e-4fbe-aeef-1c8d685397fd: Text # Text
     55324d78-6366-4167-a383-dd58e355304c: Navigation # Navigation
     64589df0-0678-44bb-b0b3-37a8026a962a: Navigation # Navigation
@@ -279,6 +274,7 @@ meta:
     f87ab606-6213-48da-a52a-5518cf40a379: Farms # Farms
     f3548a4e-1e94-4b20-b30b-8a9610b87078: Heading # Heading
     f5978435-7303-43f4-ab0d-70dce4475040: Heading # Heading
+    fae79f2d-53ef-4d5c-8f9f-ceb189df18a2: 'Meta Title' # Meta Title
     fc7bb1c7-fc4a-476d-b31f-83d54aca5f8c: Text # Text
     fde6d049-18ea-4505-ad38-0a99678e8b56: 'Team Cards' # Team Cards
     febcffd0-0a5d-4a57-a7aa-ab9d0547e9e1: Text # Text

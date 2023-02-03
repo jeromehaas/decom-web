@@ -19,11 +19,11 @@ siteSettings:
   3e857d4d-6f04-4ebe-8515-2954fe9e4102: # Decom Web
     enabledByDefault: true
     hasUrls: true
-    template: pages/error
-    uriFormat: error
+    template: pages/404
+    uriFormat: '404'
   659e43ae-5d94-496b-96d2-0092b7fb5ea7: # Decom Web (EN)
     enabledByDefault: true
     hasUrls: true
-    template: pages/error
-    uriFormat: error
+    template: pages/404
+    uriFormat: '404'
 type: single
