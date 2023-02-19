@@ -1,25 +1,118 @@
 .mining {
     padding-top: 60px;
-    background-size: 300%;
-	background-position: 0% 0%;
-	background-image:  url('/assets/graphics/graphic-wave.svg');
+    background-size: 300vh, 300vh;
+	background-position: 0% 0%, 100% 100%;
+	background-image:  url('/assets/graphics/graphic-wave.svg'), url('/assets/graphics/graphic-wave-inverted.svg');
 	background-repeat: no-repeat;
 
     &__title {
         text-align: center;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
     }
 
     &__subtitle {
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
 
-    &__card {
-        max-width: 650px;        
-        display: block;
-        margin: 0 auto; 
-        margin-bottom: 60px;
+    &__text {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__facts, .facts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 64px;
+
+        &__item, .item {
+            margin: 32px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            &__text {
+                margin-left: 16px;
+            }
+
+        }
+
+    }
+
+    &__earnings, .earnings {
+        width: 100%;
+        margin-bottom: 64px;
+        
+        &__title {
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        &__subtitle {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        &__infos, .infos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            &__item, .item {
+                padding: 32px;
+                display: grid;
+                grid-template-columns: 64px auto;
+                grid-template-areas: 
+                    "icon label"
+                    "icon value";
+                transition: all 0.3s ease;
+
+                &__value {
+                    grid-area: value;
+                    font-weight: 700;
+                } 
+
+                &__icon {
+                    grid-area: icon;
+                    justify-self: flex-start;
+                    align-self: center;
+                    width: 40px;
+                } 
+
+                &__label {
+                    grid-area: label;
+                } 
+
+                &:hover {
+                    background-color: $lightblue;
+                }
+
+                &:nth-child(1) {
+                    border-right: 1px solid $lightblue;
+                    border-bottom: 1px solid $lightblue;
+                }
+
+                &:nth-child(2) {
+                    border-right: 1px solid $lightblue;
+                    border-bottom: 1px solid $lightblue;
+                }
+
+                &:nth-child(3) {
+                    border-bottom: 1px solid $lightblue;
+                }
+
+                &:nth-child(4) {
+                    border-right: 1px solid $lightblue;
+                }
+
+                &:nth-child(5) {
+                    border-right: 1px solid $lightblue;
+                }
+            }
+
+
+        }
+
     }
 
     &__farms, .farms {
@@ -33,12 +126,13 @@
             @include hoverable;
             border-radius: 7.5px;
             background-color: $white;
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
             background-color: $white;
             border: 1px solid $lightblue;
             border-radius: $border-radius;
             background-color: $white;
-            max-width: 300px;
+            max-width: 320px;
 
             &__image {
                 width: 100%;
@@ -74,6 +168,10 @@
 
                 &__capacity {
                     margin-bottom: 16px;
+                }
+
+                &__button {
+                    text-align: center;
                 }
 
             }
@@ -112,18 +210,77 @@
             &__text {
                 text-align: center;
             }
-        }
-    }
 
-    @media (max-width: 750px) {
-
-        &__benefits, .benefits {
-            grid-template-columns: 1fr 1fr;
         }
 
     }
 
-    @media (max-width: 600px) {
+    &__action, .action {
+        max-width: 480px;
+        margin: 0 auto 160px;
+
+        &__title {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        &__button {
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 1000px) {
+            
+        &__earnings, .earnings {
+
+            &__infos, .infos {
+                grid-template-columns: repeat(2, auto);
+                align-items: flex-start;
+                justify-content: center;
+                
+                &__item, .item {
+                    grid-template-columns: 64px auto;
+                    grid-template-areas: 
+                        "icon label"
+                        "icon value";
+
+                    &:nth-child(1) {
+                        border: none;
+                        border-right: 1px solid $lightblue;
+                        border-bottom: 1px solid $lightblue;
+                    }
+
+                    &:nth-child(2) {
+                        border: none;
+                        border-bottom: 1px solid $lightblue;
+                    }
+
+                    &:nth-child(3) {
+                        border: none;
+                        border-bottom: 1px solid $lightblue;
+                        border-right: 1px solid $lightblue;
+                    }
+
+                    &:nth-child(4) {
+                        border: none;
+                        border-bottom: 1px solid $lightblue;
+                    }
+
+                    &:nth-child(5) {
+                        border-right: 1px solid $lightblue;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    @media (max-width: 900px) {
 
         &__farms, .farms {
             flex-direction: column;
@@ -131,6 +288,109 @@
 
             &__item, .item {
                 max-width: unset;
+                flex-direction: row;
+
+                &__image {
+                    height: auto;
+                    width: 50%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                &__content, .content {
+                    width: 50%;
+                    align-items: flex-start;
+
+                    &__button {
+                        width: 100%;
+                    }
+
+                }
+
+            }
+
+        }
+
+        &__facts, .facts {
+            flex-direction: column;
+            align-items: center;
+            
+            &__item, .item {
+                margin: 8px;
+            }
+
+        }
+
+    }
+
+    @media (max-width: 800px) {
+
+        &__benefits, .benefits {
+            grid-template-columns: 1fr 1fr;
+        }
+
+    }
+
+    @media (max-width: 700px) {
+
+         &__earnings, .earnings {
+
+            &__infos, .infos {
+                grid-template-columns: repeat(2, 1fr);
+                
+                &__item, .item {
+                    grid-template-columns: 64px auto;
+                    grid-template-areas: 
+                        "icon" 
+                        "label"
+                        "value";
+                    grid-template-columns: auto;
+
+                        &__icon {
+                            margin: 0 auto 16px auto;
+                        }
+
+                        &__label {
+                            text-align: center;;
+                        }
+
+                        &__value {
+                            text-align: center;
+                        }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    @media (max-width: 600px) {
+
+        &__farms, .farms {
+
+            &__item, .item {
+                max-width: unset;
+                flex-direction: column;
+
+                &__image {
+                    height: auto;
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                &__content, .content {
+                    width: 100%;
+                    align-items: center;
+
+                    &__button {
+                        width: 100%;
+                    }
+
+                }
+
             }
 
         }
@@ -142,7 +402,40 @@
         &__title {
             margin-bottom: 16px;
         }
-        
+
+
+         &__earnings, .earnings {
+
+            &__infos, .infos {
+                grid-template-columns: 1fr;
+                
+                &__item, .item {
+                    grid-template-columns: 64px auto;
+                    grid-template-areas: 
+                        "icon" 
+                        "label"
+                        "value";
+                    grid-template-columns: auto;
+                    border-bottom: unset !important;
+
+                        &__icon {
+                            margin: 0 auto 16px auto;
+                        }
+
+                        &__label {
+                            text-align: center;;
+                        }
+
+                        &__value {
+                            text-align: center;
+                        }
+
+                }
+
+            }
+
+        }
+
     }
 
     @media (max-width: 400px) {

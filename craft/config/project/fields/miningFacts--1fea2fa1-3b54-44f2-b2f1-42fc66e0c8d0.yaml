@@ -1,12 +1,12 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: 3314e328-6e73-4f75-be24-9bf00bd38061 # Mining
-handle: location
+handle: miningFacts
 instructions: ''
-name: Location
+name: Facts
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_location}}'
+  contentTable: '{{%matrixcontent_miningfacts}}'
   maxBlocks: ''
   minBlocks: ''
   propagationKeyFormat: null

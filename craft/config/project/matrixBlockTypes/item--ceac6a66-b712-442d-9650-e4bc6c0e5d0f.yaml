@@ -1,11 +1,11 @@
-field: 3f2629c3-f6d0-4a45-90a0-747ac26a58c4 # Properties
+field: de6e6e0e-9bba-4d88-8301-45b52b44e52b # Items
 fieldLayouts:
-  c3bd34be-ce5d-4cb6-924e-5ff406333008:
+  132966b0-8755-4836-86be-deae027a2fbb:
     tabs:
       -
         elements:
           -
-            fieldUid: c6f51997-ce70-46e8-998b-9ea64c010206 # Icon
+            fieldUid: d9e4a689-0d2e-47fd-b8bb-3233bc674427 # Icon
             instructions: null
             label: null
             required: false
@@ -14,7 +14,16 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 8543d1fd-9f0c-4336-8dc1-602945ff6196 # Text
+            fieldUid: a00ff151-15b0-4b7f-b59c-3605018b075a # Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f520ac20-3865-4969-8fea-b5e15365cb2d # Text
             instructions: null
             label: null
             required: false
@@ -25,13 +34,13 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  8543d1fd-9f0c-4336-8dc1-602945ff6196: # Text
-    columnSuffix: hutyclbe
+  a00ff151-15b0-4b7f-b59c-3605018b075a: # Label
+    columnSuffix: adgjryzw
     contentColumnType: text
     fieldGroup: null
-    handle: text
+    handle: label
     instructions: ''
-    name: Text
+    name: Label
     searchable: false
     settings:
       byteLimit: null
@@ -45,7 +54,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
-  c6f51997-ce70-46e8-998b-9ea64c010206: # Icon
+  d9e4a689-0d2e-47fd-b8bb-3233bc674427: # Icon
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -71,14 +80,35 @@ fields:
       singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       singleUploadLocationSubpath: ''
       source: null
-      sources: '*'
+      sources:
+        - 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       targetSiteId: null
-      useSingleFolder: false
+      useSingleFolder: true
       validateRelatedElements: false
       viewMode: list
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  f520ac20-3865-4969-8fea-b5e15365cb2d: # Text
+    columnSuffix: tqtchcqb
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: ''
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
 handle: item
 name: Item
 sortOrder: 1

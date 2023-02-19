@@ -28,13 +28,13 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: advantagesIcons
+handle: icons
 hasUrls: true
-name: 'Advantages Icons'
+name: Icons
 settings:
   path: ./uploads/advantages-icons
 sortOrder: 1
 titleTranslationKeyFormat: null
-titleTranslationMethod: null
+titleTranslationMethod: site
 type: craft\volumes\Local
 url: '@web/uploads/advantages-icons'

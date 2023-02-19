@@ -46,7 +46,7 @@ fields:
       allowSelfRelations: false
       allowUploads: true
       allowedKinds: null
-      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false

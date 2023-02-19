@@ -74,7 +74,7 @@ fields:
       allowUploads: true
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -84,7 +84,7 @@ fields:
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       singleUploadLocationSubpath: ''
       source: null
       sources: '*'
@@ -127,7 +127,7 @@ fields:
       allowSelfRelations: false
       allowUploads: true
       allowedKinds: null
-      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -137,7 +137,7 @@ fields:
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       singleUploadLocationSubpath: ''
       source: null
       sources: '*'

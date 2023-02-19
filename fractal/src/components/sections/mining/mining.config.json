@@ -3,6 +3,46 @@
     "context": {
         "title": "In Bitcoin Mining investieren",
         "subtitle": "Schürfen Sie Bitcoin mit einem Schweizer Partner",
-        "text": "Das Schürfen von Bitcoin und Kryptowährungen erfordert spezielle Hardware und einen geeigneten Standort mit geringen Energiekosten, um diese Hardware profitabel zu betreiben. Bei uns haben Sie einen Ansprechpartner rund um das Bitcoin-Mining. Mit mehreren bestehenden Mining-Farmen im In- und Ausland verwenden wir für den Betrieb der Miner 100% Ökostrom. "
+        "text": "Das Schürfen von Bitcoin und Kryptowährungen erfordert spezielle Hardware und einen geeigneten Standort mit geringen Energiekosten, um diese Hardware profitabel zu betreiben. Bei uns haben Sie einen Ansprechpartner rund um das Bitcoin-Mining. Mit mehreren bestehenden Mining-Farmen im In- und Ausland verwenden wir für den Betrieb der Miner 100% Ökostrom. ",
+        "facts": {
+           "items": [
+            { "text": "Ab CHF 10'000" },
+            { "text": "Monatliche Auszahlungen" },
+            { "text": "Live Dashboard" }
+           ] 
+        },
+        "earnings": {
+            "title": "Historischer Mining-Gewinn",
+            "text": "Mining-Laufzeit: 2 Jahre",
+            "infos": {
+                "items": [
+                    { "icon": "/assets/icons/facts/money.svg", "label": "Investitionsbetrag", "value": "Ab CHF 10'000" },
+                    { "icon": "/assets/icons/facts/timelapse.svg", "label": "Investitionszeitraum", "value": "730 Tage" },
+                    { "icon": "/assets/icons/facts/wallet.svg", "label": "Mining Einnahmen", "value": "CHF 16'960.27" },
+                    { "icon": "/assets/icons/facts/power.svg", "label": "Stromkosten", "value": "CHF 4'424.16" },
+                    { "icon": "/assets/icons/facts/money.svg", "label": "Reingewinn", "value": "CHF 120'536.11" },
+                    { "icon": "/assets/icons/facts/chart.svg", "label": "Rate on Investment", "value": "125%" }
+                ]
+            }
+        },
+        "farms": {
+            "items": [
+                { "image": "/assets/images/farms/farm-usa.png", "flag": "/assets/icons/flags/flag-usa.svg", "country": "USA", "capacity": "Kapazität 15 MH" },
+                { "image": "/assets/images/farms/farm-paraguay.jpeg", "flag": "/assets/icons/flags/flag-paraguay.svg", "country": "Paraguay", "capacity": "Kapazität 6 MH" },
+                { "image": "/assets/images/farms/farm-iceland.jpg", "flag": "/assets/icons/flags/flag-iceland.svg", "country": "Island", "capacity": "Kapazität 80 MH" }
+            ]
+        },
+        "benefits": {
+            "items": [
+                { "icon": "/assets/icons/advantages-icons/sustainability.svg", "text": "100% erneuerbare Energien" },
+                { "icon": "/assets/icons/advantages-icons/cimate.svg", "text": "Gefilterte Kühlung" },
+                { "icon": "/assets/icons/advantages-icons/security.svg", "text": "Höchste Sicherheit" },
+                { "icon": "/assets/icons/advantages-icons/swissness.svg", "text": "Schweizer Exzellenz" }
+            ]
+        },
+        "action": {
+            "title": "Treten Sie mit uns in Kontakt und erfahren Sie mehr über Bitcoin Mining",
+            "button": "Kostenloses Erstgespräch vereinbaren"
+        }
     }
 }

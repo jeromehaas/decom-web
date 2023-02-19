@@ -4,53 +4,59 @@
         
 		{% render "@heading" with { text: title, class: "mining__title", type: "h2" } %}
 		{% render "@heading" with { text: subtitle, class: "mining__subtitle", type: "h3" } %}
+        {% render "@text" with { text: text, class: "mining__text" } %}
 
-        <div class="card mining__card">
-            {% render "@text" with { text: text, class: "mining__card__text" } %}
+        <div class="mining__facts facts">
+            {% for item in facts.items %}
+                <div class="facts__item item">
+                    <img class="item__icon" src="/assets/icons/various/checkmark.svg" />
+                    <p class="item__text" >{{ item.text }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="mining__earnings earnings card">
+            {% render "@heading" with { text: earnings.title , class: "earnings__title", type: "h3" } %}
+            {% render "@text" with { text: earnings.text, class: "earnings__subtitle" } %}
+            <div class="earnings__infos infos">
+                {% for item in earnings.infos.items %}
+                    <div class="infos__item item">
+                        <img class="item__icon" src="{{ item.icon }}" />
+                        {% render "@text" with { text: item.label, class: "item__label" } %}
+                        {% render "@text" with { text: item.value, class: "item__value", color: "blue" } %}
+                    </div>
+                {% endfor %}
+            </div>
         </div>
 
         <div class="mining__farms farms">
+        {% for item in farms.items %}
             <div class="farms__item item">
-                <img class="item__image" src="/assets/images/farms/farm-paraguay.jpeg" />
+                <img class="item__image" src="{{ item.image }}" />
                 <div class="item__content  content" >
                     <span class="content__country country">
-                        <img class="country__flag" src="/assets/icons/flags/flag-usa.svg" /> 
-                        {% render "@heading" with { text: 'USA', class: "country__name", type: "h3" } %}
+                        <img class="country__flag" src="{{ item.flag }}" /> 
+                        {% render "@heading" with { text: item.country, class: "country__name", type: "h3" } %}
                     </span>
-                    {% render "@text" with { text: "Kapazität: 15 MH", class: "content__capacity" } %}
-                    {% render "@button" with { text: "Jetzt anfragen", class: 'content__button' } %}
+                    {% render "@text" with { text: item.capacity, class: "content__capacity" } %}
+                    {% render "@button" with { text: "Informationen beantragen", class: 'content__button' } %}
                 </div>
             </div>
-             <div class="farms__item item">
-                <img class="item__image" src="/assets/images/farms/farm-paraguay.jpeg" />
-                <div class="item__content  content" >
-                    <span class="content__country country">
-                        <img class="country__flag" src="/assets/icons/flags/flag-usa.svg" /> 
-                        {% render "@heading" with { text: 'USA', class: "country__name", type: "h3" } %}
-                    </span>
-                    {% render "@text" with { text: "Kapazität: 15 MH", class: "content__capacity" } %}
-                    {% render "@button" with { text: "Jetzt anfragen", class: 'content__button' } %}
-                </div>
-            </div>
+        {% endfor %}
         </div>
 
         <div class="mining__benefits benefits">
+            {% for item in benefits.items %}
             <div class="benefits__item item">
-                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
-                <p class="item__text" >100% erneuerbare energien</p>
+                <img class="item__icon" src="{{ item.icon }}" />
+                <p class="item__text" >{{ item.text }}</p>
             </div>
-            <div class="benefits__item item">
-                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
-                <p class="item__text" >100% erneuerbare energien</p>
-            </div>
-            <div class="benefits__item item">
-                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
-                <p class="item__text" >100% erneuerbare energien</p>
-            </div>
-            <div class="benefits__item item">
-                <img class="item__icon" src="/assets/icons/advantages-icons/sustainability.svg" />
-                <p class="item__text" >100% erneuerbare energien</p>
-            </div>
+            {% endfor %}
+        </div>
+
+        <div class="mining__action action">
+            {% render "@heading" with { text: action.title, class: "action__title", type: "h3" } %}
+            {% render "@button" with { text: action.button, class: 'action__button' } %}
         </div>
 
     </div>

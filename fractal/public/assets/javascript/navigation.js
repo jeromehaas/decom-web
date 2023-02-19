@@ -17,10 +17,10 @@ class Navigation {
 	}
 	
 	init = () => {
-		this.hamburger.addEventListener("click", this.toggleMenu);
-		this.offerLink.addEventListener("click", (event) => this.showOfferSublinks(event));
-		this.aboutLink.addEventListener("click", (event) => this.showAboutSublinks(event));
-		this.loginLink.addEventListener("click", (event) => this.showLoginSublinks(event));
+		this.hamburger?.addEventListener("click", this.toggleMenu);
+		this.offerLink?.addEventListener("click", (event) => this.showOfferSublinks(event));
+		this.aboutLink?.addEventListener("click", (event) => this.showAboutSublinks(event));
+		this.loginLink?.addEventListener("click", (event) => this.showLoginSublinks(event));
 	}
 
 	toggleMenu = () => {

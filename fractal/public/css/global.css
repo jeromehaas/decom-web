@@ -100,6 +100,12 @@ input {
 .image__caption {
   font-size: 1.4em; }
 
+.paragraph--bold {
+  font-weight: 700; }
+
+.paragraph--big {
+  font-size: 2em; }
+
 @media (max-width: 850px) {
   .blog-card__heading {
     font-size: 2em; }
@@ -7596,21 +7602,73 @@ readers do not read off random characters that represent icons */
 
 .mining {
   padding-top: 60px;
-  background-size: 300%;
-  background-position: 0% 0%;
-  background-image: url("/assets/graphics/graphic-wave.svg");
+  background-size: 300vh, 300vh;
+  background-position: 0% 0%, 100% 100%;
+  background-image: url("/assets/graphics/graphic-wave.svg"), url("/assets/graphics/graphic-wave-inverted.svg");
   background-repeat: no-repeat; }
   .mining__title {
     text-align: center;
-    margin-bottom: 5px; }
+    margin-bottom: 8px; }
   .mining__subtitle {
     text-align: center;
-    margin-bottom: 30px; }
-  .mining__card {
-    max-width: 650px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 60px; }
+    margin-bottom: 32px; }
+  .mining__text {
+    text-align: center;
+    margin-bottom: 48px; }
+  .mining__facts, .mining .facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 64px; }
+    .mining__facts__item, .mining__facts .item, .mining .facts__item, .mining .facts .item {
+      margin: 32px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .mining__facts__item__text, .mining__facts .item__text, .mining .facts__item__text, .mining .facts .item__text {
+        margin-left: 16px; }
+  .mining__earnings, .mining .earnings {
+    width: 100%;
+    margin-bottom: 64px; }
+    .mining__earnings__title, .mining .earnings__title {
+      margin-bottom: 16px;
+      text-align: center; }
+    .mining__earnings__subtitle, .mining .earnings__subtitle {
+      text-align: center;
+      margin-bottom: 32px; }
+    .mining__earnings__infos, .mining__earnings .infos, .mining .earnings__infos, .mining .earnings .infos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+      .mining__earnings__infos__item, .mining__earnings__infos .item, .mining__earnings .infos__item, .mining__earnings .infos .item, .mining .earnings__infos__item, .mining .earnings__infos .item, .mining .earnings .infos__item, .mining .earnings .infos .item {
+        padding: 32px;
+        display: grid;
+        grid-template-columns: 64px auto;
+        grid-template-areas: "icon label" "icon value";
+        transition: all 0.3s ease; }
+        .mining__earnings__infos__item__value, .mining__earnings__infos .item__value, .mining__earnings .infos__item__value, .mining__earnings .infos .item__value, .mining .earnings__infos__item__value, .mining .earnings__infos .item__value, .mining .earnings .infos__item__value, .mining .earnings .infos .item__value {
+          grid-area: value;
+          font-weight: 700; }
+        .mining__earnings__infos__item__icon, .mining__earnings__infos .item__icon, .mining__earnings .infos__item__icon, .mining__earnings .infos .item__icon, .mining .earnings__infos__item__icon, .mining .earnings__infos .item__icon, .mining .earnings .infos__item__icon, .mining .earnings .infos .item__icon {
+          grid-area: icon;
+          justify-self: flex-start;
+          align-self: center;
+          width: 40px; }
+        .mining__earnings__infos__item__label, .mining__earnings__infos .item__label, .mining__earnings .infos__item__label, .mining__earnings .infos .item__label, .mining .earnings__infos__item__label, .mining .earnings__infos .item__label, .mining .earnings .infos__item__label, .mining .earnings .infos .item__label {
+          grid-area: label; }
+        .mining__earnings__infos__item:hover, .mining__earnings__infos .item:hover, .mining__earnings .infos__item:hover, .mining__earnings .infos .item:hover, .mining .earnings__infos__item:hover, .mining .earnings__infos .item:hover, .mining .earnings .infos__item:hover, .mining .earnings .infos .item:hover {
+          background-color: #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(1), .mining__earnings__infos .item:nth-child(1), .mining__earnings .infos__item:nth-child(1), .mining__earnings .infos .item:nth-child(1), .mining .earnings__infos__item:nth-child(1), .mining .earnings__infos .item:nth-child(1), .mining .earnings .infos__item:nth-child(1), .mining .earnings .infos .item:nth-child(1) {
+          border-right: 1px solid #f0f4fc;
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(2), .mining__earnings__infos .item:nth-child(2), .mining__earnings .infos__item:nth-child(2), .mining__earnings .infos .item:nth-child(2), .mining .earnings__infos__item:nth-child(2), .mining .earnings__infos .item:nth-child(2), .mining .earnings .infos__item:nth-child(2), .mining .earnings .infos .item:nth-child(2) {
+          border-right: 1px solid #f0f4fc;
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(3), .mining__earnings__infos .item:nth-child(3), .mining__earnings .infos__item:nth-child(3), .mining__earnings .infos .item:nth-child(3), .mining .earnings__infos__item:nth-child(3), .mining .earnings__infos .item:nth-child(3), .mining .earnings .infos__item:nth-child(3), .mining .earnings .infos .item:nth-child(3) {
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(4), .mining__earnings__infos .item:nth-child(4), .mining__earnings .infos__item:nth-child(4), .mining__earnings .infos .item:nth-child(4), .mining .earnings__infos__item:nth-child(4), .mining .earnings__infos .item:nth-child(4), .mining .earnings .infos__item:nth-child(4), .mining .earnings .infos .item:nth-child(4) {
+          border-right: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(5), .mining__earnings__infos .item:nth-child(5), .mining__earnings .infos__item:nth-child(5), .mining__earnings .infos .item:nth-child(5), .mining .earnings__infos__item:nth-child(5), .mining .earnings__infos .item:nth-child(5), .mining .earnings .infos__item:nth-child(5), .mining .earnings .infos .item:nth-child(5) {
+          border-right: 1px solid #f0f4fc; }
   .mining__farms, .mining .farms {
     display: flex;
     flex-direction: row;
@@ -7623,12 +7681,13 @@ readers do not read off random characters that represent icons */
       top: 0px;
       border-radius: 7.5px;
       background-color: #fff;
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       background-color: #fff;
       border: 1px solid #f0f4fc;
       border-radius: 7.5px;
       background-color: #fff;
-      max-width: 300px; }
+      max-width: 320px; }
       .mining__farms__item:hover, .mining__farms .item:hover, .mining .farms__item:hover, .mining .farms .item:hover {
         box-shadow: 0px 2.5px 5px 2.5px rgba(214, 214, 214, 0.5);
         top: -5px; }
@@ -7652,6 +7711,8 @@ readers do not read off random characters that represent icons */
           display: inline-block; }
         .mining__farms__item__content__capacity, .mining__farms__item .content__capacity, .mining__farms .item__content__capacity, .mining__farms .item .content__capacity, .mining .farms__item__content__capacity, .mining .farms__item .content__capacity, .mining .farms .item__content__capacity, .mining .farms .item .content__capacity {
           margin-bottom: 16px; }
+        .mining__farms__item__content__button, .mining__farms__item .content__button, .mining__farms .item__content__button, .mining__farms .item .content__button, .mining .farms__item__content__button, .mining .farms__item .content__button, .mining .farms .item__content__button, .mining .farms .item .content__button {
+          text-align: center; }
   .mining__benefits, .mining .benefits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7680,18 +7741,110 @@ readers do not read off random characters that represent icons */
         margin-bottom: 16px; }
       .mining__benefits__item__text, .mining__benefits .item__text, .mining .benefits__item__text, .mining .benefits .item__text {
         text-align: center; }
-  @media (max-width: 750px) {
-    .mining__benefits, .mining .benefits {
-      grid-template-columns: 1fr 1fr; } }
-  @media (max-width: 600px) {
+  .mining__action, .mining .action {
+    max-width: 480px;
+    margin: 0 auto 160px; }
+    .mining__action__title, .mining .action__title {
+      text-align: center;
+      margin-bottom: 32px; }
+    .mining__action__button, .mining .action__button {
+      margin: 0 auto;
+      display: block;
+      text-align: center; }
+  @media (max-width: 1000px) {
+    .mining__earnings__infos, .mining__earnings .infos, .mining .earnings__infos, .mining .earnings .infos {
+      grid-template-columns: repeat(2, auto);
+      align-items: flex-start;
+      justify-content: center; }
+      .mining__earnings__infos__item, .mining__earnings__infos .item, .mining__earnings .infos__item, .mining__earnings .infos .item, .mining .earnings__infos__item, .mining .earnings__infos .item, .mining .earnings .infos__item, .mining .earnings .infos .item {
+        grid-template-columns: 64px auto;
+        grid-template-areas: "icon label" "icon value"; }
+        .mining__earnings__infos__item:nth-child(1), .mining__earnings__infos .item:nth-child(1), .mining__earnings .infos__item:nth-child(1), .mining__earnings .infos .item:nth-child(1), .mining .earnings__infos__item:nth-child(1), .mining .earnings__infos .item:nth-child(1), .mining .earnings .infos__item:nth-child(1), .mining .earnings .infos .item:nth-child(1) {
+          border: none;
+          border-right: 1px solid #f0f4fc;
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(2), .mining__earnings__infos .item:nth-child(2), .mining__earnings .infos__item:nth-child(2), .mining__earnings .infos .item:nth-child(2), .mining .earnings__infos__item:nth-child(2), .mining .earnings__infos .item:nth-child(2), .mining .earnings .infos__item:nth-child(2), .mining .earnings .infos .item:nth-child(2) {
+          border: none;
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(3), .mining__earnings__infos .item:nth-child(3), .mining__earnings .infos__item:nth-child(3), .mining__earnings .infos .item:nth-child(3), .mining .earnings__infos__item:nth-child(3), .mining .earnings__infos .item:nth-child(3), .mining .earnings .infos__item:nth-child(3), .mining .earnings .infos .item:nth-child(3) {
+          border: none;
+          border-bottom: 1px solid #f0f4fc;
+          border-right: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(4), .mining__earnings__infos .item:nth-child(4), .mining__earnings .infos__item:nth-child(4), .mining__earnings .infos .item:nth-child(4), .mining .earnings__infos__item:nth-child(4), .mining .earnings__infos .item:nth-child(4), .mining .earnings .infos__item:nth-child(4), .mining .earnings .infos .item:nth-child(4) {
+          border: none;
+          border-bottom: 1px solid #f0f4fc; }
+        .mining__earnings__infos__item:nth-child(5), .mining__earnings__infos .item:nth-child(5), .mining__earnings .infos__item:nth-child(5), .mining__earnings .infos .item:nth-child(5), .mining .earnings__infos__item:nth-child(5), .mining .earnings__infos .item:nth-child(5), .mining .earnings .infos__item:nth-child(5), .mining .earnings .infos .item:nth-child(5) {
+          border-right: 1px solid #f0f4fc; } }
+  @media (max-width: 900px) {
     .mining__farms, .mining .farms {
       flex-direction: column;
       gap: 32px; }
       .mining__farms__item, .mining__farms .item, .mining .farms__item, .mining .farms .item {
-        max-width: unset; } }
+        max-width: unset;
+        flex-direction: row; }
+        .mining__farms__item__image, .mining__farms .item__image, .mining .farms__item__image, .mining .farms .item__image {
+          height: auto;
+          width: 50%;
+          height: 200px;
+          -o-object-fit: cover;
+             object-fit: cover; }
+        .mining__farms__item__content, .mining__farms__item .content, .mining__farms .item__content, .mining__farms .item .content, .mining .farms__item__content, .mining .farms__item .content, .mining .farms .item__content, .mining .farms .item .content {
+          width: 50%;
+          align-items: flex-start; }
+          .mining__farms__item__content__button, .mining__farms__item .content__button, .mining__farms .item__content__button, .mining__farms .item .content__button, .mining .farms__item__content__button, .mining .farms__item .content__button, .mining .farms .item__content__button, .mining .farms .item .content__button {
+            width: 100%; }
+    .mining__facts, .mining .facts {
+      flex-direction: column;
+      align-items: center; }
+      .mining__facts__item, .mining__facts .item, .mining .facts__item, .mining .facts .item {
+        margin: 8px; } }
+  @media (max-width: 800px) {
+    .mining__benefits, .mining .benefits {
+      grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 700px) {
+    .mining__earnings__infos, .mining__earnings .infos, .mining .earnings__infos, .mining .earnings .infos {
+      grid-template-columns: repeat(2, 1fr); }
+      .mining__earnings__infos__item, .mining__earnings__infos .item, .mining__earnings .infos__item, .mining__earnings .infos .item, .mining .earnings__infos__item, .mining .earnings__infos .item, .mining .earnings .infos__item, .mining .earnings .infos .item {
+        grid-template-columns: 64px auto;
+        grid-template-areas: "icon"  "label" "value";
+        grid-template-columns: auto; }
+        .mining__earnings__infos__item__icon, .mining__earnings__infos .item__icon, .mining__earnings .infos__item__icon, .mining__earnings .infos .item__icon, .mining .earnings__infos__item__icon, .mining .earnings__infos .item__icon, .mining .earnings .infos__item__icon, .mining .earnings .infos .item__icon {
+          margin: 0 auto 16px auto; }
+        .mining__earnings__infos__item__label, .mining__earnings__infos .item__label, .mining__earnings .infos__item__label, .mining__earnings .infos .item__label, .mining .earnings__infos__item__label, .mining .earnings__infos .item__label, .mining .earnings .infos__item__label, .mining .earnings .infos .item__label {
+          text-align: center; }
+        .mining__earnings__infos__item__value, .mining__earnings__infos .item__value, .mining__earnings .infos__item__value, .mining__earnings .infos .item__value, .mining .earnings__infos__item__value, .mining .earnings__infos .item__value, .mining .earnings .infos__item__value, .mining .earnings .infos .item__value {
+          text-align: center; } }
+  @media (max-width: 600px) {
+    .mining__farms__item, .mining__farms .item, .mining .farms__item, .mining .farms .item {
+      max-width: unset;
+      flex-direction: column; }
+      .mining__farms__item__image, .mining__farms .item__image, .mining .farms__item__image, .mining .farms .item__image {
+        height: auto;
+        width: 100%;
+        height: 200px;
+        -o-object-fit: cover;
+           object-fit: cover; }
+      .mining__farms__item__content, .mining__farms__item .content, .mining__farms .item__content, .mining__farms .item .content, .mining .farms__item__content, .mining .farms__item .content, .mining .farms .item__content, .mining .farms .item .content {
+        width: 100%;
+        align-items: center; }
+        .mining__farms__item__content__button, .mining__farms__item .content__button, .mining__farms .item__content__button, .mining__farms .item .content__button, .mining .farms__item__content__button, .mining .farms__item .content__button, .mining .farms .item__content__button, .mining .farms .item .content__button {
+          width: 100%; } }
   @media (max-width: 500px) {
     .mining__title {
-      margin-bottom: 16px; } }
+      margin-bottom: 16px; }
+    .mining__earnings__infos, .mining__earnings .infos, .mining .earnings__infos, .mining .earnings .infos {
+      grid-template-columns: 1fr; }
+      .mining__earnings__infos__item, .mining__earnings__infos .item, .mining__earnings .infos__item, .mining__earnings .infos .item, .mining .earnings__infos__item, .mining .earnings__infos .item, .mining .earnings .infos__item, .mining .earnings .infos .item {
+        grid-template-columns: 64px auto;
+        grid-template-areas: "icon"  "label" "value";
+        grid-template-columns: auto;
+        border-bottom: unset !important; }
+        .mining__earnings__infos__item__icon, .mining__earnings__infos .item__icon, .mining__earnings .infos__item__icon, .mining__earnings .infos .item__icon, .mining .earnings__infos__item__icon, .mining .earnings__infos .item__icon, .mining .earnings .infos__item__icon, .mining .earnings .infos .item__icon {
+          margin: 0 auto 16px auto; }
+        .mining__earnings__infos__item__label, .mining__earnings__infos .item__label, .mining__earnings .infos__item__label, .mining__earnings .infos .item__label, .mining .earnings__infos__item__label, .mining .earnings__infos .item__label, .mining .earnings .infos__item__label, .mining .earnings .infos .item__label {
+          text-align: center; }
+        .mining__earnings__infos__item__value, .mining__earnings__infos .item__value, .mining__earnings .infos__item__value, .mining__earnings .infos .item__value, .mining .earnings__infos__item__value, .mining .earnings__infos .item__value, .mining .earnings .infos__item__value, .mining .earnings .infos .item__value {
+          text-align: center; } }
   @media (max-width: 400px) {
     .mining__benefits, .mining .benefits {
       grid-template-columns: 1fr; } }

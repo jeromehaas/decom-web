@@ -1,0 +1,96 @@
+field: e813b12d-c3e8-4b85-b2d2-1bced03b8240 # Action
+fieldLayouts:
+  ec4964fa-6b83-4887-ba17-1095a5a7aef1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c43636a2-44a4-49e4-b012-3f55c5d89d3f # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 46b7527a-9e1f-48e5-a1ad-da9921def787 # Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b2188cbb-28c8-4ec0-99d3-736970a2712f # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  46b7527a-9e1f-48e5-a1ad-da9921def787: # Button Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  b2188cbb-28c8-4ec0-99d3-736970a2712f: # Button Link
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonLink
+    instructions: ''
+    name: 'Button Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  c43636a2-44a4-49e4-b012-3f55c5d89d3f: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
