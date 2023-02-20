@@ -7652,7 +7652,8 @@ readers do not read off random characters that represent icons */
       margin-bottom: 32px; }
     .mining__earnings__infos, .mining__earnings .infos, .mining .earnings__infos, .mining .earnings .infos {
       display: grid;
-      grid-template-columns: repeat(3, 1fr); }
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 32px; }
       .mining__earnings__infos__item, .mining__earnings__infos .item, .mining__earnings .infos__item, .mining__earnings .infos .item, .mining .earnings__infos__item, .mining .earnings__infos .item, .mining .earnings .infos__item, .mining .earnings .infos .item {
         padding: 32px;
         display: grid;
@@ -7707,6 +7708,7 @@ readers do not read off random characters that represent icons */
         top: -5px; }
       .mining__farms__item__image, .mining__farms .item__image, .mining .farms__item__image, .mining .farms .item__image {
         width: 100%;
+        height: 200px;
         display: block; }
       .mining__farms__item__content, .mining__farms__item .content, .mining__farms .item__content, .mining__farms .item .content, .mining .farms__item__content, .mining .farms__item .content, .mining .farms .item__content, .mining .farms .item .content {
         padding: 30px;
@@ -7829,6 +7831,11 @@ readers do not read off random characters that represent icons */
         .mining__earnings__infos__item__value, .mining__earnings__infos .item__value, .mining__earnings .infos__item__value, .mining__earnings .infos .item__value, .mining .earnings__infos__item__value, .mining .earnings__infos .item__value, .mining .earnings .infos__item__value, .mining .earnings .infos .item__value {
           text-align: center; } }
   @media (max-width: 600px) {
+    .mining__earnings__visual, .mining .earnings__visual {
+      display: none;
+      visibility: hidden;
+      height: 0px !important;
+      overflow: hidden; }
     .mining__farms__item, .mining__farms .item, .mining .farms__item, .mining .farms .item {
       max-width: unset;
       flex-direction: column; }

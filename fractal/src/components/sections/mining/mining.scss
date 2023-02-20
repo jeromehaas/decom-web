@@ -57,6 +57,7 @@
         &__infos, .infos {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+						margin-bottom: 32px;
 
             &__item, .item {
                 padding: 32px;
@@ -136,6 +137,7 @@
 
             &__image {
                 width: 100%;
+								height: 200px;
                 display: block;
             }
 
@@ -367,6 +369,17 @@
     }
 
     @media (max-width: 600px) {
+
+			&__earnings, .earnings {
+				
+				&__visual {
+					display: none;
+					visibility: hidden;
+					height: 0px !important;
+					overflow: hidden;
+				}
+
+			}
 
         &__farms, .farms {
 
