@@ -7600,6 +7600,20 @@ readers do not read off random characters that represent icons */
     margin-bottom: 30px;
     text-align: center; }
 
+.mining-request {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-size: 300%;
+  background-position: 0% 0%;
+  background-image: url("/assets/graphics/graphic-wave.svg");
+  background-repeat: no-repeat; }
+  .mining-request__title {
+    margin-bottom: 45px;
+    text-align: center; }
+  .mining-request__text, .mining-request p {
+    margin-bottom: 30px;
+    text-align: center; }
+
 .mining {
   padding-top: 60px;
   background-size: 300vh, 300vh;

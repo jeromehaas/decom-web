@@ -1,0 +1,19 @@
+columnSuffix: gajafcmk
+contentColumnType: text
+fieldGroup: 47d7ff44-4cdc-4f18-91b5-023e5adfc16a # Mining Request
+handle: miningRequestHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

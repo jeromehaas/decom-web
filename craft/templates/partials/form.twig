@@ -2,6 +2,18 @@
 {% set lang = currentSite.language %}
 {% set page = entry.slug %}
 
+{% switch page %}
+    {% case "invest-now" %}
+	{% set channel = 'Jetzt investieren' %}
+	{% set showDownload = true %}
+    {% case "mining-request" %}
+	{% set channel = 'Mining Anfrage' %}
+	{% set showDownload = false %}
+    {% case "request-informations" %}
+	{% set channel = 'Informationen anfordern' %}
+	{% set showDownload = true %}
+{% endswitch %}
+
 {% macro errorList(errors) %}
     {% if errors %}
         {{ ul(errors, {class: 'errors'}) }}
@@ -15,10 +27,10 @@
     {{ actionInput('contact-form/send') }}
     {{ redirectInput('/success-form') }}
 	
-		<input type="hidden" name="subject" value="Decom Website">
+		<input type="hidden" name="subject" value="DECOM Switzerland AG">
 		<input type="hidden" name="message[language]" value="{{ lang }}">
 		<input type="hidden" name="message[formName]" value="contact-form">
-
+		<input type="hidden" name="message[channel]" value="{{ channel }}">
 
 		<div class="input-text__wrapper">
 
@@ -77,33 +89,33 @@
 
 			{# EMAILADDRESS #}
 			{% for row in form.formEmailAddress %}	
-			<div class="input-text">
-				<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
-				<input 
-					class='input-text__input' 
-					type='email' 
-					id="{{ row.name }}"
-					name="{{ row.name }}" 
-					required
-				/>
-			</div>
-		{% endfor %}
+				<div class="input-text">
+					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+					<input 
+						class='input-text__input' 
+						type='email' 
+						id="{{ row.name }}"
+						name="{{ row.name }}" 
+						required
+					/>
+				</div>
+			{% endfor %}
 		
-		{# PHONE #}
-		{% for row in form.formPhone %}	
-			<div class="input-text">
-				<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
-				<input 
-					class='input-text__input' 
-					type='text' 
-					id="{{ row.name }}"
-					name="message[{{ row.name }}]" 
-					required
-				/>
-			</div>
-		{% endfor %}
+			{# PHONE #}
+			{% for row in form.formPhone %}	
+				<div class="input-text">
+					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+					<input 
+						class='input-text__input' 
+						type='text' 
+						id="{{ row.name }}"
+						name="message[{{ row.name }}]" 
+						required
+					/>
+				</div>
+			{% endfor %}
 
-	</div>	
+		</div>	
 	
 	{# CRYPTO CURRENCIES #}
 	{% if page == 'invest-now' %}

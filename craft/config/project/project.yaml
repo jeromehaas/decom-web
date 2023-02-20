@@ -1,7 +1,7 @@
-dateModified: 1676836051
+dateModified: 1676907534
 email:
   fromEmail: developer@decom.ch
-  fromName: 'Decom '
+  fromName: 'Decom Switzerland AG'
   replyToEmail: developer@decom.ch
   template: emails/confirmation
   transportSettings:
@@ -27,6 +27,7 @@ meta:
     1b236da5-6d3d-414d-8542-7800c70a445d: Text # Text
     1cea6cef-083e-4130-b97d-ec3d5ca58bc1: FAQ # FAQ
     01d3b8a6-5b6e-4968-8a2f-cd09d7a152f0: Portfolio # Portfolio
+    1e4915ce-8765-45cf-b7eb-fdd1f066e6ed: Heading # Heading
     1eeb7644-4740-41c2-b937-09117b152cb8: 'Button Text' # Button Text
     1fea2fa1-3b54-44f2-b2f1-42fc66e0c8d0: Facts # Facts
     2b7b49b8-bf1d-467d-a58b-17b3c682bf78: 'Button URL' # Button URL
@@ -36,6 +37,7 @@ meta:
     2df64663-e25f-45a2-a011-711a266f33f9: 'Invest Now' # Invest Now
     2edb47fe-fdab-4124-b9f0-1d54503ee9a8: Downloads # Downloads
     2f4e054b-a655-44f4-8f45-656936edd3f9: 'Blog Posts' # Blog Posts
+    03a048b3-de44-420e-bdf2-53bc3ce1c4e1: 'Mining Request' # Mining Request
     3c6de1a3-4ec5-40ef-be11-18556ebd9104: Text # Text
     003ca87e-0573-4b1c-805d-95d38d0186a1: 'Advantages Cards' # Advantages Cards
     3d11e0ba-45a2-4513-931e-0682291d148a: Street # Street
@@ -84,6 +86,7 @@ meta:
     41a573d5-cf7d-4762-acd1-8d443591a8c0: 'Button Text (Left)' # Button Text (Left)
     44c4cac7-bdf9-44e5-9499-854084516269: 'Success Form' # Success Form
     46b7527a-9e1f-48e5-a1ad-da9921def787: 'Button Text' # Button Text
+    47d7ff44-4cdc-4f18-91b5-023e5adfc16a: 'Mining Request' # Mining Request
     47e141aa-0e25-4fba-a12d-3c3c69341d04: 'Request Informations' # Request Informations
     48ecb720-dbbf-40c8-ade7-b84c53975070: Icons # Icons
     49ef58fc-cf27-4d74-a507-4f325cfdd1a5: Crypto # Crypto
@@ -175,6 +178,7 @@ meta:
     4567892c-850a-4f2b-8d3d-d764a240f7ff: 'Card Text' # Card Text
     7847516e-ca6f-4b1e-986a-88ab874cce06: Advantages # Advantages
     8501350c-6f01-4855-b604-946d13913734: Size # Size
+    9072686a-8cf1-45cf-a6fb-254137aaa174: 'Mining Request' # Mining Request
     28079231-b66b-4f84-84b6-5b5342a54f1c: Name # Name
     32727982-ccfa-4dc0-b929-d2b1a61e3ddb: Subheading # Subheading
     34818444-6c43-4076-85f2-548a6a63614a: 'Request Informations' # Request Informations
@@ -251,6 +255,7 @@ meta:
     d14d639b-8136-4576-bf8a-86a759f6ce91: 'Card Button Text' # Card Button Text
     d39e1790-9b14-4a08-b249-615eae6a62a1: Categories # Categories
     d82f51bb-0aed-4b10-afec-4cc790d5ab8f: Default # Default
+    d95a2614-3cd9-4dc7-a220-2923a25a6f68: Text # Text
     d97e170d-8ab2-4b84-ae3d-c1a8f358cef1: Imprint # Imprint
     d271d26b-1969-4fc5-9577-b1f7a678b65c: Title # Title
     d798cc12-9886-402e-9579-c9410fb83089: Footer # Footer
@@ -299,16 +304,16 @@ plugins:
     schemaVersion: 1.0.0
     settings:
       allowAttachments: '1'
-      prependSender: 'Decom '
-      prependSubject: 'Decom Website'
+      prependSender: 'Ibrahim Sherifoski'
+      prependSubject: 'DECOM Switzerland AG'
       successFlashMessage: 'Your message has been sent.'
-      toEmail: 'hello@jeromehaas.ch, info@decom.ch'
+      toEmail: hello@jeromehaas.ch
   contact-form-extensions:
     edition: standard
     enabled: true
     schemaVersion: 1.0.1
     settings:
-      confirmationSubject: 'Decom Website'
+      confirmationSubject: 'DECOM Switzerland AG'
       confirmationTemplate: emails/confirmation
       enableConfirmationEmail: '1'
       enableDatabase: '1'
