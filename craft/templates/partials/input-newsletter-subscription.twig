@@ -24,14 +24,16 @@
     {{ actionInput('contact-form/send') }}
     {{ redirectInput('/success-form') }}
 	
-		<input type="hidden" name="subject" value="Decom Website">
+		<input type="hidden" name="subject" value="Nachricht">
 		<input type="hidden" name="message[language]" value="{{ lang }}">
 		<input type="hidden" name="message[formName]" value="newsletter-subscription">
-		<input type="hidden" name="fromName" value=" ">
+		<input type="hidden" name="fromName" value="Decom">
 		<input type='hidden' name="nl_lang" value='{{ lang }}' />
 
 		{# EMAILADDRESS #}
-		<input class='input-newsletter-subscription__input' type='email' name="fromEmail" placeholder='{{ placeholderText }}' required />
+		<input class='input-newsletter-subscription__input' type='email' name="fromEmail" id="fromEmail" placeholder='{{ placeholderText }}' required />
 		<input type="submit" class="input-newsletter-subscription__button" value="" /> 
+
+		{{ craft.contactFormExtensions.recaptcha | raw }}
 
 </form>

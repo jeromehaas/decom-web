@@ -5,13 +5,13 @@
 {% switch page %}
     {% case "invest-now" %}
 	{% set channel = 'Jetzt investieren' %}
-	{% set showDownload = true %}
+	{% set showDownload = "true" %}
     {% case "mining-request" %}
 	{% set channel = 'Mining Anfrage' %}
-	{% set showDownload = false %}
+	{% set showDownload = "false" %}
     {% case "request-informations" %}
 	{% set channel = 'Informationen anfordern' %}
-	{% set showDownload = true %}
+	{% set showDownload = "true" %}
 {% endswitch %}
 
 {% macro errorList(errors) %}
@@ -27,11 +27,12 @@
     {{ actionInput('contact-form/send') }}
     {{ redirectInput('/success-form') }}
 	
-		<input type="hidden" name="subject" value="DECOM Switzerland AG">
+		<input type="hidden" name="subject" value="Nachricht">
 		<input type="hidden" name="message[language]" value="{{ lang }}">
 		<input type="hidden" name="message[formName]" value="contact-form">
 		<input type="hidden" name="message[channel]" value="{{ channel }}">
-
+		<input type="hidden" name="message[showDownload]" value="{{ showDownload }}">
+		<input type="hidden" name="fromName" value=" ">
 		<div class="input-text__wrapper">
 
 			{# GENDER #}
@@ -90,6 +91,7 @@
 			{# EMAILADDRESS #}
 			{% for row in form.formEmailAddress %}	
 				<div class="input-text">
+					{{ row.name }}
 					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
 					<input 
 						class='input-text__input' 
