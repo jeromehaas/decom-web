@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b7e06d74-36a9-4653-a7fd-a48dbc5ec8a3 # Bitcoin Mining
+handle: bitcoinMiningProperties
+instructions: ''
+name: Properties
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_bitcoinminingproperties}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -32,6 +32,10 @@
             flex-direction: row;
             align-items: center;
 
+						&__icon {
+							position: relative;
+						}
+
             &__text {
                 margin-left: 16px;
             }
@@ -39,6 +43,17 @@
         }
 
     }
+
+    &__cta, .cta {
+			max-width: 480px;
+			margin: 0 auto 64px;
+
+			&__button {
+					margin: 0 auto;
+					display: block;
+					text-align: center;
+			}
+	}
 
     &__earnings, .earnings {
         width: 100%;
@@ -84,7 +99,7 @@
                     grid-area: label;
                 } 
 
-                &:hover {
+                &:last-child {
                     background-color: $lightblue;
                 }
 
@@ -316,9 +331,13 @@
         &__facts, .facts {
             flex-direction: column;
             align-items: center;
+						justify-content: center;
             
             &__item, .item {
                 margin: 8px;
+								width: 100%;
+								justify-content: center;
+
             }
 
         }

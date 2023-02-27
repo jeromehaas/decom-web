@@ -1,0 +1,37 @@
+<section id="bitcoin-mining" class="bitcoin-mining section">
+    <div class="bitcoin-mining__inner section__inner"> 
+    
+		{% render "@heading" with { text: title, class: "bitcoin-mining__title", type: "h2" } %}
+		{% render "@heading" with { text: subtitle, class: "bitcoin-mining__subtitle", type: "h3" } %}
+		
+		<div class="bitcoin-mining__intro intro">
+  		{% render "@text" with { text: text, class: "intro__text" } %}
+		</div>
+
+        <div class="bitcoin-mining__farms farms">
+        {% for item in farms.items %}
+            <div class="farms__item item">
+                <img class="item__image" src="{{ item.image }}" />
+                <div class="item__content  content" >
+                    <span class="content__country country">
+                        <img class="country__flag" src="{{ item.flag }}" /> 
+                        {% render "@heading" with { text: item.country, class: "country__name", type: "h3" } %}
+                    </span>
+                    {% render "@text" with { text: item.capacity, class: "content__capacity" } %}
+                    {% render "@button" with { text: "Informationen beantragen", class: 'content__button' } %}
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="bitcoin-mining__benefits benefits">
+            {% for item in benefits.items %}
+            <div class="benefits__item item">
+                <img class="item__icon" src="{{ item.icon }}" />
+                <p class="item__text" >{{ item.text }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>

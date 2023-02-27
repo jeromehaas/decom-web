@@ -1,0 +1,67 @@
+field: f664cbd7-649c-436c-bb78-7773de3ea163 # CTA
+fieldLayouts:
+  a797de06-160b-43b0-9712-8280419f1655:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9edf6459-64ae-4d0f-a9a0-bd556895795d # Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c293efad-77e8-4bc8-9e32-446871c1a86c # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9edf6459-64ae-4d0f-a9a0-bd556895795d: # Button Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  c293efad-77e8-4bc8-9e32-446871c1a86c: # Button Link
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonLink
+    instructions: ''
+    name: 'Button Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText

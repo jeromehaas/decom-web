@@ -1,6 +1,5 @@
 <section id="mining" class="mining section">
     <div class="mining__inner section__inner"> 
-    
         
 		{% render "@heading" with { text: title, class: "mining__title", type: "h2" } %}
 		{% render "@heading" with { text: subtitle, class: "mining__subtitle", type: "h3" } %}
@@ -8,12 +7,16 @@
 
         <div class="mining__facts facts">
             {% for item in facts.items %}
-                <div class="facts__item item">
+                <div class="facts__item item card">
                     <img class="item__icon" src="/assets/icons/various/checkmark.svg" />
                     <p class="item__text" >{{ item.text }}</p>
                 </div>
             {% endfor %}
         </div>
+
+				<div class="mining__cta">
+					{% render "@button" with { text: cta.button, class: 'cta__button' } %}
+				</div>	
 
         <div class="mining__earnings earnings card">
             {% render "@heading" with { text: earnings.title , class: "earnings__title", type: "h3" } %}

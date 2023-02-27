@@ -1,0 +1,35 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 3314e328-6e73-4f75-be24-9bf00bd38061 # Mining
+handle: miningCta
+instructions: ''
+name: CTA
+searchable: false
+settings:
+  columns:
+    __assoc__:
+      -
+        - 9edf6459-64ae-4d0f-a9a0-bd556895795d # Button Text
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - c293efad-77e8-4bc8-9e32-446871c1a86c # Button Link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_miningcta}}'
+  fieldLayout: row
+  maxRows: '1'
+  minRows: '1'
+  placeholderKey: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: '1'
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

@@ -11,6 +11,9 @@
             { "text": "Live Dashboard" }
            ] 
         },
+				"cta": {
+				 "button": "Informationen beantragen"
+				},
         "earnings": {
             "title": "Historischer Mining-Gewinn",
             "text": "Mining-Laufzeit: 2 Jahre",

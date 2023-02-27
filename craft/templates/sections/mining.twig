@@ -10,12 +10,32 @@
 
         <div class="mining__facts facts">
             {% for item in mining.miningFacts  %}
-                <div class="facts__item item">
+                <div class="facts__item item card">
                     <img class="item__icon" src="/assets/icons/various/checkmark.svg" />
                     <p class="item__text">{{ item.text }}</p>
                 </div>
             {% endfor %}
         </div>
+
+			<div class="mining__cta cta">
+				<a class="button button--blue cta__button" href="{{ mining.miningCta.buttonLink }}">{{ mining.miningCta.buttonText }}</a>
+			</div>
+
+			<div class="mining__farms farms">
+			{% for item in mining.miningFarms %}
+					<div class="farms__item item">
+							<img class="item__image" src="{{ item.image.one.url() }}" />
+							<div class="item__content  content">
+									<span class="content__country country">
+											<img class="country__flag" src="{{ item.flag.one().url() }}" /> 
+											{% include "partials/heading" with { text: item.country, class: "country__name", type: "h3" } %}
+									</span>
+									{% include "partials/text" with { text: item.capacity, class: "content__capacity" } %}
+									{% include "partials/button" with { text: item.buttonText, class: 'content__button', link: item.buttonLink } %}
+							</div>
+					</div>
+			{% endfor %}
+	</div>
 
         <div class="mining__earnings earnings card">
  		    {% include ("partials/heading") with { text: mining.miningEarnings.heading, class: "earnings__title", type: "h3" } %}
@@ -33,21 +53,7 @@
 					</canvas>
         </div>
 
-        <div class="mining__farms farms">
-            {% for item in mining.miningFarms %}
-                <div class="farms__item item">
-                    <img class="item__image" src="{{ item.image.one.url() }}" />
-                    <div class="item__content  content">
-                        <span class="content__country country">
-                            <img class="country__flag" src="{{ item.flag.one().url() }}" /> 
-                            {% include "partials/heading" with { text: item.country, class: "country__name", type: "h3" } %}
-                        </span>
-                        {% include "partials/text" with { text: item.capacity, class: "content__capacity" } %}
-                        {% include "partials/button" with { text: item.buttonText, class: 'content__button', link: item.buttonLink } %}
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+
 
         <div class="mining__benefits benefits">
             {% for item in mining.miningProperties %}

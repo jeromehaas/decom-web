@@ -23,7 +23,7 @@ gulp.task('sass', gulp.series( function() {
 gulp.task('watch', gulp.series('sass', function() {
    gulp.watch([
         'src/components/**/**/*.scss',
-        'assets/scss/**/*.scss'
+        'assets/scss/**/*.scss',
         ], gulp.series('sass'));
 }));
 
