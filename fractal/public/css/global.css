@@ -7882,7 +7882,9 @@ readers do not read off random characters that represent icons */
     text-align: center;
     margin-bottom: 32px; }
   .mining__text {
-    text-align: center;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
     margin-bottom: 16px; }
   .mining__facts, .mining .facts {
     display: flex;

@@ -16,7 +16,9 @@
     }
 
     &__text {
-        text-align: center;
+        text-align: left;
+				max-width: 800px;
+				margin: 0 auto;
         margin-bottom: 16px;
     }
 
