@@ -1,7 +1,7 @@
 class CookieBanner {
 
 	constructor() {
-		this.name = 'cookie-banner',
+		this.name = 'cookie-banner';
 		this.elements = {
 			banner: document.querySelector('.cookie-banner'),
 			button: document.querySelector('.cookie-banner__button')

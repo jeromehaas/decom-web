@@ -18,6 +18,7 @@ class NewsletterSubscription {
 	}
 
 	init = () => {
+		console.log('hello')
 		this.button.addEventListener("click", ( event ) => this.submit( event) );
 	}
 

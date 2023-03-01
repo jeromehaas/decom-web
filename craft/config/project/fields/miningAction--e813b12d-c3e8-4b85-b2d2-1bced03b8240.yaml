@@ -1,0 +1,42 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 3314e328-6e73-4f75-be24-9bf00bd38061 # Mining
+handle: miningAction
+instructions: ''
+name: Action
+searchable: false
+settings:
+  columns:
+    __assoc__:
+      -
+        - c43636a2-44a4-49e4-b012-3f55c5d89d3f # Heading
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 46b7527a-9e1f-48e5-a1ad-da9921def787 # Button Text
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - b2188cbb-28c8-4ec0-99d3-736970a2712f # Button Link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_miningaction}}'
+  fieldLayout: row
+  maxRows: '1'
+  minRows: '1'
+  placeholderKey: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: '1'
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

@@ -1,0 +1,93 @@
+field: 255c950a-49c3-4a9c-b58e-e19d6d706feb # Earnings
+fieldLayouts:
+  e5f9f2c8-1ef8-43c0-a988-da045ed5bf62:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: bf8ad432-6ac7-495a-954f-21fbd5586ddc # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b5740af6-56af-4394-8958-11310ed9823b # Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: de6e6e0e-9bba-4d88-8301-45b52b44e52b # Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  b5740af6-56af-4394-8958-11310ed9823b: # Subheading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: subheading
+    instructions: ''
+    name: Subheading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  bf8ad432-6ac7-495a-954f-21fbd5586ddc: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  de6e6e0e-9bba-4d88-8301-45b52b44e52b: # Items
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: items
+    instructions: ''
+    name: Items
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_items}}'
+      maxBlocks: ''
+      minBlocks: ''
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

@@ -1,0 +1,211 @@
+field: e1ff841a-0a3a-4267-99ba-aedbd98c03c0 # Farms
+fieldLayouts:
+  d672f949-5a74-47f3-bc1e-39d0a4cb9af5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 505253ed-78dc-4797-a73e-cebd937b31b6 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 916b7eb3-f622-4322-8999-9fa4f124960e # Country
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d1af0152-2f02-4186-9f49-e8ee37b851f4 # Flag
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 85abf7f7-658c-4644-bae2-f7f238896053 # Capacity
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4b69333a-442a-4fec-9ea5-342de5aa76a8 # Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5e533c82-c1b9-4698-a592-5179a24994cd # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4b69333a-442a-4fec-9ea5-342de5aa76a8: # Button Text
+    columnSuffix: fpaafuvv
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  5e533c82-c1b9-4698-a592-5179a24994cd: # Button Link
+    columnSuffix: zudajhwb
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: buttonLink
+    instructions: ''
+    name: 'Button Link'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Url
+  85abf7f7-658c-4644-bae2-f7f238896053: # Capacity
+    columnSuffix: kacqignc
+    contentColumnType: text
+    fieldGroup: null
+    handle: capacity
+    instructions: ''
+    name: Capacity
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  916b7eb3-f622-4322-8999-9fa4f124960e: # Country
+    columnSuffix: acswogje
+    contentColumnType: text
+    fieldGroup: null
+    handle: country
+    instructions: ''
+    name: Country
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  505253ed-78dc-4797-a73e-cebd937b31b6: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f87ab606-6213-48da-a52a-5518cf40a379' # Farms
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  d1af0152-2f02-4186-9f49-e8ee37b851f4: # Flag
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: flag
+    instructions: ''
+    name: Flag
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:483a2a8b-5063-40b6-84a2-1910e1085163' # Flags
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: location
+name: Location
+sortOrder: 1

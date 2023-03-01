@@ -47,7 +47,7 @@ fields:
       showSiteMenu: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Advantages Icons
+      singleUploadLocationSource: 'volume:48ecb720-dbbf-40c8-ade7-b84c53975070' # Icons
       singleUploadLocationSubpath: ''
       source: null
       sources: '*'

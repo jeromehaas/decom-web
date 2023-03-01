@@ -1,39 +1,72 @@
 {% set mining = craft.entries.section('mining').one() %}
 
+
 <section id="mining" class="mining section">
     <div class="mining__inner section__inner">
-    
+
  		{% include ("partials/heading") with { text: mining.miningHeading, class: "mining__title", type: "h2" } %}
  		{% include ("partials/heading") with { text: mining.miningSubheading, class: "mining__subtitle", type: "h3" } %}
+		{% include ("partials/text") with { text: mining.miningText, class: "mining__text" } %}
 
-        <div class="card mining__card">
-			{% include ("partials/text") with { text: mining.miningText, class: "mining__card__text" } %}
-        </div>
-
-        <div class="mining__farms farms">
-        {% for farm in mining.miningFarms %}
-            <div class="farms__item item">
-                <img class="item__image" src="{{ farm.image.one().url() }}" />
-                <div class="item__content  content" >
-                    <span class="content__country country">
-                        <img class="country__flag" src="{{ farm.flag.one().url() }}" /> 
-                        {% include "partials/heading" with { text: farm.country, class: "country__name", type: "h3" } %}
-                    </span>
-                    {% include "partials/text" with { text: farm.capacity, class: "content__capacity" } %}
-                    {% include "partials/button" with { text: farm.buttonText, class: 'content__button', link: farm.buttonLink } %}
+        <div class="mining__facts facts">
+            {% for item in mining.miningFacts  %}
+                <div class="facts__item item card">
+                    <img class="item__icon" src="/assets/icons/various/checkmark.svg" />
+                    <p class="item__text">{{ item.text }}</p>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
         </div>
+
+			<div class="mining__cta cta">
+				<a class="button button--blue cta__button" href="{{ mining.miningCta.buttonLink }}">{{ mining.miningCta.buttonText }}</a>
+			</div>
+
+			<div class="mining__farms farms">
+			{% for item in mining.miningFarms %}
+					<div class="farms__item item">
+							<img class="item__image" src="{{ item.image.one.url() }}" />
+							<div class="item__content  content">
+									<span class="content__country country">
+											<img class="country__flag" src="{{ item.flag.one().url() }}" /> 
+											{% include "partials/heading" with { text: item.country, class: "country__name", type: "h3" } %}
+									</span>
+									{% include "partials/text" with { text: item.capacity, class: "content__capacity" } %}
+									{% include "partials/button" with { text: item.buttonText, class: 'content__button', link: item.buttonLink } %}
+							</div>
+					</div>
+			{% endfor %}
+	</div>
+
+        <div class="mining__earnings earnings card">
+ 		    {% include ("partials/heading") with { text: mining.miningEarnings.heading, class: "earnings__title", type: "h3" } %}
+            {% include ("partials/text") with { text: mining.miningEarnings.subheading, class: "earnings__subtitle" } %}
+            <div class="earnings__infos infos">
+            {% for item in mining.miningEarnings.items %}
+                <div class="infos__item item">
+                    <img class="item__icon" src="{{ item.icon.one.url() }}" />
+                    <p class="text text--darkblue item__label">{{ item.label }}</p>
+                    <p class="text text--blue item__value">{{ item.text }}</p>
+                </div>
+            {% endfor %}
+            </div>
+						<canvas class="earnings__visual visual" id="visual">
+					</canvas>
+        </div>
+
+
 
         <div class="mining__benefits benefits">
             {% for item in mining.miningProperties %}
-                
-            <div class="benefits__item item">
-                <img class="item__icon" src="{{ item.icon.one().url() }}" />
-                {% include "partials/text" with { text: item.text, class: "item__text" } %}
-            </div>
+                <div class="benefits__item item">
+                    <img class="item__icon" src="{{ item.icon.one.url() }}" />
+                    <p class="item__text">{{ item.text }}</p>
+                </div>
             {% endfor %}
+        </div>
+
+        <div class="mining__action action">
+            <h3 class="heading heading--h3 heading-- action__title">{{ mining.miningAction.heading }}</h3> 
+            <a class="button button--blue action__button" href="{{ mining.miningAction.buttonLink }}">{{ mining.miningAction.buttonText }}</a>
         </div>
 
     </div>

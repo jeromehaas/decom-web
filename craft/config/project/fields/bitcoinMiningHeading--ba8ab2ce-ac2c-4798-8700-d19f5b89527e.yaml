@@ -1,0 +1,19 @@
+columnSuffix: xqdroqrv
+contentColumnType: text
+fieldGroup: b7e06d74-36a9-4653-a7fd-a48dbc5ec8a3 # Bitcoin Mining
+handle: bitcoinMiningHeading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
