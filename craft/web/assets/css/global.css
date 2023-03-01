@@ -7883,12 +7883,12 @@ readers do not read off random characters that represent icons */
     margin-bottom: 32px; }
   .mining__text {
     text-align: center;
-    margin-bottom: 48px; }
+    margin-bottom: 16px; }
   .mining__facts, .mining .facts {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 64px; }
+    margin-bottom: 24px; }
     .mining__facts__item, .mining__facts .item, .mining .facts__item, .mining .facts .item {
       margin: 32px;
       display: flex;
