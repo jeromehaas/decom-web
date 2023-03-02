@@ -35,9 +35,17 @@
 				<div class="navigation-desktop__actions">
 					{% include ("partials/button") with { text: navigation.navigationButtonText, class: "navigation-desktop__button", color: "blue", link: navigation.navigationButtonLink} %}
 					<div class="navigation-desktop__language-switcher language-switcher">
-						{% include ("partials/link") with { text: 'EN', class: "language-switcher__item", color: 'darkblue', link: '/en' } %}
+						{% if craft.request.path %}
+							{% include ("partials/link") with { text: 'EN', class: "language-switcher__item", color: 'darkblue', link: ['/en', craft.request.path ]|join('/') } %}
+						{% else  %}
+							{% include ("partials/link") with { text: 'EN', class: "language-switcher__item", color: 'darkblue', link: ['/en']|join('') } %}
+						{% endif %}
 						<figure class="language-switcher__separator"></figure>
-						{% include ("partials/link") with { text: 'DE', class: "language-switcher__item", color: 'darkblue', link: '/' } %}
+						{% if craft.request.path %}
+							{% include ("partials/link") with { text: 'DE', class: "language-switcher__item", color: 'darkblue', link: ['/', craft.request.path]|join('') } %}
+						{% else %}
+							{% include ("partials/link") with { text: 'DE', class: "language-switcher__item", color: 'darkblue', link: ['/']|join('') } %}
+						{% endif %}
 					</div>
 				</div>
 
