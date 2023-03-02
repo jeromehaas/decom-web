@@ -1,8 +1,16 @@
 <div class='language-switcher'>
-	<a class="language-switcher__button" href="/en">
+	{% if craft.request.path %}
+		<a class="language-switcher__button" href="/en/{{ craft.request.path }}">
+	{% else %}
+		<a class="language-switcher__button" href="/en">
+	{% endif %}
 		EN
 	</a>
-	<a class="language-switcher__button" href="/">
-		DE
+	{% if craft.request.path %}
+		<a class="language-switcher__button" href="/{{ craft.request.path }}">
+	{% else %}	
+		<a class="language-switcher__button" href="/">
+	{% endif %}
+	DE
 	</a>
 </div>
