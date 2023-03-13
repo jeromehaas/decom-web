@@ -76,17 +76,19 @@
 			{% endfor %}
 
 			{# COMPANY #}
-			{% for row in form.formCompany %}	
-				<div class="input-text">
-					<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
-					<input 
-						class='input-text__input' 
-						type='text' 
-						id="{{ row.name }}"
-						name="message[{{ row.name }}]" 
-					/>
-				</div>
-			{% endfor %}
+			{% if page != 'mining-request' %}
+				{% for row in form.formCompany %}	
+					<div class="input-text">
+						<label class='input-text__label' for="{{ row.name }}">{{ row.label }}</label>	
+						<input 
+							class='input-text__input' 
+							type='text' 
+							id="{{ row.name }}"
+							name="message[{{ row.name }}]" 
+						/>
+					</div>
+				{% endfor %}
+			{% endif %}
 
 			{# EMAILADDRESS #}
 			{% for row in form.formEmailAddress %}	
